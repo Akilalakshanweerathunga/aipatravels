@@ -127,7 +127,14 @@
     "Please fill out all required fields.": "Veuillez remplir tous les champs obligatoires.",
     "Please agree to the terms and conditions.": "Veuillez accepter les conditions générales.",
     "Your session has expired. Please log in again.": "Votre session a expiré. Veuillez vous reconnecter.",
-    "You have been logged out.": "Vous avez été déconnecté."
+    "You have been logged out.": "Vous avez été déconnecté.",
+    "view more": "Voir plus",
+    "overview" : "Aperçu",
+    "Day by Day Itinerary" : "Itinéraire jour par jour",
+    "Customize" : "Personnaliser",
+    "Enquire Now" : "Renseignez-vous maintenant",
+    "Plan your trip" : "Planifiez votre voyage",
+    "Highlights" : "Faits saillants"
   },
   "categories": {
     "Wildlife": "Faune",
@@ -360,5 +367,47 @@
         "spa_facilities": "Installations de spa"
       }
     }
+  },
+  "why_book": {
+    "title": "Pourquoi réserver avec nous ?",
+    "best_price": {
+      "title": "Meilleur prix",
+      "desc": "Nous garantissons des prix compétitifs sans frais cachés, afin que vous obteniez toujours le meilleur rapport qualité-prix."
+    },
+    "hand_picked": {
+      "title": "Destinations sélectionnées",
+      "desc": "Nos experts sélectionnent soigneusement les destinations pour vous offrir des expériences uniques et mémorables."
+    },
+    "customer_care": {
+      "title": "Service client 24h/24",
+      "desc": "Notre équipe est disponible 24h/24 pour vous accompagner avant, pendant et après votre voyage."
+    }
+  },
+  "cta": {
+    "title": "RÉSERVEZ VOS VACANCES PARFAITES DIRECTEMENT",
+    "book_online": "RÉSERVER EN LIGNE",
+    "call": "APPELEZ-NOUS",
+    "email": "ENVOYEZ-NOUS UN EMAIL",
+    "whatsapp": "DISCUTEZ SUR WHATSAPP"
+  },
+  "footer": {
+    "description": "Offrir de l'inspiration à l'étranger. Découvrez des programmes, voyagez et vivez des expériences inoubliables dans le monde entier.",
+    "links": "Liens",
+    "itineraries": "Itinéraires",
+    "company": "Entreprise",
+    "workingHoliday": "Vacances-Travail",
+    "volunteer": "Bénévolat à l'étranger",
+    "internships": "Stages",
+    "study": "Étudier à l'étranger",
+    "africa": "Afrique",
+    "asia": "Asie",
+    "sea": "Asie du Sud-Est",
+    "southAmerica": "Amérique du Sud",
+    "about": "À propos",
+    "blog": "Blog",
+    "contact": "Contact",
+    "terms": "Conditions",
+    "privacy": "Politique de confidentialité",
+    "imprint": "Mentions légales"
   }
 }

@@ -127,7 +127,14 @@
     "Please fill out all required fields.": "Please fill out all required fields.",
     "Please agree to the terms and conditions.": "Please agree to the terms and conditions.",
     "Your session has expired. Please log in again.": "Your session has expired.  Please log in again.",
-    "You have been logged out.": "You have been logged out."
+    "You have been logged out.": "You have been logged out.",
+    "view more": "View more",
+    "overview" : "Overview",
+    "Day by Day Itinerary" : "Day by Day Itinerary",
+    "Customize" : "Customize",
+    "Enquire Now" : "Enquire Now",
+    "Plan your trip" : "Plan your trip",
+    "Highlights" : "Highlights"
   },
   "categories": {
     "Wildlife": "Wildlife",
@@ -359,5 +366,47 @@
         "spa_facilities": "Spa facilities"
       }
     }
+  },
+  "why_book": {
+    "title": "Why book with us?",
+    "best_price": {
+      "title": "Best Price",
+      "desc": "We guarantee competitive pricing with no hidden costs, ensuring you always get the best value for your journey."
+    },
+    "hand_picked": {
+      "title": "Hand Picked Destinations",
+      "desc": "Our travel experts carefully select destinations to provide you with unique, memorable, and high-quality experiences."
+    },
+    "customer_care": {
+      "title": "24 Hours Customer Care",
+      "desc": "Our support team is available around the clock to assist you before, during, and after your trip."
+    }
+  },
+  "cta": {
+    "title": "BOOK YOUR PERFECT HOLIDAY DIRECT",
+    "book_online": "BOOK ONLINE",
+    "call": "CALL US",
+    "email": "EMAIL TO US",
+    "whatsapp": "CHAT ON WHATSAPP"
+  },
+  "footer": {
+    "description": "Providing inspiration abroad. Discover programs, travel and unforgettable experiences worldwide.",
+    "links": "Links",
+    "itineraries": "Itineraries",
+    "company": "Company",
+    "workingHoliday": "Working Holiday",
+    "volunteer": "Volunteer Abroad",
+    "internships": "Internships",
+    "study": "Study Abroad",
+    "africa": "Africa",
+    "asia": "Asia",
+    "sea": "South East Asia",
+    "southAmerica": "South America",
+    "about": "About Us",
+    "blog": "Blog",
+    "contact": "Contact",
+    "terms": "Terms",
+    "privacy": "Privacy Policy",
+    "imprint": "Imprint"
   }
 }

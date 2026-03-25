@@ -19,8 +19,8 @@ const theme = createTheme({
     subtitle2: { fontFamily: fivoSans.fontFamily },
   },
   palette: {
-    primary: { main: '#035690' },
-    secondary: { main: '#E62C24' },
+    primary: { main: '#657b43' },
+    secondary: { main: '#c7a96a' },
     error: { main: red.A400 },
     background: { default: '#F5F5F5' },
   },

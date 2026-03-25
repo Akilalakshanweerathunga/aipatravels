@@ -7,6 +7,8 @@ import MiddleBanner from '@/components/home/MiddleBanner';
 import Extraordinary from '@/components/home/Extraordinary';
 import Adventures from '@/components/home/Adventures';
 import Itinerary from '@/components/home/Itinerary';
+import WhyBookSection from '@/components/home/WhyUs';
+import BookingCTA from '@/components/home/BookNow';
 
 export default function HomePage() {
 
@@ -18,6 +20,8 @@ export default function HomePage() {
         <Extraordinary />
         <Adventures />
         <Itinerary currency="USD" rate={1} />
+        <WhyBookSection />
+        <BookingCTA />
       </Box>
   );
 }

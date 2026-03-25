@@ -22,6 +22,11 @@ import { getItineraries } from '@/lib/api';
 import { images } from '@/data/images';
 import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
+import CheckIcon from '@mui/icons-material/Check';
+import AssistantNavigationIcon from '@mui/icons-material/AssistantNavigation';
+import CustomButton from '@/components/partials/RoundButton';
+import CloseIcon from '@mui/icons-material/Close';
+import Fade from '@mui/material/Fade';
 
 type ItineraryType = {
   id: string;
@@ -85,7 +90,6 @@ export default function Itinerary({ currency, rate }: Props) {
 
   return (
     <Box px={{ xs: 2, sm: 4 }} py={6}>
-      {/* Main Swiper */}
       <Swiper
         modules={[Autoplay, Pagination]}
         spaceBetween={20}
@@ -165,9 +169,9 @@ export default function Itinerary({ currency, rate }: Props) {
 
                 <Box display="flex" justifyContent="space-between" alignItems="center">
                   <Typography fontWeight={600}>{convertPrice(item.base_price)}</Typography>
-                  <Button variant="contained" size="small" onClick={() => setSelected(item)}>
-                    View More
-                  </Button>
+                  <CustomButton variant="contained" sx={{bgcolor: '#657b43'}} size="small" onClick={() => setSelected(item)}>
+                    {t('view more')}
+                  </CustomButton>
                 </Box>
               </Box>
             </Card>
@@ -175,8 +179,10 @@ export default function Itinerary({ currency, rate }: Props) {
         ))}
       </Swiper>
 
-      {/* Navigation buttons */}
-      <Box display="flex" justifyContent="center" gap={2} mt={3}>
+      <Box textAlign="center" mt={4}>
+        <CustomButton variant="outlined" sx={{borderColor: '#657b43', color: '#657b43'}}>Show More</CustomButton>
+      </Box>
+      <Box display="flex" justifyContent="center" gap={20} sx={{position: 'relative', zIndex: 1000, top: -35}}>
         <IconButton
           onClick={() => swiperInstance?.slidePrev()}
           sx={{ bgcolor: 'grey.200', '&:hover': { bgcolor: 'grey.300' } }}
@@ -191,13 +197,15 @@ export default function Itinerary({ currency, rate }: Props) {
         </IconButton>
       </Box>
 
-      {/* Show More button */}
-      <Box textAlign="center" mt={4}>
-        <Button variant="outlined">Show More</Button>
-      </Box>
 
-      {/* Popup Dialog with Days Swiper */}
-      <Dialog open={!!selected} onClose={() => setSelected(null)} maxWidth="md" fullWidth>
+      <Dialog
+        open={!!selected}
+        onClose={() => setSelected(null)}
+        maxWidth="md"
+        fullWidth
+        TransitionComponent={Fade}
+        transitionDuration={300}
+      >
         {selected && (
           <DialogContent sx={{ p: 0 }}>
             <Box position="relative">
@@ -211,8 +219,25 @@ export default function Itinerary({ currency, rate }: Props) {
                     width: '100%',
                   }}
               />
-
-              {/* overlay */}
+              <IconButton
+                onClick={() => setSelected(null)}
+                sx={{
+                  position: 'absolute',
+                  top: 12,
+                  right: 12,
+                  zIndex: 3,
+                  backdropFilter: 'blur(8px)',
+                  background: 'rgba(255,255,255,0.25)',
+                  border: '1px solid rgba(255,255,255,0.3)',
+                  color: '#fff',
+                  borderRadius: '50%',
+                  '&:hover': {
+                    background: 'rgba(255,255,255,0.4)',
+                  },
+                }}
+              >
+                <CloseIcon />
+              </IconButton>
               <Box
                 sx={{
                   position: 'absolute',
@@ -221,7 +246,6 @@ export default function Itinerary({ currency, rate }: Props) {
                 }}
               />
 
-              {/* title + badge */}
               <Box
                 sx={{
                   position: 'absolute',
@@ -248,57 +272,119 @@ export default function Itinerary({ currency, rate }: Props) {
             </Box>
 
             <Box p={3}>
+              <Box 
+                display="grid"
+                gridTemplateColumns={{ xs: '1fr', sm: '1fr 1fr' }} 
+                gap={1.5}>
+                  <Box>
+                    <Typography>
+                      Start From
+                    </Typography>
+                    <Typography fontWeight={600} fontSize={25} sx={{color: '#c7a96a'}}>
+                      {convertPrice(selected.base_price)}
+                    </Typography>
+                  </Box>
+                <Box 
+                display="grid"
+                gridTemplateColumns={{ xs: '1fr', sm: '1fr 1fr' }} 
+                gap={1.5}
+                >
+                  <CustomButton variant="contained" sx={{bgcolor: '#c7a96a'}} size="small" >
+                    {t('other.Book Now')}
+                  </CustomButton>
+                    <CustomButton variant="outlined" sx={{borderColor: '#c7a96a', color: '#c7a96a'}} size="small" >
+                    {t('other.Customize')}
+                  </CustomButton>
+                </Box>
+                </Box>
+              <Divider sx={{ my: 3 }} />
+              <Typography mb={3} >{t('overview')}</Typography>
               <Typography mb={3}>
                 {t(`itineraries.${selected.locale_tag}.overview`)}
               </Typography>
-
-              {/* TIMELINE */}
-              <Box sx={{ position: 'relative', pl: 3 }}>
-                {/* vertical line */}
+              <Divider sx={{ my: 3 }} />
+                <Typography >{t('other.Highlights')}</Typography>
                 <Box
-                  sx={{
-                    position: 'absolute',
-                    left: 12,
-                    top: 0,
-                    bottom: 0,
-                    width: '2px',
-                    bgcolor: 'grey.300',
-                  }}
-                />
-
+                  mt={3}
+                  display="grid"
+                  gridTemplateColumns="repeat(2, 1fr)"
+                  gap={1}
+                >
+                  {selected.highlights?.slice(0, 4).map((h, i) => (
+                    <Box key={i} display="flex" alignItems="center" gap={1}>
+                      <AssistantNavigationIcon sx={{ color: '#C6A96B', fontSize: 20 }} />
+                      <Typography sx={{ textTransform: 'capitalize' }}>
+                        {t(h.highlight_key)}
+                      </Typography>
+                    </Box>
+                  ))}
+                </Box>
+                <Divider sx={{ my: 3 }} />
+              <Typography mb={3}>{t('Day by Day Itinerary')}</Typography>
+              <Box sx={{ position: 'relative', pl: 3 }}>
                 {selected.itinerary_days?.map((d, index) => (
                   <Box
-                    key={d.day_number}
+                  key={d.day_number}
                     sx={{
                       position: 'relative',
-                      mb: 4,
-                      display: 'flex',
-                      alignItems: 'flex-start',
+                      pl: 6,
+                      pb: 4,
+                      borderLeft: '1px solid rgba(0,0,0,0.12)',
                     }}
                   >
-                    {/* circle */}
                     <Box
                       sx={{
                         position: 'absolute',
-                        left: -3,
-                        top: 4,
-                        width: 14,
-                        height: 14,
+                        left: -5,
+                        top: 6,
+                        width: 10,
+                        height: 10,
                         borderRadius: '50%',
-                        bgcolor: 'primary.main',
-                        border: '2px solid white',
-                        boxShadow: 1,
-                        zIndex: 2,
+                        bgcolor: '#C6A96B', 
+                        border: '2px solid #fff',
                       }}
                     />
 
-                    {/* content */}
-                    <Box ml={3}>
-                      <Typography fontWeight={600} mb={0.5}>
-                        Day {d.day_number} – {t(`itineraries.${selected.locale_tag}.days.day${d.day_number}_title`)}
+                    <Box>
+                      <Typography
+                        sx={{
+                          fontSize: '0.75rem',
+                          letterSpacing: '0.12em',
+                          textTransform: 'uppercase',
+                          color: '#8C7A4F', 
+                          mb: 0.5,
+                        }}
+                      >
+                        Day {d.day_number}
                       </Typography>
 
-                      <Typography variant="body2" color="text.secondary">
+                      <Typography
+                        sx={{
+                          fontWeight: 600,
+                          fontSize: '1.05rem',
+                          color: '#1A1A1A',
+                          mb: 0.5,
+                        }}
+                      >
+                        {t(`itineraries.${selected.locale_tag}.days.day${d.day_number}_title`)}
+                      </Typography>
+
+                      <Box
+                        sx={{
+                          width: 30,
+                          height: '1px',
+                          bgcolor: '#C6A96B',
+                          mb: 1,
+                        }}
+                      />
+
+                      <Typography
+                        sx={{
+                          fontSize: '0.9rem',
+                          lineHeight: 1.7,
+                          color: '#555',
+                        }}
+                      >
                         {t(`itineraries.${selected.locale_tag}.days.day${d.day_number}_desc`)}
                       </Typography>
                     </Box>
@@ -308,25 +394,46 @@ export default function Itinerary({ currency, rate }: Props) {
 
               <Divider sx={{ my: 3 }} />
 
-                <Box mt={3} display="flex" gap={1} flexWrap="wrap">
-                  {selected.highlights?.slice(0, 4).map((h, i) => (
-                    <Chip key={i} size="small" label={t(h.highlight_key)} sx={{textTransform: 'capitalize'}} />
-                  ))}
-                </Box>
-              <Divider sx={{ my: 3 }} />
-
-              <Typography fontWeight={600}>What's Included</Typography>
-              <Box mt={1}>
+              <Typography fontWeight={600} mb={2}>
+                What's Included
+              </Typography>
+              <Box
+                display="grid"
+                gridTemplateColumns={{ xs: '1fr', sm: '1fr 1fr' }}
+                gap={1.5}
+              >
                 {selected.inclusions?.map((inc, i) => (
-                  <Chip key={i} label={t(`itineraries.${selected.locale_tag}.inclusions.${inc.inclusion_key}`)} sx={{ mr: 1, mb: 1,textTransform: 'capitalize' }} />
+                  <Box key={i} display="flex" alignItems="center">
+                    <CheckIcon
+                      sx={{
+                        color: '#C6A96B',
+                        fontSize: 18,
+                        mr: 1
+                      }}
+                    />
+                    <Typography sx={{ textTransform: 'capitalize' }}>
+                      {t(`itineraries.${selected.locale_tag}.inclusions.${inc.inclusion_key}`)}
+                    </Typography>
+                  </Box>
                 ))}
+              </Box>
+              <Divider sx={{ my: 3 }} />
+              <Box 
+                display="grid"
+                gridTemplateColumns={{ xs: '1fr', sm: '1fr 1fr' }}
+                gap={1.5}>
+                <CustomButton variant="contained" sx={{bgcolor: '#c7a96a', py: 2}} size="small" >
+                  {t('other.Enquire Now')}
+                </CustomButton>
+                  <CustomButton variant="outlined" sx={{borderColor: '#c7a96a', color: '#c7a96a', py: 1}} size="large"  >
+                  {t('other.Plan your trip')}
+                </CustomButton>
               </Box>
             </Box>
           </DialogContent>
         )}
       </Dialog>
 
-      {/* Pagination CSS */}
       <style jsx global>{`
         .swiper-pagination {
           margin-top: 20px !important;
