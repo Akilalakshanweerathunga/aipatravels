@@ -9,7 +9,7 @@ import Image from 'next/image';
 
 import { images } from '@/data/images';
 
-const MotionBox = motion(Box);
+const MotionBox = motion.create(Box);
 
 export default function MiddleBanner() {
   const theme = useTheme();

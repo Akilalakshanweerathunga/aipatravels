@@ -12,8 +12,8 @@ import SpaceDashboardIcon from '@mui/icons-material/SpaceDashboard';
 import AssignmentTurnedInIcon from '@mui/icons-material/AssignmentTurnedIn';
 import { motion, Variants } from 'framer-motion';
 
-const MotionBox = motion(Box);
-const MotionCard = motion(Card);
+const MotionBox = motion.create(Box);
+const MotionCard = motion.create(Card);
 
 const container: Variants = {
   hidden: {},

@@ -14,7 +14,11 @@
     "welcome": "Welcome to AIPA - Your AIPA Travel Companion",
     "description": "Discover personalized travel itineraries, explore top destinations, and plan your perfect trip with AIPA. Start your adventure today!",
     "middleBannerTitle": "Trusted Travel Experts",
-    "middleBannerDescription": "At AIPA, we believe strong relationships enhance our ability to serve you better. We are proud members of the Sri Lanka Association of Inbound Tour Operators (SLAITO) and hold accreditations from recognized travel industry authorities, ensuring that every journey you take with us is reliable, professional, and unforgettable."
+    "middleBannerDescription": "At AIPA, we believe strong relationships enhance our ability to serve you better. We are proud members of the Sri Lanka Association of Inbound Tour Operators (SLAITO) and hold accreditations from recognized travel industry authorities, ensuring that every journey you take with us is reliable, professional, and unforgettable.",
+    "adventuresTitle": "Amazing Adventures",
+    "adventuresDescription": "Experience the thrill of Sri Lanka's most amazing adventures, from wildlife safaris to water sports and everything in between. Let AIPA guide you to unforgettable experiences that will create lasting memories.",
+    "adventuresAlt": "Amazing Adventures",
+    "adventuresBgAlt": "Adventures Background"
   },
   "hero": {
     "nineArch": {
@@ -59,6 +63,301 @@
     "error": "An error occurred. Please try again.",
     "searchPlaceholder": "Search for destinations, activities, and more...",
     "whoWeAre": "Who We Are",
-    "ourMission": "Our Mission"
+    "ourMission": "Our Mission",
+    "Explore Now": "Explore Now",
+    "Get Free Consultation": "Get Free Consultation",
+    "See All Itineraries": "See All Itineraries",
+    "See All Destinations": "See All Destinations",
+    "See All Activities": "See All Activities",
+    "Plan Your Trip": "Plan Your Trip",
+    "Chat with Us": "Chat with Us",
+    "Discover More": "Discover More",
+    "Learn More": "Learn More",
+    "Contact Us": "Contact Us",
+    "Book Now": "Book Now",
+    "View Details": "View Details",
+    "Start Planning": "Start Planning",
+    "Get in Touch": "Get in Touch",
+    "Read More": "Read More",
+    "See More": "See More",
+    "Back to Home": "Back to Home",
+    "Next": "Next",
+    "Previous": "Previous",
+    "Submit": "Submit",
+    "Cancel": "Cancel",
+    "Yes": "Yes",
+    "No": "No",
+    "Close": "Close",
+    "Save": "Save",
+    "Edit": "Edit",
+    "Delete": "Delete",
+    "View": "View",
+    "Add to Cart": "Add to Cart",
+    "Remove from Cart": "Remove from Cart",
+    "Checkout": "Checkout",
+    "Continue": "Continue",
+    "Finish": "Finish",
+    "Search": "Search",
+    "Filter": "Filter",
+    "Sort": "Sort",
+    "Reset": "Reset",
+    "Apply": "Apply",
+    "Clear": "Clear",
+    "Download": "Download",
+    "Share": "Share",
+    "Follow Us": "Follow Us",
+    "Subscribe": "Subscribe",
+    "Unsubscribe": "Unsubscribe",
+    "Accept": "Accept",
+    "Decline": "Decline",
+    "Approve": "Approve",
+    "Reject": "Reject",
+    "Yes, Delete": "Yes, Delete",
+    "No, Keep": "No, Keep",
+    "Are you sure?": "Are you sure?",
+    "This action cannot be undone.": "This action cannot be undone.",
+    "Please enter a valid email address.": "Please enter a valid email address.",
+    "Please enter your password.": "Please enter your password.",
+    "Please confirm your password.": "Please confirm your password.",
+    "Passwords do not match.": "Passwords do not match.",
+    "Please enter your name.": "Please enter your name.",
+    "Please enter your message.": "Please enter your message.",
+    "Thank you for your message. We will get back to you soon.": "Thank you for your message. We will get back to you soon.",
+    "An error occurred while sending your message. Please try again later.": "An error occurred while sending your message. Please try again later.",
+    "Please fill out all required fields.": "Please fill out all required fields.",
+    "Please agree to the terms and conditions.": "Please agree to the terms and conditions.",
+    "Your session has expired. Please log in again.": "Your session has expired.  Please log in again.",
+    "You have been logged out.": "You have been logged out."
+  },
+  "categories": {
+    "Wildlife": "Wildlife",
+    "Coastal": "Coastal",
+    "History": "History",
+    "Colonial": "Colonial",
+    "Religion": "Religion",
+    "Highlands": "Highlands",
+    "cultural_explorer": "The Cultural Explorer"
+  },
+  "itineraries": {
+    "culturalTriangleItinerary": {
+      "imageAlt": "Sigiriya Rock Fortress",
+      "title": "Cultural Triangle Itinerary",
+      "overview": "Discover the rich history and culture of Sri Lanka's Cultural Triangle with this 7-day itinerary. Explore ancient cities, majestic rock fortresses, sacred temples, and traditional village life, all while enjoying luxury accommodations and personalized guided tours.",
+      "highlights": {
+        "sigiriya_rock_fortress": "Sigiriya Rock Fortress",
+        "polonnaruwa_ancient_city": "Polonnaruwa Ancient City",
+        "dambulla_cave_temple": "Dambulla Cave Temple",
+        "anuradhapura_sacred_city": "Anuradhapura Sacred City",
+        "temple_of_tooth": "Temple of the Tooth"
+      },
+      "days": {
+        "day1_title": "Arrival in Colombo",
+        "day1_desc": "Welcome to Sri Lanka! Transfer to your luxury hotel in the Cultural Triangle area.",
+
+        "day2_title": "Temple of the Tooth",
+        "day2_desc": "Visit the Temple of the Tooth.",
+
+        "day3_title": "Sigiriya Rock Fortress",
+        "day3_desc": "Private dawn climb followed by Dambulla visit.",
+
+        "day4_title": "Polonnaruwa Ancient City",
+        "day4_desc": "Explore the medieval capital.",
+
+        "day5_title": "Anuradhapura Sacred City",
+        "day5_desc": "Visit Sri Maha Bodhi tree.",
+
+        "day6_title": "Village Experience",
+        "day6_desc": "Traditional village tour with lunch.",
+
+        "day7_title": "Mihintale & Departure",
+        "day7_desc": "Morning visit to Mihintale and departure."
+      },
+      "inclusions": {
+        "luxury_accommodation": "Luxury accommodation",
+        "private_guided_tours": "Private guided tours",
+        "entrance_fees": "All entrance fees",
+        "airport_transfers": "Airport transfers",
+        "meals": "Daily breakfast & dinner"
+      }
+    },
+    "teaHighlandItinerary": {
+      "imageAlt": "Tea Plantation in Nuwara Eliya",
+      "title": "Tea Country & Highland Retreat",
+      "overview": "Immerse yourself in the misty mountains of Nuwara Eliya and experience the finest Ceylon tea plantations.",
+      "highlights": {
+        "nuwara_eliya": "Nuwara Eliya",
+        "tea_factory_visits": "Tea Factory Visits",
+        "horton_plains": "Horton Plains",
+        "ella_nine_arches": "Ella Nine Arches"
+      },
+      "days": {
+        "day1_title": "Arrival in Kandy",
+        "day1_desc": "Transfer to Kandy, the cultural capital of Sri Lanka.",
+        "day2_title": "Tea Country Journey",
+        "day2_desc": "Scenic drive to Nuwara Eliya through tea plantations.",
+        "day3_title": "Tea Factory & Horton Plains",
+        "day3_desc": "Visit a tea factory and explore Horton Plains.",
+        "day4_title": "Ella Adventure",
+        "day4_desc": "Visit the Nine Arches Bridge and Ella rock views.",
+        "day5_title": "Departure",
+        "day5_desc": "Transfer to airport or continue your journey."
+      },
+      "inclusions": {
+        "boutique_hotel": "Boutique hotel stay",
+        "tea_factory_tours": "Tea factory tours",
+        "scenic_train": "Scenic train ride",
+        "transfers": "All transfers",
+        "breakfast": "Breakfast included"
+      }
+    },
+    "wildlifeSafariItinerary": {
+      "imageAlt": "Leopard in Yala National Park",
+      "title": "Wildlife Safari Adventure",
+      "overview": "Track leopards in Yala, witness elephants in Udawalawe, and experience the finest wildlife adventures.",
+      "highlights": {
+        "yala": "Yala National Park",
+        "udawalawe": "Udawalawe",
+        "leopard_tracking": "Leopard Tracking",
+        "elephant_orphanage": "Elephant Orphanage"
+      },
+      "days": {
+        "day1_title": "Arrival in Yala",
+        "day1_desc": "Transfer to Yala and settle into your luxury safari lodge.",
+        "day2_title": "Yala Safari - Morning",
+        "day2_desc": "Dawn safari in Yala National Park.",
+        "day3_title": "Yala Safari - Evening",
+        "day3_desc": "Afternoon safari with spotlighting.",
+        "day4_title": "Udawalawe",
+        "day4_desc": "Transfer to Udawalawe and afternoon elephant safari.",
+        "day5_title": "Elephant Orphanage",
+        "day5_desc": "Visit the Elephant Orphanage and more wildlife.",
+        "day6_title": "Departure",
+        "day6_desc": "Transfer to airport with memories of wildlife."
+      },
+      "inclusions": {
+        "safari_lodges": "Luxury safari lodges",
+        "morning_evening_safaris": "Morning & evening safaris",
+        "expert_trackers": "Expert trackers",
+        "all_meals": "All meals",
+        "park_entries": "Park entries"
+      }
+    },
+    "coastalParadiseItinerary": {
+      "imageAlt": "Galle Fort at sunset",
+      "title": "Coastal Paradise Journey",
+      "overview": "From whale watching in Mirissa to the historic Galle Fort, experience the best of Sri Lanka's southern coast.",
+      "highlights": {
+        "mirissa_whale": "Mirissa Whale Watching",
+        "galle_fort": "Galle Fort",
+        "stilt_fishing": "Stilt Fishing",
+        "beach_villas": "Beach Villas"
+      },
+      "days": {
+        "day1_title": "Arrival in Colombo",
+        "day1_desc": "Transfer to Mirissa beach villa.",
+        "day2_title": "Whale Watching",
+        "day2_desc": "Early morning whale watching expedition.",
+        "day3_title": "Beach Leisure",
+        "day3_desc": "Relax at the beach or try water sports.",
+        "day4_title": "Galle Fort",
+        "day4_desc": "Full day exploration of Galle Fort.",
+        "day5_title": "Stilt Fishing",
+        "day5_desc": "Experience traditional stilt fishing.",
+        "day6_title": "Tangalle & More Beach",
+        "day6_desc": "Visit hidden beaches and coves.",
+        "day7_title": "Cultural Show",
+        "day7_desc": "Evening traditional dance performance.",
+        "day8_title": "Departure",
+        "day8_desc": "Transfer to airport."
+      },
+      "inclusions": {
+        "beach_villa": "Beach villa accommodation",
+        "whale_tour": "Whale watching tour",
+        "galle_guide": "Galle Fort guide",
+        "transfers": "All transfers",
+        "breakfast": "Breakfast daily"
+      }
+    },
+    "grandIslandItinerary": {
+      "imageAlt": "Sri Lanka Map with highlights",
+      "title": "The Grand Island Circuit",
+      "overview": "The ultimate Sri Lankan adventure covering all major highlights from north to south, east to west.",
+      "highlights": {
+        "cultural_triangle": "Cultural Triangle",
+        "hill_country": "Hill Country",
+        "wildlife_parks": "Wildlife Parks",
+        "coastal_treasures": "Coastal Treasures"
+      },
+      "days": {
+        "day1_title": "Arrival in Colombo",
+        "day1_desc": "Welcome and hotel transfer.",
+        "day2_title": "Anuradhapura",
+        "day2_desc": "Ancient city exploration.",
+        "day3_title": "Sigiriya & Dambulla",
+        "day3_desc": "Rock fortress and caves.",
+        "day4_title": "Polonnaruwa",
+        "day4_desc": "Medieval capital tour.",
+        "day5_title": "Kandy",
+        "day5_desc": "Temple of the Tooth and city.",
+        "day6_title": "Nuwara Eliya",
+        "day6_desc": "Tea country drive.",
+        "day7_title": "Ella",
+        "day7_desc": "Nine Arches and adventures.",
+        "day8_title": "Udawalawe",
+        "day8_desc": "Afternoon safari.",
+        "day9_title": "Yala",
+        "day9_desc": "Leopard safari.",
+        "day10_title": "Mirissa",
+        "day10_desc": "Whale watching.",
+        "day11_title": "Galle",
+        "day11_desc": "Fort exploration.",
+        "day12_title": "Hikkaduwa",
+        "day12_desc": "Beach and snorkeling.",
+        "day13_title": "Colombo",
+        "day13_desc": "City tour and shopping.",
+        "day14_title": "Departure",
+        "day14_desc": "Airport transfer."
+      },
+      "inclusions": {
+        "all_accommodation": "All accommodation",
+        "all_meals": "All meals",
+        "private_guide": "Private guide",
+        "park_entries": "All park entries",
+        "transfers": "All transfers",
+        "domestic_flights": "Domestic flights"
+      }
+    },
+    "wellnessRetreatItinerary": {
+      "imageAlt": "Ayurvedic Spa Treatment",
+      "title": "Wellness & Spiritual Retreat",
+      "overview": "Rejuvenate your soul with Ayurvedic treatments, meditation sessions, and visits to sacred Buddhist temples.",
+      "highlights": {
+        "ayurvedic_spa": "Ayurvedic Spa",
+        "temple_visits": "Temple Visits",
+        "meditation": "Meditation",
+        "sri_lankan_cuisine": "Sri Lankan Cuisine"
+      },
+      "days": {
+        "day1_title": "Arrival & Welcome",
+        "day1_desc": "Ayurvedic consultation and welcome treatment.",
+        "day2_title": "Temple Visit",
+        "day2_desc": "Visit to sacred temples and meditation.",
+        "day3_title": "Full Spa Day",
+        "day3_desc": "Full day of treatments and yoga.",
+        "day4_title": "Nature & Wellness",
+        "day4_desc": "Nature walk and meditation sessions.",
+        "day5_title": "Final Treatments",
+        "day5_desc": "Last spa treatments and reflection.",
+        "day6_title": "Departure",
+        "day6_desc": "Feeling refreshed and renewed."
+      },
+      "inclusions": {
+        "wellness_resort": "Wellness resort stay",
+        "daily_treatments": "Daily treatments",
+        "yoga_sessions": "Yoga sessions",
+        "all_meals": "All meals",
+        "spa_facilities": "Spa facilities"
+      }
+    }
   }
 }

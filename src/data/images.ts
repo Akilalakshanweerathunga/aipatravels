@@ -64,5 +64,15 @@ export const images = {
     temple_of_tooth: { src: `${IMAGE_BASE_URL}/images/home/f-destinations/temple_of_tooth.png`, alt: 'home.bentotaAlt' },
     hikkaduwa: { src: `${IMAGE_BASE_URL}/images/home/f-destinations/hikkaduwa.png`, alt: 'home.teaLeafAlt' },
     littleAdams: { src: `${IMAGE_BASE_URL}/images/home/f-destinations/little_adams.png`, alt: 'home.littleAdamsAlt' },
+    adventures: { src: `${IMAGE_BASE_URL}/images/others/adventures.png`, alt: 'home.adventuresAlt' },
+    adventuresbg: { src: `${IMAGE_BASE_URL}/images/others/adventure-bg.png`, alt: 'home.adventuresBgAlt' },
+  },
+  itineraries: {
+    culturalTriangle: { src: `${IMAGE_BASE_URL}/images/itineraries/cultural-triangle.png`, alt: 'itineraries.culturalTriangleItinerary.imageAlt' },
+    teaHighland: { src: `${IMAGE_BASE_URL}/images/itineraries/tea-highland.png`, alt: 'itineraries.teaHighlandItinerary.imageAlt' },
+    wildlifeSafari: { src: `${IMAGE_BASE_URL}/images/itineraries/wildlife-safari.png`, alt: 'itineraries.wildlifeSafariItinerary.imageAlt' },
+    coastalParadise: { src: `${IMAGE_BASE_URL}/images/itineraries/coastal-paradise.png`, alt: 'itineraries.coastalParadiseItinerary.imageAlt' },
+    grandIsland: { src: `${IMAGE_BASE_URL}/images/itineraries/grand-island.png`, alt: 'itineraries.grandIslandItinerary.imageAlt' },
+    wellnessRetreat: { src: `${IMAGE_BASE_URL}/images/itineraries/wellness-retreat.png`, alt: 'itineraries.wellnessRetreatItinerary.imageAlt' },
   }
 };
