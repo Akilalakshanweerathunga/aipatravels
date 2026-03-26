@@ -17,3 +17,13 @@ export async function getItineraries() {
   }
   return data;
 }
+
+export async function getCategories() {
+  const { data, error } = await supabase
+    .from('categories')
+    .select('*')
+    .order('label', { ascending: true });
+
+  if (error) throw error;
+  return data;
+}

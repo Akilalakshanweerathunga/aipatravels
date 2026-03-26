@@ -134,18 +134,38 @@
     "Customize" : "Customize",
     "Enquire Now" : "Enquire Now",
     "Plan your trip" : "Plan your trip",
-    "Highlights" : "Highlights"
+    "Highlights" : "Highlights",
+    "Start From" : "Start From",
+    "day" : "Day",
+    "Days": "Days",
+    "Nights" : "Nights"
   },
   "categories": {
+    "All" : "All",
     "Wildlife": "Wildlife",
     "Coastal": "Coastal",
     "History": "History",
     "Colonial": "Colonial",
     "Religion": "Religion",
     "Highlands": "Highlands",
-    "cultural_explorer": "The Cultural Explorer"
+    "cultural_explorer": "The Cultural Explorer",
+    "Tea" :  "Tea", 
+    "Culture" : "Culture", 
+    "Safari" : "Safari", 
+    "Beach" : "Beach", 
+    "Island" : "Island", 
+    "Wellness" : "Wellness",
+    "Tea Highland" :  "Tea Highland", 
+    "Cultural Triangle" : "Culture Triangle", 
+    "Wildlife Safari" : "Wildlife Safari", 
+    "Coastal Paradise" : "Coastal Paradise", 
+    "Grand Island" : "Grand Island", 
+    "Wellness Retreat" : "Wellness Retreat"
   },
   "itineraries": {
+    "headTitle" : "Curated Journeys",
+    "title" : "Itineraries",
+    "subtitle" : "Handcrafted adventures that reveal the heart and soul of Sri Lanka",
     "culturalTriangleItinerary": {
       "imageAlt": "Sigiriya Rock Fortress",
       "title": "Cultural Triangle Itinerary",
@@ -408,5 +428,10 @@
     "terms": "Terms",
     "privacy": "Privacy Policy",
     "imprint": "Imprint"
+  },
+  "customJourney": {
+    "heading": "Can't Find What You're Looking For?",
+    "description": "Our travel experts can craft a fully personalized itinerary just for you.",
+    "button": "Create Your Custom Journey"
   }
 }

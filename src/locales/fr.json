@@ -134,18 +134,38 @@
     "Customize" : "Personnaliser",
     "Enquire Now" : "Renseignez-vous maintenant",
     "Plan your trip" : "Planifiez votre voyage",
-    "Highlights" : "Faits saillants"
+    "Highlights" : "Faits saillants",
+    "Start From" : "Commencez par",
+    "day" : "Jour",
+    "Days": "jours",
+    "Nights" : "Nuits"
   },
   "categories": {
+    "All" : "All",
     "Wildlife": "Faune",
     "Coastal": "Côtier",
     "History": "Histoire",
     "Colonial": "Colonial",
     "Religion": "Religion",
     "Highlands": "Hautes terres",
-    "cultural_explorer": "L'explorateur culturel"
+    "cultural_explorer": "L'explorateur culturel",
+    "Tea" :  "Thé", 
+    "Culture" : "Culture", 
+    "Safari" : "Safari", 
+    "Beach" : "Plage", 
+    "Island" : "Île", 
+    "Wellness" : "Bien-être",
+    "Tea Highland" :  "Haute Terre du Thé", 
+    "Cultural Triangle" : "Triangle culturel", 
+    "Wildlife Safari" : "Safari faunique", 
+    "Coastal Paradise" : "Paradis côtier", 
+    "Grand Island" : "Grand Island", 
+    "Wellness Retreat" : "Retraite bien-être"
   },
   "itineraries": {
+    "headTitle" : "Voyages sélectionnés",
+    "title" : "Itinéraires",
+    "subtitle" : "Aventures artisanales qui révèlent le cœur et l’âme du Sri Lanka",
     "culturalTriangleItinerary": {
       "imageAlt": "Forteresse du Rocher de Sigiriya",
       "title": "Itinéraire dans le Triangle Culturel",
@@ -409,5 +429,10 @@
     "terms": "Conditions",
     "privacy": "Politique de confidentialité",
     "imprint": "Mentions légales"
+  },
+  "customJourney": {
+    "heading": "Vous ne trouvez pas ce que vous cherchez ?",
+    "description": "Nos experts en voyage peuvent créer un itinéraire entièrement personnalisé pour vous.",
+    "button": "Créez Votre Voyage Sur-Mesure"
   }
 }

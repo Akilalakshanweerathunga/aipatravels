@@ -7,12 +7,16 @@ import {
   IconButton,
   Button,
   Divider,
+  Accordion,
+  AccordionSummary,
+  AccordionDetails,
 } from "@mui/material";
 import {
   Facebook,
   Instagram,
   YouTube,
   WhatsApp,
+  ExpandMore,
 } from "@mui/icons-material";
 import Link from "next/link";
 import { useTranslation } from "react-i18next";
@@ -28,11 +32,17 @@ export default function Footer({ locale }: NavbarProps) {
   const { t } = useTranslation();
   const pathname = usePathname();
   const [currentLocale, setCurrentLocale] = useState(locale || 'en');
+
   return (
-    <Box sx={{ bgcolor: "#1b1b1b", color: "#ccc", px: 8, py: 8 }}>
+    <Box sx={{ bgcolor: "#1b1b1b", color: "#ccc", px: { xs: 3, md: 8 }, py: 8 }}>
       
-      <Box display="flex" flexWrap="wrap" justifyContent="space-between" gap={5}>
-        
+      {/* Desktop Layout */}
+      <Box 
+        display={{ xs: 'none', md: 'flex' }} 
+        flexWrap="wrap" 
+        justifyContent="space-between" 
+        gap={5}
+      >
         <Box maxWidth={320}>
           <Typography variant="h5" sx={{ fontWeight: 800, color: "#9bb96d" }}>
             {company.name}
@@ -72,12 +82,11 @@ export default function Footer({ locale }: NavbarProps) {
         </Box>
 
         <Box display="flex" flexWrap="wrap" gap={6}>
-          
           <Box>
             <Typography sx={{ color: "#9bb96d", mb: 2 }}>
               {t("footer.links")}
             </Typography>
-          {navLinks.map((link) => {
+            {navLinks.map((link) => {
               const fullPath = `/${currentLocale}${link.path}`;
               const isActive = pathname === fullPath;
               return (
@@ -85,7 +94,7 @@ export default function Footer({ locale }: NavbarProps) {
                   key={link.name}
                   component={Link}
                   href={fullPath}
-                   sx={btnStyle}
+                  sx={btnStyle}
                 >
                   {t(link.name)}
                 </Button>
@@ -97,7 +106,6 @@ export default function Footer({ locale }: NavbarProps) {
             <Typography sx={{ color: "#9bb96d", mb: 2 }}>
               {t("footer.itineraries")}
             </Typography>
-
             {["culturalTriangleItinerary", "teaHighlandItinerary", "wildlifeSafariItinerary", "coastalParadiseItinerary", "grandIslandItinerary", "wellnessRetreatItinerary"].map((key) => (
               <Button key={key} sx={btnStyle}>
                 {t(`itineraries.${key}.title`)}
@@ -109,7 +117,6 @@ export default function Footer({ locale }: NavbarProps) {
             <Typography sx={{ color: "#9bb96d", mb: 2 }}>
               {t("footer.company")}
             </Typography>
-
             {["about", "blog", "contact"].map((key) => (
               <Button key={key} sx={btnStyle}>
                 {t(`footer.${key}`)}
@@ -119,10 +126,70 @@ export default function Footer({ locale }: NavbarProps) {
         </Box>
       </Box>
 
+      {/* Mobile Layout with Accordion */}
+      <Box display={{ xs: 'block', md: 'none' }}>
+        <Box sx={{ px: 2 }}>
+          <Typography variant="h5" sx={{ fontWeight: 800, color: "#9bb96d" }}>
+              {company.name}
+            </Typography>
+
+            <Typography sx={{ fontSize: 14, opacity: 0.7, my: 2 }}>
+              {t("footer.description")}
+            </Typography>
+        </Box>
+        <Accordion sx={{ bgcolor: 'transparent', color: '#ccc', boxShadow: 'none' }}>
+          <AccordionSummary expandIcon={<ExpandMore sx={{ color: '#9bb96d' }} />}>
+            <Typography sx={{ color: "#9bb96d", fontWeight: 600 }}>{t("footer.links")}</Typography>
+          </AccordionSummary>
+          <AccordionDetails sx={{ px: 2 }}>
+            {navLinks.map((link) => {
+              const fullPath = `/${currentLocale}${link.path}`;
+              return (
+                <Button
+                  key={link.name}
+                  component={Link}
+                  href={fullPath}
+                  sx={btnStyle}
+                  fullWidth
+                >
+                  {t(link.name)}
+                </Button>
+              );
+            })}
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion sx={{ bgcolor: 'transparent', color: '#ccc', boxShadow: 'none' }}>
+          <AccordionSummary expandIcon={<ExpandMore sx={{ color: '#9bb96d' }} />}>
+            <Typography sx={{ color: "#9bb96d", fontWeight: 600 }}>{t("footer.itineraries")}</Typography>
+          </AccordionSummary>
+          <AccordionDetails sx={{ px: 0 }}>
+            {["culturalTriangleItinerary", "teaHighlandItinerary", "wildlifeSafariItinerary", "coastalParadiseItinerary", "grandIslandItinerary", "wellnessRetreatItinerary"].map((key) => (
+              <Button key={key} sx={btnStyle} fullWidth>
+                {t(`itineraries.${key}.title`)}
+              </Button>
+            ))}
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion sx={{ bgcolor: 'transparent', color: '#ccc', boxShadow: 'none' }}>
+          <AccordionSummary expandIcon={<ExpandMore sx={{ color: '#9bb96d' }} />}>
+            <Typography sx={{ color: "#9bb96d", fontWeight: 600 }}>{t("footer.company")}</Typography>
+          </AccordionSummary>
+          <AccordionDetails sx={{ px: 0 }}>
+            {["about", "blog", "contact"].map((key) => (
+              <Button key={key} sx={btnStyle} fullWidth>
+                {t(`footer.${key}`)}
+              </Button>
+            ))}
+          </AccordionDetails>
+        </Accordion>
+      </Box>
+
       <Divider sx={{ borderColor: "#333", my: 5 }} />
 
       <Box display="flex" justifyContent="space-between" flexWrap="wrap">
-        <Typography fontSize={13} sx={{ opacity: 0.6 }}>
+        <Typography fontSize={13} sx={{ opacity: 0.6, px: 1 }}>
           © {new Date().getFullYear()} {company.name}
         </Typography>
 
