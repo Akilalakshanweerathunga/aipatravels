@@ -18,8 +18,8 @@ import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import CustomButton from '@/components/partials/RoundButton';
 import { ItineraryType } from '@/types/itinerary';
 
-import ItineraryCard from '@/components/partials/ItineraryCard';
-import ItineraryDialog from '@/components/partials/ItineraryDialog';
+import ItineraryCard from '@/components/itinerary/partials/ItineraryCard';
+import ItineraryDialog from '@/components/itinerary/partials/ItineraryDialog';
 
 
 type Props = {

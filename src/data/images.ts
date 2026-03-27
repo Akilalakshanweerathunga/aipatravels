@@ -74,5 +74,15 @@ export const images = {
     coastalParadise: { src: `${IMAGE_BASE_URL}/images/itineraries/coastal-paradise.png`, alt: 'itineraries.coastalParadiseItinerary.imageAlt' },
     grandIsland: { src: `${IMAGE_BASE_URL}/images/itineraries/grand-island.png`, alt: 'itineraries.grandIslandItinerary.imageAlt' },
     wellnessRetreat: { src: `${IMAGE_BASE_URL}/images/itineraries/wellness-retreat.png`, alt: 'itineraries.wellnessRetreatItinerary.imageAlt' },
+  },
+  destinations: {
+    mirissa: { src: `${IMAGE_BASE_URL}/images/destination/coastal-paradise.png`, alt: 'Mirissa Beach' },
+    bentota: { src: `${IMAGE_BASE_URL}/images/destination/coastal-paradise.png`, alt: 'Bentota Escape' },
+    sigiriya: { src: `${IMAGE_BASE_URL}/images/destination/cultural-triangle.png`, alt: 'Sigiriya Heritage' },
+    kandy: { src: `${IMAGE_BASE_URL}/images/destination/cultural-triangle.png`, alt: 'Kandy Culture' },
+    ella: { src: `${IMAGE_BASE_URL}/images/destination/tea-highland.png`, alt: 'Ella Adventure' },
+    nuwaraEliya: { src: `${IMAGE_BASE_URL}/images/destination/tea-highland.png`, alt: 'Nuwara Eliya Retreat' },
+    yala: { src: `${IMAGE_BASE_URL}/images/destination/wildlife-safari.png`, alt: 'Yala Safari' },
+    udawalawe: { src: `${IMAGE_BASE_URL}/images/destination/wildlife-safari.png`, alt: 'Udawalawe Safari' },
   }
 };

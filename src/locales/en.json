@@ -387,6 +387,123 @@
       }
     }
   },
+  "destinations": {
+    "headTitle": "Explore Sri Lanka",
+    "title": "Destinations",
+    "subtitle": "Handpicked places showcasing the beauty and diversity of Sri Lanka",
+
+    "mirissaDestination": {
+      "imageAlt": "Mirissa Beach",
+      "title": "Mirissa Beach Escape",
+      "overview": "Relax on golden sandy beaches and enjoy unforgettable whale watching experiences in the south coast of Sri Lanka.",
+      "highlights": {
+        "whale_watching": "Whale Watching",
+        "golden_beach_relax": "Golden Beach Relaxation"
+      },
+      "inclusions": {
+        "beach_hotel": "Beach hotel stay",
+        "breakfast_included": "Breakfast included"
+      }
+    },
+
+    "bentotaDestination": {
+      "imageAlt": "Bentota Beach",
+      "title": "Bentota Coastal Escape",
+      "overview": "Experience thrilling water sports and peaceful river safaris in one of Sri Lanka’s most famous beach destinations.",
+      "highlights": {
+        "water_sports": "Water Sports",
+        "river_safari": "River Safari"
+      },
+      "inclusions": {
+        "luxury_resort": "Luxury resort stay",
+        "boat_safari": "Boat safari experience"
+      }
+    },
+
+    "sigiriyaDestination": {
+      "imageAlt": "Sigiriya Rock Fortress",
+      "title": "Sigiriya Heritage",
+      "overview": "Discover the ancient wonders of Sri Lanka with visits to iconic UNESCO heritage sites and historic ruins.",
+      "highlights": {
+        "sigiriya_rock_fortress": "Sigiriya Rock Fortress",
+        "ancient_ruins": "Ancient Ruins"
+      },
+      "inclusions": {
+        "heritage_hotel": "Heritage hotel stay",
+        "guide_service": "Professional guide service"
+      }
+    },
+
+    "kandyDestination": {
+      "imageAlt": "Temple of the Tooth",
+      "title": "Kandy Cultural Experience",
+      "overview": "Immerse yourself in Sri Lanka’s rich traditions with temple visits and cultural performances.",
+      "highlights": {
+        "temple_of_tooth": "Temple of the Tooth",
+        "cultural_dance_show": "Cultural Dance Show"
+      },
+      "inclusions": {
+        "city_hotel": "City hotel stay",
+        "cultural_show_ticket": "Cultural show ticket"
+      }
+    },
+
+    "ellaDestination": {
+      "imageAlt": "Nine Arch Bridge Ella",
+      "title": "Ella Adventure",
+      "overview": "Explore scenic mountain landscapes, tea plantations, and iconic landmarks in Ella.",
+      "highlights": {
+        "nine_arch_bridge": "Nine Arch Bridge",
+        "ella_rock_hike": "Ella Rock Hike"
+      },
+      "inclusions": {
+        "mountain_view_hotel": "Mountain view hotel",
+        "train_experience": "Scenic train experience"
+      }
+    },
+
+    "nuwaraEliyaDestination": {
+      "imageAlt": "Tea Plantation Nuwara Eliya",
+      "title": "Nuwara Eliya Retreat",
+      "overview": "Enjoy cool climate, colonial charm, and breathtaking tea plantations in Sri Lanka’s hill country.",
+      "highlights": {
+        "tea_plantations": "Tea Plantations",
+        "colonial_town": "Colonial Town"
+      },
+      "inclusions": {
+        "tea_bungalow": "Tea bungalow stay",
+        "tea_factory_visit": "Tea factory visit"
+      }
+    },
+
+    "yalaDestination": {
+      "imageAlt": "Leopard in Yala",
+      "title": "Yala Safari Adventure",
+      "overview": "Experience thrilling wildlife safaris and spot leopards in Sri Lanka’s most famous national park.",
+      "highlights": {
+        "leopard_safari": "Leopard Safari",
+        "national_park": "Yala National Park"
+      },
+      "inclusions": {
+        "safari_jeep": "Safari jeep",
+        "park_entry_ticket": "Park entry ticket"
+      }
+    },
+
+    "udawalaweDestination": {
+      "imageAlt": "Elephants in Udawalawe",
+      "title": "Udawalawe Safari",
+      "overview": "Witness large herds of elephants and visit the famous elephant transit home.",
+      "highlights": {
+        "elephant_safari": "Elephant Safari",
+        "elephant_transit_home": "Elephant Transit Home"
+      },
+      "inclusions": {
+        "jeep_safari": "Jeep safari",
+        "park_ticket": "Park ticket"
+      }
+    }
+  },
   "why_book": {
     "title": "Why book with us?",
     "best_price": {

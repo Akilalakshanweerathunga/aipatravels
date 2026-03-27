@@ -27,3 +27,21 @@ export async function getCategories() {
   if (error) throw error;
   return data;
 }
+
+export async function getDestinations() {
+  const { data, error } = await supabase
+    .from('destinations')
+    .select(`
+      *,
+      highlights:destination_highlights(*),
+      inclusions:destination_inclusions(*)
+    `)
+    .order('created_at', { ascending: true });
+
+  if (error) {
+    console.error('Error fetching destinations:', error);
+    return [];
+  }
+
+  return data;
+}

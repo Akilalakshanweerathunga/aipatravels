@@ -24,6 +24,7 @@ import { company } from "@/data/company";
 import { navLinks } from '@/data/links';
 import { usePathname } from 'next/navigation';
 
+
 interface NavbarProps {
   locale?: string;
 }

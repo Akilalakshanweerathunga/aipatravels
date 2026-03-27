@@ -13,8 +13,8 @@ import { useTranslation } from 'react-i18next';
 import { getItineraries } from '@/lib/api';
 import { images } from '@/data/images';
 
-import ItineraryCard from '@/components/partials/ItineraryCard';
-import ItineraryDialog from '@/components/partials/ItineraryDialog';
+import ItineraryCard from '@/components/itinerary/partials/ItineraryCard';
+import ItineraryDialog from '@/components/itinerary/partials/ItineraryDialog';
 import CustomButton from '@/components/partials/RoundButton';
 
 import { ItineraryType } from '@/types/itinerary';

@@ -2,7 +2,7 @@
 
 import HeroBanner from '@/components/itinerary/HeroBanner';
 import ItinerarySection from '@/components/itinerary/ItenarySection';
-import CustomJourney from '@/components/itinerary/CustomJourneyBanner';
+import CustomJourney from '@/components/partials/CustomJourneyBanner';
 import { useTranslation } from 'react-i18next';
 
 export default function ItinerariesPage() {

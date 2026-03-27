@@ -388,6 +388,123 @@
       }
     }
   },
+  "destinations": {
+    "headTitle": "Explorer le Sri Lanka",
+    "title": "Destinations",
+    "subtitle": "Des lieux soigneusement sélectionnés révélant la beauté du Sri Lanka",
+
+    "mirissaDestination": {
+      "imageAlt": "Plage de Mirissa",
+      "title": "Évasion à Mirissa",
+      "overview": "Détendez-vous sur des plages dorées et profitez d’une expérience inoubliable d’observation des baleines.",
+      "highlights": {
+        "whale_watching": "Observation des baleines",
+        "golden_beach_relax": "Détente sur la plage"
+      },
+      "inclusions": {
+        "beach_hotel": "Hôtel en bord de mer",
+        "breakfast_included": "Petit-déjeuner inclus"
+      }
+    },
+
+    "bentotaDestination": {
+      "imageAlt": "Plage de Bentota",
+      "title": "Évasion à Bentota",
+      "overview": "Profitez des sports nautiques et des safaris fluviaux dans une destination balnéaire célèbre.",
+      "highlights": {
+        "water_sports": "Sports nautiques",
+        "river_safari": "Safari fluvial"
+      },
+      "inclusions": {
+        "luxury_resort": "Séjour en resort de luxe",
+        "boat_safari": "Safari en bateau"
+      }
+    },
+
+    "sigiriyaDestination": {
+      "imageAlt": "Rocher de Sigiriya",
+      "title": "Héritage de Sigiriya",
+      "overview": "Découvrez les merveilles anciennes du Sri Lanka et ses sites classés à l’UNESCO.",
+      "highlights": {
+        "sigiriya_rock_fortress": "Rocher de Sigiriya",
+        "ancient_ruins": "Ruines anciennes"
+      },
+      "inclusions": {
+        "heritage_hotel": "Hôtel historique",
+        "guide_service": "Guide professionnel"
+      }
+    },
+
+    "kandyDestination": {
+      "imageAlt": "Temple de la Dent",
+      "title": "Expérience culturelle à Kandy",
+      "overview": "Plongez dans les traditions sri-lankaises avec des visites de temples et spectacles culturels.",
+      "highlights": {
+        "temple_of_tooth": "Temple de la Dent",
+        "cultural_dance_show": "Spectacle de danse"
+      },
+      "inclusions": {
+        "city_hotel": "Hôtel en ville",
+        "cultural_show_ticket": "Billet de spectacle"
+      }
+    },
+
+    "ellaDestination": {
+      "imageAlt": "Pont des neuf arches",
+      "title": "Aventure à Ella",
+      "overview": "Explorez les montagnes, plantations de thé et paysages emblématiques.",
+      "highlights": {
+        "nine_arch_bridge": "Pont des neuf arches",
+        "ella_rock_hike": "Randonnée à Ella Rock"
+      },
+      "inclusions": {
+        "mountain_view_hotel": "Hôtel avec vue sur la montagne",
+        "train_experience": "Expérience en train panoramique"
+      }
+    },
+
+    "nuwaraEliyaDestination": {
+      "imageAlt": "Plantation de thé",
+      "title": "Retraite à Nuwara Eliya",
+      "overview": "Profitez du climat frais et du charme colonial au cœur des plantations de thé.",
+      "highlights": {
+        "tea_plantations": "Plantations de thé",
+        "colonial_town": "Ville coloniale"
+      },
+      "inclusions": {
+        "tea_bungalow": "Séjour en bungalow de thé",
+        "tea_factory_visit": "Visite d’usine de thé"
+      }
+    },
+
+    "yalaDestination": {
+      "imageAlt": "Léopard à Yala",
+      "title": "Safari à Yala",
+      "overview": "Vivez une aventure safari et observez des léopards dans un parc national célèbre.",
+      "highlights": {
+        "leopard_safari": "Safari léopard",
+        "national_park": "Parc national"
+      },
+      "inclusions": {
+        "safari_jeep": "Jeep safari",
+        "park_entry_ticket": "Billet d’entrée"
+      }
+    },
+
+    "udawalaweDestination": {
+      "imageAlt": "Éléphants à Udawalawe",
+      "title": "Safari à Udawalawe",
+      "overview": "Observez des éléphants et visitez le centre de transit des éléphants.",
+      "highlights": {
+        "elephant_safari": "Safari éléphants",
+        "elephant_transit_home": "Centre de transit"
+      },
+      "inclusions": {
+        "jeep_safari": "Safari en jeep",
+        "park_ticket": "Billet du parc"
+      }
+    }
+  },
   "why_book": {
     "title": "Pourquoi réserver avec nous ?",
     "best_price": {
