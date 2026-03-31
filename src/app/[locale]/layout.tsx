@@ -17,7 +17,7 @@ export default async function LocaleLayout({
   const typedLocale = locale as Locale;
 
   return (
-    <html lang={typedLocale} style={{ height: '100%' }}>
+    <html lang={typedLocale} style={{ height: '100%' }} data-scroll-behavior="smooth">
       <body
         style={{
           margin: 0,

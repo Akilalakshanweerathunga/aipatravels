@@ -1,6 +1,6 @@
 'use client';
 
-import { Box, Typography, Button, Container } from '@mui/material';
+import { Box, Typography, Button } from '@mui/material';
 import { useTranslation } from 'react-i18next';
 
 export default function CustomJourney() {
@@ -15,7 +15,15 @@ export default function CustomJourney() {
         justifyContent: 'center',
       }}
     >
-      <Container maxWidth="sm" sx={{ textAlign: 'center' }}>
+      <Box
+        sx={{
+          width: '100%',
+          maxWidth: (theme) => theme.breakpoints.values.sm,
+          mx: 'auto',
+          px: { xs: 2, sm: 3 },
+          textAlign: 'center',
+        }}
+      >
         <Typography
           variant="h3"
           fontWeight={700}
@@ -61,7 +69,7 @@ export default function CustomJourney() {
         >
           {t('customJourney.button')}
         </Button>
-      </Container>
+      </Box>
     </Box>
   );
 }

@@ -1,6 +1,6 @@
 'use client';
 
-import { Box, Typography, Container } from '@mui/material';
+import { Box, Typography } from '@mui/material';
 import { motion, useScroll, useTransform, useAnimation, useInView } from 'framer-motion';
 import { useRef, useEffect } from 'react';
 
@@ -87,7 +87,14 @@ export default function HeroBanner({ headTitle, title, subtitle, image }: Props)
         }}
       />
 
-      <Container maxWidth="xl">
+      <Box
+        sx={{
+          width: '100%',
+          maxWidth: (theme) => theme.breakpoints.values.xl,
+          mx: 'auto',
+          px: { xs: 2, sm: 3, md: 4 },
+        }}
+      >
         <motion.div style={{ y: textY, opacity }}>
           <Box
             sx={{
@@ -158,7 +165,7 @@ export default function HeroBanner({ headTitle, title, subtitle, image }: Props)
             )}
           </Box>
         </motion.div>
-      </Container>
+      </Box>
     </Box>
   );
 }

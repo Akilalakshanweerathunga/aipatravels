@@ -4,7 +4,6 @@ import { useEffect, useState } from 'react';
 import {
   Box,
   Typography,
-  Container,
   Skeleton,
   Chip
 } from '@mui/material';
@@ -101,7 +100,14 @@ export default function ItinerarySection() {
   return (
     <>
       <Box py={{ xs: 4, md: 6 }}>
-        <Container maxWidth="lg">
+        <Box
+          sx={{
+            width: '100%',
+            maxWidth: (theme) => theme.breakpoints.values.lg,
+            mx: 'auto',
+            px: { xs: 2, sm: 3, md: 4 }, 
+          }}
+        >
 
           <Box
             mb={4}
@@ -175,7 +181,7 @@ export default function ItinerarySection() {
               No itineraries found.
             </Typography>
           )}
-        </Container>
+        </Box>
       </Box>
 
       <ItineraryDialog

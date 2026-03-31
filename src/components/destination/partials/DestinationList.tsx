@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect, useRef } from "react";
-import { Box, Container, Typography, Chip, Button, Stack } from "@mui/material";
+import { Box, Typography, Chip, Button, Stack } from "@mui/material";
 import DestinationCard from "./DestinationCard";
 import { Destination } from '@/types/destination';
 import { motion, useInView, useAnimation } from "framer-motion";
@@ -55,11 +55,16 @@ export default function DestinationList({ data, locale }: Props) {
   };
 
   return (
-    <Container
-      maxWidth="xl"
-      sx={{ py: { xs: 4, sm: 5, md: 6 } }}
-      ref={containerRef}
+    <Box
+      sx={{
+        width: '100%',
+        maxWidth: (theme) => theme.breakpoints.values.xl,
+        mx: 'auto',
+        px: { xs: 2, sm: 3, md: 4 },
+        py: { xs: 4, sm: 5, md: 6 },
+      }}
     >
+      <Box ref={containerRef} sx={{ position: "relative" }}>
       {/* Header Section */}
       <Box
         sx={{
@@ -156,6 +161,7 @@ export default function DestinationList({ data, locale }: Props) {
           </Button>
         </Stack>
       )}
-    </Container>
+      </Box>
+    </Box>
   );
 }
