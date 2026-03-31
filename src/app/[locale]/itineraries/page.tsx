@@ -1,6 +1,6 @@
 'use client';
 
-import HeroBanner from '@/components/itinerary/HeroBanner';
+import HeroBanner from '@/components/partials/HeroBanner';
 import ItinerarySection from '@/components/itinerary/ItenarySection';
 import CustomJourney from '@/components/partials/CustomJourneyBanner';
 import { useTranslation } from 'react-i18next';

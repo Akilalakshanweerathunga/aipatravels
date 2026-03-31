@@ -7,7 +7,7 @@ import Image from 'next/image';
 import { images } from '@/data/images';
 import LocalCafeIcon from '@mui/icons-material/LocalCafe';
 import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
-import StarBorderIcon from '@mui/icons-material/StarBorder';
+import StarIcon from '@mui/icons-material/Star';
 import SpaceDashboardIcon from '@mui/icons-material/SpaceDashboard';
 import AssignmentTurnedInIcon from '@mui/icons-material/AssignmentTurnedIn';
 import { motion, Variants } from 'framer-motion';
@@ -60,7 +60,7 @@ export const WhoWeAre: React.FC = () => {
   const services = [
     { text: t('aboutUs.services.0'), icon: <LocalCafeIcon sx={{ fontSize: 40, color: '#657b43' }} /> },
     { text: t('aboutUs.services.1'), icon: <EmojiEventsIcon sx={{ fontSize: 40, color: '#657b43' }} /> },
-    { text: t('aboutUs.services.2'), icon: <StarBorderIcon sx={{ fontSize: 40, color: '#657b43' }} /> },
+    { text: t('aboutUs.services.2'), icon: <StarIcon sx={{ fontSize: 40, color: '#657b43' }} /> },
   ];
 
   return (

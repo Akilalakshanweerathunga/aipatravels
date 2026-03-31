@@ -13,8 +13,6 @@ import {
   Select,
   MenuItem
 } from '@mui/material';
-import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
-import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import MenuIcon from '@mui/icons-material/Menu';
@@ -69,7 +67,7 @@ export default function Navbar({ locale }: NavbarProps) {
           color: 'white',
           display: 'flex',
           justifyContent: { xs: 'flex-end', sm: 'space-between'},
-          px: 2,
+          px: 3,
           alignItems: 'center',
           transition: '0.3s',
           zIndex: 1300
@@ -146,8 +144,6 @@ export default function Navbar({ locale }: NavbarProps) {
             {company.name}
           </Typography>
           <Box display="flex" alignItems="center">
-            <IconButton sx={{color:scrolled ? 'black' : 'white'}}><FavoriteBorderIcon /></IconButton>
-            <IconButton sx={{color:scrolled ? 'black' : 'white'}}><ShoppingCartOutlinedIcon /></IconButton>
             <IconButton sx={{color:scrolled ? 'black' : 'white'}}><AccountCircleIcon /></IconButton>
 
             <IconButton

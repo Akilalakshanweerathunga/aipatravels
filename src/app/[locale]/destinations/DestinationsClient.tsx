@@ -1,11 +1,23 @@
 'use client';
 
-import HeroBanner from '@/components/destination/HeroBanner';
-import DestinationSection from '@/components/destination/DestinationSection';
+import HeroBanner from '@/components/partials/HeroBanner';
+import DestinationList from '@/components/destination/partials/DestinationList';
 import CustomJourney from '@/components/partials/CustomJourneyBanner';
+import { Destination } from '@/types/destination';
+import FeaturedBanner from '@/components/destination/FeaturedBanner';
 import { useTranslation } from 'react-i18next';
-export default function DestinationsClient() {
+
+type Props = {
+  locale: string;
+  data: Destination[];
+};
+
+export default function DestinationsClient({ locale, data }: Props) {
   const { t } = useTranslation();
+
+  const bannerDestination = data.find((d) => d.banner);
+
+  if (!bannerDestination) return null;
 
   return (
     <>
@@ -15,8 +27,8 @@ export default function DestinationsClient() {
         subtitle={t('destinations.subtitle')}
         image="/images/hero/destination.jpg"
       />
-
-      <DestinationSection />
+      <DestinationList data={data} locale={locale} />
+      <FeaturedBanner destination={bannerDestination} />
       <CustomJourney />
     </>
   );

@@ -1,4 +1,5 @@
 import { supabase } from './supabase';
+import { Destination } from "@/types/destination";
 
 export async function getItineraries() {
   const { data, error } = await supabase
@@ -28,20 +29,35 @@ export async function getCategories() {
   return data;
 }
 
-export async function getDestinations() {
-  const { data, error } = await supabase
+export async function getDestinations(): Promise<Destination[]> {
+  const { data: destinations, error: destError } = await supabase
     .from('destinations')
     .select(`
       *,
       highlights:destination_highlights(*),
       inclusions:destination_inclusions(*)
-    `)
-    .order('created_at', { ascending: true });
+    `);
 
-  if (error) {
-    console.error('Error fetching destinations:', error);
+  if (destError) {
+    console.error('Error fetching destinations:', destError);
     return [];
   }
 
-  return data;
+  const { data: lineups, error: lineupError } = await supabase
+    .from('destination_lineups')
+    .select('destination_id');
+
+  if (lineupError) {
+    console.error("Error fetching lineups:", lineupError);
+  }
+
+  const countMap: Record<string, number> = {};
+  lineups?.forEach(l => {
+    countMap[l.destination_id] = (countMap[l.destination_id] || 0) + 1;
+  });
+
+  return destinations.map(d => ({
+    ...d,
+    lineupCount: countMap[d.id] ?? 0,
+  }));
 }
