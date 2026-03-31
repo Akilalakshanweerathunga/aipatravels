@@ -55,6 +55,12 @@ export default function Navbar({ locale }: NavbarProps) {
     return () => window.removeEventListener('scroll', handleScroll);
   }, [lastScroll]);
 
+  const forceWhiteBgRoutes = [
+    `/${currentLocale}/about-us`,
+    `/${currentLocale}/itineraries`
+  ];
+
+  const forceWhiteBg = forceWhiteBgRoutes.includes(pathname);
   return (
     <>
       <Box
@@ -96,10 +102,10 @@ export default function Navbar({ locale }: NavbarProps) {
         elevation={0}
         sx={{
           top: showTopBar ? 40 : 0,
-          bgcolor: scrolled ? 'white' : 'transparent',
-          color: scrolled ? 'black' : 'white',
+          bgcolor: scrolled || forceWhiteBg ? 'white' : 'transparent',
+          color: scrolled || forceWhiteBg ? 'black' : 'white',
+          borderColor: scrolled || forceWhiteBg ? '#ddd' : '#fff',
           borderBottom: '1px solid',
-          borderColor: scrolled ? '#ddd' : '#fff',
           transition: '0.3s'
         }}
       >

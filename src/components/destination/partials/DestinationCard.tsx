@@ -3,6 +3,7 @@
 import { Box, Chip, Button } from "@mui/material";
 import { useRouter } from "next/navigation";
 import { Destination } from '@/types/destination';
+import { useTranslation } from 'react-i18next';
 
 type Props = {
   destination: Destination;
@@ -11,6 +12,7 @@ type Props = {
 
 export default function DestinationCard({ destination, locale }: Props) {
   const router = useRouter();
+  const { t } = useTranslation();
 
   return (
     <Box
@@ -45,7 +47,7 @@ export default function DestinationCard({ destination, locale }: Props) {
 
       {/* Top-right days/nights */}
       <Chip
-        label={`${destination.days_old} Days / ${destination.nights} Nights`}
+        label={`${destination.days_old} ${t('other.Days')} / ${destination.nights} ${t('other.Nights')}`}
         sx={{
           bgcolor: "rgba(0,0,0,0.6)",
           color: "#fff",
@@ -79,7 +81,7 @@ export default function DestinationCard({ destination, locale }: Props) {
           sx={{ bgcolor: "#fff", color: "#000", fontWeight: 600 }}
         />
         <Chip
-          label={`${destination.lineupCount ?? 0} Places`}
+          label={`${destination.lineupCount ?? 0} ${t('other.places')}`}
           sx={{
             bgcolor: "rgba(21, 19, 19, 0.25)",
             color: "#fff",
@@ -110,7 +112,7 @@ export default function DestinationCard({ destination, locale }: Props) {
           zIndex: 2,
         }}
       >
-        View More
+        {t('other.view more')}
       </Button>
     </Box>
   );

@@ -138,7 +138,11 @@
     "Start From" : "Commencez par",
     "day" : "Jour",
     "Days": "jours",
-    "Nights" : "Nuits"
+    "Nights" : "Nuits",
+    "places" : "Lieux",
+    "activities" : "Activités",
+    "Most visited locations" : "Les lieux les plus visités",
+    "Your next favorite place awaits" : "Votre prochain endroit préféré vous attend"
   },
   "categories": {
     "All" : "All",
@@ -551,5 +555,51 @@
     "heading": "Vous ne trouvez pas ce que vous cherchez ?",
     "description": "Nos experts en voyage peuvent créer un itinéraire entièrement personnalisé pour vous.",
     "button": "Créez Votre Voyage Sur-Mesure"
+  },
+  "about": {
+    "chip": "À propos de l'entreprise",
+    "title": "L'aventure vous attend, la passion nous guide",
+    "subtitle": "Des expériences réelles de voyageurs heureux qui ont découvert des destinations inoubliables avec nous.",
+    "story": {
+      "chip": "Notre histoire",
+      "title": "Un voyage construit avec passion",
+      "description": "Une agence de voyage dynamique et un service de guides touristiques fondés en 2010, dédiés à créer des liens, partager notre savoir-faire en voyage et remporter quelques distinctions au fil du temps."
+    },
+    "features": {
+      "chip": "Pourquoi voyager avec nous",
+      "title": "Créez des souvenirs de voyage inoubliables !",
+
+      "item1": {
+        "title": "Des aventures sur mesure pour vous",
+        "desc": "Chaque voyage est conçu selon vos envies, vos destinations et votre style, pour une expérience unique et inoubliable."
+      },
+
+      "item2": {
+        "title": "Assistance et formalités complètes",
+        "desc": "De l’assurance voyage aux démarches de visa et réservations, nous gérons tout pour vous offrir sérénité et tranquillité."
+      },
+
+      "item3": {
+        "title": "Des souvenirs pour toute une vie",
+        "desc": "Plus qu’un simple voyage, nous créons des expériences authentiques et des moments inoubliables qui resteront avec vous pour toujours."
+      }
+    },
+    "culture": {
+      "chip": "Notre culture",
+      "title": "Créez des souvenirs de voyage inoubliables !",
+
+      "item1": {
+        "title": "Équipement de haute qualité",
+        "desc": "Préparez-vous pour l’aventure avec notre gamme complète d’équipements—plongée, randonnée ou camping, nous avons tout ce qu’il vous faut !"
+      },
+      "item2": {
+        "title": "Documentation personnalisée",
+        "desc": "Immortalisez vos souvenirs grâce à notre équipe de photographes talentueux qui capturent chaque moment spécial."
+      },
+      "item3": {
+        "title": "Assurance complète",
+        "desc": "Nous vous couvrons avec une assurance voyage complète pour que vous puissiez profiter de votre voyage en toute tranquillité."
+      }
+    }
   }
 }

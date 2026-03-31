@@ -138,7 +138,11 @@
     "Start From" : "Start From",
     "day" : "Day",
     "Days": "Days",
-    "Nights" : "Nights"
+    "Nights" : "Nights",
+    "places" : "Places",
+    "activities" : "Activities",
+    "Most visited locations" : "Most visited locations",
+    "Your next favorite place awaits" : "Your next favorite place awaits"
   },
   "categories": {
     "All" : "All",
@@ -550,5 +554,51 @@
     "heading": "Can't Find What You're Looking For?",
     "description": "Our travel experts can craft a fully personalized itinerary just for you.",
     "button": "Create Your Custom Journey"
+  },
+  "about": {
+    "chip": "About Company",
+    "title": "Adventure Awaits, Passion Drives Us",
+    "subtitle": "Real experiences from happy explorers who discovered unforgettable destinations with us.",
+    "story": {
+      "chip": "Our Story",
+      "title": "A Journey Built on Passion",
+      "description": "A cool travel agency and tour guide service started in 2010, dedicated to making connections, sharing our travel know-how, and snagging some awards along the way."
+    },
+    "features": {
+      "chip": "Why Travel With Us",
+      "title": "Create Awesome Travel Memories!",
+
+      "item1": {
+        "title": "Tailored Adventures Just for You",
+        "desc": "Every journey is carefully crafted to match your interests, destinations, and travel style—ensuring a truly personalized and unforgettable experience."
+      },
+
+      "item2": {
+        "title": "Complete Travel Support & Documentation",
+        "desc": "From travel insurance to visa guidance and bookings, we handle every detail so you can travel with confidence and peace of mind."
+      },
+
+      "item3": {
+        "title": "Memories That Last a Lifetime",
+        "desc": "We go beyond trips—creating meaningful experiences, authentic connections, and unforgettable moments you’ll cherish forever."
+      }
+    },
+    "culture": {
+      "chip": "Our Culture",
+      "title": "Create Awesome Travel Memories!",
+
+      "item1": {
+        "title": "High-Quality Equipment",
+        "desc": "Get ready for adventure with our complete range of equipment—whether it's diving, hiking, or outdoor camping, we've got you covered!"
+      },
+      "item2": {
+        "title": "Personal Documentation",
+        "desc": "Preserve your cherished memories with our talented team of photographers capturing every special moment."
+      },
+      "item3": {
+        "title": "Comprehensive Insurance",
+        "desc": "We've got your back with complete travel insurance so you can relax and fully enjoy your journey."
+      }
+    }
   }
 }

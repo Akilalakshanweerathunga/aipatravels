@@ -5,6 +5,7 @@ import { Box, Typography, Chip, Button, Stack } from "@mui/material";
 import DestinationCard from "./DestinationCard";
 import { Destination } from '@/types/destination';
 import { motion, useInView, useAnimation } from "framer-motion";
+import { useTranslation } from 'react-i18next';
 
 type Props = {
   data: Destination[];
@@ -15,6 +16,7 @@ export default function DestinationList({ data, locale }: Props) {
   const [currentPage, setCurrentPage] = useState(1);
   const [itemsPerPage, setItemsPerPage] = useState(8); // default desktop
   const containerRef = useRef(null);
+  const { t } = useTranslation();
 
   // Responsive items per page
   useEffect(() => {
@@ -74,7 +76,7 @@ export default function DestinationList({ data, locale }: Props) {
         }}
       >
         <Chip
-          label="Most visited locations"
+          label={t('other.Most visited locations')}
           sx={{
             bgcolor: "#e7f2fa",
             color: "#1b4695",
@@ -102,7 +104,7 @@ export default function DestinationList({ data, locale }: Props) {
             whiteSpace: "nowrap",
           }}
         >
-          {Array.from("Your next favorite place awaits").map((char, index) => (
+          {Array.from(t('other.Your next favorite place awaits')).map((char, index) => (
             <motion.span
               key={index}
               custom={index}
