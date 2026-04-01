@@ -118,7 +118,7 @@ export default function ItineraryDialog({
             >
               <Box>
                 <Typography>{t('other.Start From')}</Typography>
-                <Typography fontWeight={600} fontSize={25} sx={{ color: '#c7a96a' }}>
+                <Typography fontWeight={600} fontSize={25} sx={{ color: '#657b43' }}>
                   {convertPrice(selected.base_price)}
                 </Typography>
               </Box>
@@ -128,10 +128,10 @@ export default function ItineraryDialog({
                 gridTemplateColumns={{ xs: '1fr', sm: '1fr 1fr' }}
                 gap={1.5}
               >
-                <CustomButton variant="contained" sx={{ bgcolor: '#c7a96a' }} size="small">
+                <CustomButton variant="contained" sx={{ bgcolor: '#657b43' }} size="small">
                   {t('other.Book Now')}
                 </CustomButton>
-                <CustomButton variant="outlined" sx={{ borderColor: '#c7a96a', color: '#c7a96a' }} size="small">
+                <CustomButton variant="outlined" sx={{ borderColor: '#657b43', color: '#657b43' }} size="small">
                   {t('other.Customize')}
                 </CustomButton>
               </Box>
@@ -155,7 +155,7 @@ export default function ItineraryDialog({
             >
               {selected.highlights?.slice(0, 4).map((h, i) => (
                 <Box key={i} display="flex" alignItems="center" gap={1}>
-                  <AssistantNavigationIcon sx={{ color: '#C6A96B', fontSize: 20 }} />
+                  <AssistantNavigationIcon sx={{ color: '#657b43', fontSize: 20 }} />
                   <Typography sx={{ textTransform: 'capitalize' }}>
                     {t(h.highlight_key)}
                   </Typography>
@@ -187,7 +187,7 @@ export default function ItineraryDialog({
                       width: 10,
                       height: 10,
                       borderRadius: '50%',
-                      bgcolor: '#C6A96B',
+                      bgcolor: '#657b43',
                       border: '2px solid #fff',
                     }}
                   />
@@ -198,7 +198,7 @@ export default function ItineraryDialog({
                         fontSize: '0.75rem',
                         letterSpacing: '0.12em',
                         textTransform: 'uppercase',
-                        color: '#8C7A4F',
+                        color: '#657b43',
                         mb: 0.5,
                       }}
                     >
@@ -220,7 +220,7 @@ export default function ItineraryDialog({
                       sx={{
                         width: 30,
                         height: '1px',
-                        bgcolor: '#C6A96B',
+                        bgcolor: '#657b43',
                         mb: 1,
                       }}
                     />
@@ -254,7 +254,7 @@ export default function ItineraryDialog({
                 <Box key={i} display="flex" alignItems="center">
                   <CheckIcon
                     sx={{
-                      color: '#C6A96B',
+                      color: '#657b43',
                       fontSize: 18,
                       mr: 1
                     }}
@@ -273,10 +273,10 @@ export default function ItineraryDialog({
               gridTemplateColumns={{ xs: '1fr', sm: '1fr 1fr' }}
               gap={1.5}
             >
-              <CustomButton variant="contained" sx={{ bgcolor: '#c7a96a', py: 2 }}>
+              <CustomButton variant="contained" sx={{ bgcolor: '#657b43', py: 2 }}>
                 {t('other.Enquire Now')}
               </CustomButton>
-              <CustomButton variant="outlined" sx={{ borderColor: '#c7a96a', color: '#c7a96a', py: 1 }}>
+              <CustomButton variant="outlined" sx={{ borderColor: '#657b43', color: '#657b43', py: 1 }}>
                 {t('other.Plan your trip')}
               </CustomButton>
             </Box>

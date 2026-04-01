@@ -8,8 +8,10 @@ import {
   Chip,
   Divider
 } from '@mui/material';
-import CustomButton from '@/components/partials/RoundButton';
+import CalendarTodayIcon from '@mui/icons-material/CalendarToday';
+import AccountBalanceWalletIcon from '@mui/icons-material/AccountBalanceWallet';
 
+import CustomButton from '@/components/partials/RoundButton';
 import { ItineraryType } from '@/types/itinerary';
 
 type Props = {
@@ -33,84 +35,101 @@ export default function ItineraryCard({
     <Card
       sx={{
         borderRadius: 3,
-        overflow: 'hidden',
         display: 'flex',
         flexDirection: 'column',
         height: '100%',
-        minHeight: 450,
-        marginBottom: 5
+        minHeight: 460,
+        p: 2
       }}
     >
-      <Box position="relative">
+      {/* Image */}
+      <Box mb={2}>
         <CardMedia
           component="img"
           height="200"
           image={getImage(item.category_key)}
           alt={getAlt(item.category_key)}
+          sx={{
+            borderRadius: 3
+          }}
         />
-        <Box
-          position="absolute"
-          top={10}
-          right={10}
-          bgcolor="rgba(0,0,0,0.7)"
-          color="white"
-          px={1.5}
-          py={0.5}
-          borderRadius={2}
-          fontSize={12}
-        >
-          {item.day_num} {t(`other.Days`)} / {item.nights} {t(`other.Nights`)}
-        </Box>
       </Box>
 
-      <Box
-        p={2}
-        flexGrow={1}
-        display="flex"
-        flexDirection="column"
-        justifyContent="space-between"
-        sx={{ minHeight: '250px' }}
-      >
-        <Box>
-          <Typography fontWeight={600} fontSize={16}>
-            {t(`itineraries.${item.locale_tag}.title`)}
-          </Typography>
+      {/* Content */}
+      <Box display="flex" flexDirection="column" flexGrow={1}>
+        {/* Title */}
+        <Typography fontWeight={600} fontSize={16}>
+          {t(`itineraries.${item.locale_tag}.title`)}
+        </Typography>
 
-          <Typography
-            variant="body2"
-            sx={{
-              display: '-webkit-box',
-              WebkitLineClamp: 2,
-              WebkitBoxOrient: 'vertical',
-              overflow: 'hidden',
-              mt: 1,
-            }}
-          >
-            {t(`itineraries.${item.locale_tag}.overview`)}
-          </Typography>
+        {/* Overview */}
+        <Typography
+          variant="body2"
+          sx={{
+            display: '-webkit-box',
+            WebkitLineClamp: 2,
+            WebkitBoxOrient: 'vertical',
+            overflow: 'hidden',
+            mt: 1
+          }}
+        >
+          {t(`itineraries.${item.locale_tag}.overview`)}
+        </Typography>
 
-          <Box mt={3} display="flex" gap={1} flexWrap="wrap">
-            {item.highlights?.slice(0, 4).map((h, i) => (
-              <Chip key={i} size="small" sx={{textTransform: 'capitalize'}} label={t(h.highlight_key)} />
-            ))}
-          </Box>
+        {/* Highlights */}
+        <Box mt={2} display="flex" gap={1} flexWrap="wrap" sx={{minHeight: "60px"}}>
+          {item.highlights?.slice(0, 3).map((h, i) => (
+            <Chip
+              key={i}
+              size="small"
+              sx={{ textTransform: 'capitalize' }}
+              label={t(h.highlight_key)}
+            />
+          ))}
         </Box>
 
         <Divider sx={{ my: 2 }} />
 
-        <Box display="flex" justifyContent="space-between" alignItems="center">
-          <Typography fontWeight={600}>
-            {convertPrice(item.base_price)}
-          </Typography>
-          <CustomButton
-            variant="contained"
-            sx={{ bgcolor: '#657b43' }}
-            size="small"
-            onClick={() => onClick(item)}
-          >
-            {t('view more')}
-          </CustomButton>
+        {/* Info Row */}
+        <Box display="block" justifyContent="space-between" alignItems="center">
+          {/* Days / Nights */}
+          <Box display="flex" mb={1} alignItems="center" gap={1}>
+            <CalendarTodayIcon fontSize="small" />
+            <Typography variant="body2">
+              {item.day_num} {t('other.Days')} / {item.nights} {t('other.Nights')}
+            </Typography>
+          </Box>
+
+          {/* Price */}
+          <Box display="flex" alignItems="center" gap={1}>
+            <AccountBalanceWalletIcon fontSize="small" />
+            <Typography variant="body2" fontWeight={500}>
+              {t('Starting from')} {convertPrice(item.base_price)}
+            </Typography>
+          </Box>
         </Box>
+
+        {/* Spacer */}
+        <Box flexGrow={1} />
+
+        {/* Button */}
+        <CustomButton
+          fullWidth
+          variant="outlined"
+          onClick={() => onClick(item)}
+          sx={{
+            mt: 2,
+            borderColor: '#657b43',
+            color: '#657b43',
+            '&:hover': {
+              bgcolor: '#657b43',
+              color: '#fff',
+              borderColor: '#657b43'
+            }
+          }}
+        >
+          {t('view more')}
+        </CustomButton>
       </Box>
     </Card>
   );
