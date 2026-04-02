@@ -61,3 +61,63 @@ export async function getDestinations(): Promise<Destination[]> {
     lineupCount: countMap[d.id] ?? 0,
   }));
 }
+
+export async function getDestinationByKey(key: string) {
+  console.log("🔥 Fetching destination:", key);
+
+  // ✅ 1. Get destination
+  const { data: destination, error } = await supabase
+    .from('destinations')
+    .select(`
+      *,
+      destination_lineups(*)
+    `)
+    .eq('key', key)
+    .maybeSingle();
+
+  if (error) {
+    console.error('❌ Destination error:', error.message);
+    return null;
+  }
+
+  if (!destination) {
+    console.warn('⚠️ No destination found');
+    return null;
+  }
+
+  console.log("✅ Destination:", destination.key);
+
+  // ✅ 2. Get activities using activities_id_array (FIXED)
+  let activitiesData: any[] = [];
+
+  if (destination.activities_id_array) {
+    try {
+      const activityIds = destination.activities_id_array
+        .replace(/[{}]/g, '')   // remove {}
+        .split(',')
+        .map((id: string) => id.trim());
+
+      console.log("🎯 Activity IDs:", activityIds);
+
+      const { data, error: actError } = await supabase
+        .from('activities')
+        .select('*')
+        .in('id', activityIds);
+
+      if (actError) {
+        console.error('❌ Activities error:', actError.message);
+      }
+
+      activitiesData = data || [];
+    } catch (err) {
+      console.error("❌ Parsing activities_id_array failed:", err);
+    }
+  }
+
+  console.log("👉 Activities:", activitiesData);
+
+  return {
+    ...destination,
+    activities: activitiesData,
+  };
+}

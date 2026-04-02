@@ -10,7 +10,9 @@ export type Destination = {
   locale_tag?: string;
   images: string;
   lineupCount: number;
-
+  title: string;
+  overview: string;
+  main_banner: string;
   // 👇 make optional
   banner?: boolean;
   banner_image?: string;
