@@ -242,7 +242,7 @@ export default function ItineraryDialog({
             <Divider sx={{ my: 3 }} />
 
             <Typography fontWeight={600} mb={2}>
-              What's Included
+              {t('other.whatsIncluded')}
             </Typography>
 
             <Box

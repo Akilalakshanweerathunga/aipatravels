@@ -104,7 +104,7 @@ export default function ItineraryCard({
           <Box display="flex" alignItems="center" gap={1}>
             <AccountBalanceWalletIcon fontSize="small" />
             <Typography variant="body2" fontWeight={500}>
-              {t('Starting from')} {convertPrice(item.base_price)}
+              {t('other.starting_from')} {convertPrice(item.base_price)}
             </Typography>
           </Box>
         </Box>
@@ -128,7 +128,7 @@ export default function ItineraryCard({
             }
           }}
         >
-          {t('view more')}
+          {t('other.view more')}
         </CustomButton>
       </Box>
     </Card>

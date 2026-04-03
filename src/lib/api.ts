@@ -63,9 +63,6 @@ export async function getDestinations(): Promise<Destination[]> {
 }
 
 export async function getDestinationByKey(key: string) {
-  console.log("🔥 Fetching destination:", key);
-
-  // ✅ 1. Get destination
   const { data: destination, error } = await supabase
     .from('destinations')
     .select(`
@@ -85,19 +82,14 @@ export async function getDestinationByKey(key: string) {
     return null;
   }
 
-  console.log("✅ Destination:", destination.key);
-
-  // ✅ 2. Get activities using activities_id_array (FIXED)
   let activitiesData: any[] = [];
 
   if (destination.activities_id_array) {
     try {
       const activityIds = destination.activities_id_array
-        .replace(/[{}]/g, '')   // remove {}
+        .replace(/[{}]/g, '')  
         .split(',')
         .map((id: string) => id.trim());
-
-      console.log("🎯 Activity IDs:", activityIds);
 
       const { data, error: actError } = await supabase
         .from('activities')
@@ -113,8 +105,6 @@ export async function getDestinationByKey(key: string) {
       console.error("❌ Parsing activities_id_array failed:", err);
     }
   }
-
-  console.log("👉 Activities:", activitiesData);
 
   return {
     ...destination,

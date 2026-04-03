@@ -4,19 +4,21 @@ import { Box, Container, Typography } from '@mui/material';
 import CountUp from 'react-countup';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
+import { useTranslation } from 'react-i18next';
 
-const stats = [
-  { value: 98, suffix: '%', label: 'Satisfaction Rate' },
-  { value: 1500, suffix: '+', label: 'Satisfied Client Reviews' },
-  { value: 15, suffix: '+', label: 'Years of our Expertise' },
-  { value: 800, suffix: '+', label: 'Guided Tours Annually' },
-];
 
 export default function AboutStats() {
   const { ref, inView } = useInView({
     triggerOnce: true,
     threshold: 0.3,
   });
+  const { t } = useTranslation();
+  const stats = [
+    { value: 98, suffix: '%', label: t('other.stats.satisfaction') },
+    { value: 1500, suffix: '+', label: t('other.stats.reviews') },
+    { value: 15, suffix: '+', label: t('other.stats.experience') },
+    { value: 800, suffix: '+', label: t('other.stats.tours') },
+  ];
 
   return (
     <Box

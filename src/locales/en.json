@@ -142,7 +142,19 @@
     "places" : "Places",
     "activities" : "Activities",
     "Most visited locations" : "Most visited locations",
-    "Your next favorite place awaits" : "Your next favorite place awaits"
+    "Your next favorite place awaits" : "Your next favorite place awaits",
+    "starting_from" : "Starting from",
+    "whatsIncluded" : "What's Included",
+    "stats": {
+      "satisfaction": "Satisfaction Rate",
+      "reviews": "Satisfied Client Reviews",
+      "experience": "Years of our Expertise",
+      "tours": "Guided Tours Annually"
+    },
+    "things_to_do": {
+      "title": "Things to Do",
+      "subtitle": "Explore unforgettable activities and experiences curated for this destination."
+    }
   },
   "categories": {
     "All" : "All",
@@ -397,7 +409,9 @@
     "headTitle": "Explore Sri Lanka",
     "title": "Destinations",
     "subtitle": "Handpicked places showcasing the beauty and diversity of Sri Lanka",
-
+    "about_title": "About Destination",
+    "d_highlight": "Destination Highlights",
+    "d_subtitle": "Discover the unique highlights of each destination",
     "mirissaDestination": {
       "imageAlt": "Mirissa Beach",
       "title": "Mirissa Beach Escape",
@@ -410,6 +424,58 @@
       "inclusions": {
         "beach_hotel": "Beach hotel stay",
         "breakfast_included": "Breakfast included"
+      },
+      "places": [
+        { "place_name": "Mirissa Beach", "specialty": "Whale watching", "best_time_to_visit": "Nov-Apr", "season": "Dry season" },
+        { "place_name": "Secret Beach Mirissa", "specialty": "Hidden beach", "best_time_to_visit": "Nov-Apr", "season": "Dry season" },
+        { "place_name": "Coconut Tree Hill", "specialty": "Photography", "best_time_to_visit": "Nov-Apr", "season": "Dry season" },
+        { "place_name": "Parrot Rock", "specialty": "Viewpoint", "best_time_to_visit": "Nov-Apr", "season": "Dry season" },
+        { "place_name": "Weligama Beach", "specialty": "Surfing", "best_time_to_visit": "Nov-Apr", "season": "Dry season" },
+        { "place_name": "Polhena Beach", "specialty": "Snorkeling", "best_time_to_visit": "Nov-Apr", "season": "Dry season" }
+      ],
+      "activities": {
+        "whale_watching_mirissa": {
+          "slug": "whale_watching_mirissa",
+          "name": "Whale Watching",
+          "description": "Experience watching blue whales and dolphins in the Indian Ocean.",
+          "overview": "Mirissa is one of the best places in the world for whale watching.",
+          "category": "Wildlife",
+          "activity_type": "Boat Tour",
+          "duration": "3-5 hours",
+          "difficulty": "Easy",
+          "suitable_for": ["Couples", "Families", "Solo"],
+          "best_time_to_visit": "November to April",
+          "season": "Dry season",
+          "tags": ["whales", "boat", "ocean"]
+        },
+        "snorkeling_polhena": {
+          "slug": "snorkeling_polhena",
+          "name": "Snorkeling with Turtles",
+          "description": "Swim with sea turtles in shallow waters.",
+          "overview": "Perfect for beginner snorkeling.",
+          "category": "Nature",
+          "activity_type": "Water",
+          "duration": "1-2 hours",
+          "difficulty": "Easy",
+          "suitable_for": ["Families", "Kids"],
+          "best_time_to_visit": "November to April",
+          "season": "Dry season",
+          "tags": ["turtles", "snorkeling"]
+        },
+        "surfing_weligama": {
+          "slug": "surfing_weligama",
+          "name": "Surfing Lessons",
+          "description": "Learn surfing with instructors.",
+          "overview": "Ideal for beginners.",
+          "category": "Adventure",
+          "activity_type": "Water",
+          "duration": "2 hours",
+          "difficulty": "Easy",
+          "suitable_for": ["Solo", "Couples"],
+          "best_time_to_visit": "November to April",
+          "season": "Dry season",
+          "tags": ["surf"]
+        }
       }
     },
 
@@ -417,6 +483,7 @@
       "imageAlt": "Bentota Beach",
       "title": "Bentota Coastal Escape",
       "overview": "Experience thrilling water sports and peaceful river safaris in one of Sri Lanka’s most famous beach destinations.",
+      "description": "Bentota Escape is a serene coastal retreat that captures the essence of Sri Lanka's tranquil beaches. Stretching along the turquoise waters of the Indian Ocean, Bentota offers a blend of relaxation, adventure, and cultural charm. Visitors can enjoy water sports such as jet-skiing, windsurfing, and sailing, or simply lounge on the soft sands under swaying palms. The area also offers luxury resorts, riverside dining, and guided tours to local temples and mangrove forests. Bentota is ideal for couples seeking a romantic getaway, families looking for fun by the sea, and solo travelers craving peace and rejuvenation in nature's embrace.",
       "highlights": {
         "water_sports": "Water Sports",
         "river_safari": "River Safari"
@@ -424,6 +491,58 @@
       "inclusions": {
         "luxury_resort": "Luxury resort stay",
         "boat_safari": "Boat safari experience"
+      },
+      "places": [
+        { "place_name": "Bentota Beach", "specialty": "Water sports", "best_time_to_visit": "Nov-Apr", "season": "Dry season" },
+        { "place_name": "Bentota River", "specialty": "Boat safari", "best_time_to_visit": "Nov-Apr", "season": "Dry season" },
+        { "place_name": "Lunuganga Estate", "specialty": "Architecture garden", "best_time_to_visit": "All year", "season": "All season" },
+        { "place_name": "Brief Garden", "specialty": "Garden estate", "best_time_to_visit": "All year", "season": "All season" },
+        { "place_name": "Kosgoda Turtle Hatchery", "specialty": "Conservation", "best_time_to_visit": "All year", "season": "All season" },
+        { "place_name": "Madu River Safari", "specialty": "Mangrove safari", "best_time_to_visit": "Nov-Apr", "season": "Dry season" }
+      ],
+      "activities": {
+        "bentota_river_safari": {
+          "slug": "bentota_river_safari",
+          "name": "Bentota River Safari",
+          "description": "Explore mangroves and wildlife.",
+          "overview": "Scenic boat safari.",
+          "category": "Nature",
+          "activity_type": "Boat Tour",
+          "duration": "2-3 hours",
+          "difficulty": "Easy",
+          "suitable_for": ["Families", "Couples", "Solo"],
+          "best_time_to_visit": "November to April",
+          "season": "Dry season",
+          "tags": ["river", "boat"]
+        },
+        "bentota_water_sports": {
+          "slug": "bentota_water_sports",
+          "name": "Bentota Water Sports",
+          "description": "Jet ski and banana rides.",
+          "overview": "Top adventure destination.",
+          "category": "Adventure",
+          "activity_type": "Water",
+          "duration": "1-2 hours",
+          "difficulty": "Easy",
+          "suitable_for": ["Friends", "Couples"],
+          "best_time_to_visit": "November to April",
+          "season": "Dry season",
+          "tags": ["jetski"]
+        },
+        "bentota_beach_relax": {
+          "slug": "bentota_beach_relax",
+          "name": "Beach Relaxation",
+          "description": "Relax on sandy beaches.",
+          "overview": "Peaceful ocean vibes.",
+          "category": "Leisure",
+          "activity_type": "Beach",
+          "duration": "Flexible",
+          "difficulty": "Easy",
+          "suitable_for": ["Everyone"],
+          "best_time_to_visit": "November to April",
+          "season": "Dry season",
+          "tags": ["beach"]
+        }
       }
     },
 
@@ -431,6 +550,7 @@
       "imageAlt": "Sigiriya Rock Fortress",
       "title": "Sigiriya Heritage",
       "overview": "Discover the ancient wonders of Sri Lanka with visits to iconic UNESCO heritage sites and historic ruins.",
+      "description": "Sigiriya Heritage is home to one of Sri Lanka’s most iconic landmarks, the Sigiriya Rock Fortress, often referred to as the 'Lion Rock.' Rising dramatically from the lush jungle, this ancient site offers a fascinating glimpse into the country’s rich history and architectural brilliance. Visitors can climb the rock to explore ancient frescoes, the famous mirror wall, and the remains of the royal palace at the summit. The surrounding gardens, water features, and moats showcase advanced engineering and aesthetic design from centuries past. Sigiriya is more than a historical monument; it is an experience that combines adventure, culture, and the natural beauty of Sri Lanka’s central plains.",
       "highlights": {
         "sigiriya_rock_fortress": "Sigiriya Rock Fortress",
         "ancient_ruins": "Ancient Ruins"
@@ -438,6 +558,44 @@
       "inclusions": {
         "heritage_hotel": "Heritage hotel stay",
         "guide_service": "Professional guide service"
+      },
+      "places": [
+        { "place_name": "Sigiriya Rock Fortress", "specialty": "Ancient fortress", "best_time_to_visit": "May-Sep", "season": "Dry season" },
+        { "place_name": "Pidurangala Rock", "specialty": "Rock climb", "best_time_to_visit": "May-Sep", "season": "Dry season" },
+        { "place_name": "Dambulla Cave Temple", "specialty": "Cave temple", "best_time_to_visit": "All year", "season": "All season" },
+        { "place_name": "Sigiriya Museum", "specialty": "Museum", "best_time_to_visit": "All year", "season": "All season" },
+        { "place_name": "Minneriya National Park", "specialty": "Elephant safari", "best_time_to_visit": "May-Sep", "season": "Dry season" },
+        { "place_name": "Ritigala Forest Monastery", "specialty": "Forest ruins", "best_time_to_visit": "All year", "season": "All season" }
+      ],
+      "activities": {
+        "sigiriya_climb": {
+          "slug": "sigiriya_climb",
+          "name": "Sigiriya Rock Climb",
+          "description": "Climb the ancient fortress.",
+          "overview": "UNESCO heritage experience.",
+          "category": "Cultural",
+          "activity_type": "Hiking",
+          "duration": "2-3 hours",
+          "difficulty": "Moderate",
+          "suitable_for": ["Couples", "Solo"],
+          "best_time_to_visit": "Morning",
+          "season": "Dry season",
+          "tags": ["heritage"]
+        },
+        "pidurangala_hike": {
+          "slug": "pidurangala_hike",
+          "name": "Pidurangala Sunrise Hike",
+          "description": "Best sunrise viewpoint.",
+          "overview": "Budget hiking experience.",
+          "category": "Adventure",
+          "activity_type": "Hiking",
+          "duration": "2 hours",
+          "difficulty": "Moderate",
+          "suitable_for": ["Solo", "Couples"],
+          "best_time_to_visit": "Morning",
+          "season": "Dry season",
+          "tags": ["sunrise"]
+        }
       }
     },
 
@@ -445,6 +603,7 @@
       "imageAlt": "Temple of the Tooth",
       "title": "Kandy Cultural Experience",
       "overview": "Immerse yourself in Sri Lanka’s rich traditions with temple visits and cultural performances.",
+      "description": "Kandy, the cultural capital of Sri Lanka, is a city steeped in history, tradition, and natural beauty. Nestled amidst rolling hills and surrounded by lush greenery, Kandy is famous for the Temple of the Tooth, which houses a sacred relic of the Buddha and attracts thousands of pilgrims every year. The city offers vibrant festivals such as the Esala Perahera, where traditional dancers, drummers, and decorated elephants parade through the streets in a spectacle of color and culture. Visitors can stroll around the picturesque Kandy Lake, explore the Royal Botanical Gardens, and immerse themselves in the warmth of Sri Lankan hospitality, making Kandy an essential stop for culture enthusiasts.",
       "highlights": {
         "temple_of_tooth": "Temple of the Tooth",
         "cultural_dance_show": "Cultural Dance Show"
@@ -452,6 +611,30 @@
       "inclusions": {
         "city_hotel": "City hotel stay",
         "cultural_show_ticket": "Cultural show ticket"
+      },
+      "places": [
+        { "place_name": "Temple of the Sacred Tooth Relic", "specialty": "Sacred temple", "best_time_to_visit": "All year", "season": "All season" },
+        { "place_name": "Royal Botanical Gardens Peradeniya", "specialty": "Botanical garden", "best_time_to_visit": "All year", "season": "All season" },
+        { "place_name": "Kandy Lake", "specialty": "Lake walk", "best_time_to_visit": "All year", "season": "All season" },
+        { "place_name": "Udawattakele Forest Reserve", "specialty": "Forest reserve", "best_time_to_visit": "All year", "season": "All season" },
+        { "place_name": "Embekke Devalaya", "specialty": "Wood carvings", "best_time_to_visit": "All year", "season": "All season" },
+        { "place_name": "Gadaladeniya Temple", "specialty": "Temple", "best_time_to_visit": "All year", "season": "All season" }
+      ],
+      "activities": {
+        "tooth_temple_visit": {
+          "slug": "tooth_temple_visit",
+          "name": "Temple Visit",
+          "description": "Visit sacred temple.",
+          "overview": "Important Buddhist site.",
+          "category": "Cultural",
+          "activity_type": "Indoor",
+          "duration": "1-2 hours",
+          "difficulty": "Easy",
+          "suitable_for": ["Everyone"],
+          "best_time_to_visit": "All year",
+          "season": "All season",
+          "tags": ["religious"]
+        }
       }
     },
 
@@ -459,6 +642,7 @@
       "imageAlt": "Nine Arch Bridge Ella",
       "title": "Ella Adventure",
       "overview": "Explore scenic mountain landscapes, tea plantations, and iconic landmarks in Ella.",
+      "description": "Kandy, the cultural capital of Sri Lanka, is a city steeped in history, tradition, and natural beauty. Nestled amidst rolling hills and surrounded by lush greenery, Kandy is famous for the Temple of the Tooth, which houses a sacred relic of the Buddha and attracts thousands of pilgrims every year. The city offers vibrant festivals such as the Esala Perahera, where traditional dancers, drummers, and decorated elephants parade through the streets in a spectacle of color and culture. Visitors can stroll around the picturesque Kandy Lake, explore the Royal Botanical Gardens, and immerse themselves in the warmth of Sri Lankan hospitality, making Kandy an essential stop for culture enthusiasts.",
       "highlights": {
         "nine_arch_bridge": "Nine Arch Bridge",
         "ella_rock_hike": "Ella Rock Hike"
@@ -466,6 +650,57 @@
       "inclusions": {
         "mountain_view_hotel": "Mountain view hotel",
         "train_experience": "Scenic train experience"
+      },
+      "places": [
+        { "place_name": "Nine Arches Bridge", "specialty": "Bridge photography", "best_time_to_visit": "Jan-Mar", "season": "Dry season" },
+        { "place_name": "Ella Rock", "specialty": "Hiking", "best_time_to_visit": "Jan-Mar", "season": "Dry season" },
+        { "place_name": "Little Adam’s Peak", "specialty": "Easy hike", "best_time_to_visit": "Jan-Mar", "season": "Dry season" },
+        { "place_name": "Ravana Falls", "specialty": "Waterfall", "best_time_to_visit": "All year", "season": "All season" },
+        { "place_name": "Demodara Loop", "specialty": "Railway loop", "best_time_to_visit": "All year", "season": "All season" }
+      ],
+      "activities": {
+        "ella_rock_hike": {
+          "slug": "ella_rock_hike",
+          "name": "Ella Rock Hiking",
+          "description": "Hike through tea plantations to breathtaking viewpoints.",
+          "overview": "A rewarding hike with panoramic mountain views.",
+          "category": "Adventure",
+          "activity_type": "Hiking",
+          "duration": "3-4 hours",
+          "difficulty": "Hard",
+          "suitable_for": ["Solo", "Adventure"],
+          "best_time_to_visit": "January to March",
+          "season": "Dry season",
+          "tags": ["hiking", "mountain"]
+        },
+        "ravana_zipline": {
+          "slug": "ravana_zipline",
+          "name": "Flying Ravana Zipline",
+          "description": "High-speed zipline with stunning valley views.",
+          "overview": "Sri Lanka’s first mega zipline experience.",
+          "category": "Adventure",
+          "activity_type": "Outdoor",
+          "duration": "30 mins",
+          "difficulty": "Moderate",
+          "suitable_for": ["Adventure"],
+          "best_time_to_visit": "January to March",
+          "season": "Dry season",
+          "tags": ["zipline"]
+        },
+        "nine_arches_photos": {
+          "slug": "nine_arches_photos",
+          "name": "Nine Arches Bridge Photography",
+          "description": "Capture the iconic train passing through the bridge.",
+          "overview": "One of the most photographed spots in Sri Lanka.",
+          "category": "Cultural",
+          "activity_type": "Outdoor",
+          "duration": "1 hour",
+          "difficulty": "Easy",
+          "suitable_for": ["Everyone"],
+          "best_time_to_visit": "Morning",
+          "season": "All season",
+          "tags": ["photography"]
+        }
       }
     },
 
@@ -473,6 +708,7 @@
       "imageAlt": "Tea Plantation Nuwara Eliya",
       "title": "Nuwara Eliya Retreat",
       "overview": "Enjoy cool climate, colonial charm, and breathtaking tea plantations in Sri Lanka’s hill country.",
+      "description": "Nuwara Eliya Retreat is a picturesque getaway in Sri Lanka’s highlands, known as 'Little England' for its colonial charm, cool climate, and lush tea plantations. Visitors can stroll through vibrant gardens, explore serene lakes, and tour working tea estates to learn about the process of tea cultivation. The town’s architecture, reminiscent of British colonial times, adds to the charm, while nearby Horton Plains National Park offers breathtaking hiking trails and dramatic escarpments. Nuwara Eliya is ideal for travelers seeking peace, natural beauty, and a cultural glimpse into Sri Lanka’s colonial past.",
       "highlights": {
         "tea_plantations": "Tea Plantations",
         "colonial_town": "Colonial Town"
@@ -480,6 +716,30 @@
       "inclusions": {
         "tea_bungalow": "Tea bungalow stay",
         "tea_factory_visit": "Tea factory visit"
+      },
+      "places": [
+        { "place_name": "Gregory Lake", "specialty": "Lake activities", "best_time_to_visit": "Apr-Jun", "season": "Seasonal" },
+        { "place_name": "Hakgala Botanical Garden", "specialty": "Botanical garden", "best_time_to_visit": "All year", "season": "All season" },
+        { "place_name": "Pedro Tea Estate", "specialty": "Tea plantation", "best_time_to_visit": "All year", "season": "All season" },
+        { "place_name": "Lover’s Leap Waterfall", "specialty": "Waterfall", "best_time_to_visit": "All year", "season": "All season" },
+        { "place_name": "Victoria Park", "specialty": "Urban park", "best_time_to_visit": "All year", "season": "All season" },
+        { "place_name": "Moon Plains", "specialty": "Viewpoint", "best_time_to_visit": "Jan-Mar", "season": "Dry season" }
+      ],
+      "activities": {
+        "peradeniya_walk": {
+          "slug": "peradeniya_walk",
+          "name": "Botanical Garden Walk",
+          "description": "Walk through Sri Lanka’s largest botanical garden.",
+          "overview": "Home to orchids and exotic plants.",
+          "category": "Nature",
+          "activity_type": "Outdoor",
+          "duration": "2-3 hours",
+          "difficulty": "Easy",
+          "suitable_for": ["Families"],
+          "best_time_to_visit": "All year",
+          "season": "All season",
+          "tags": ["nature"]
+        }
       }
     },
 
@@ -487,6 +747,7 @@
       "imageAlt": "Leopard in Yala",
       "title": "Yala Safari Adventure",
       "overview": "Experience thrilling wildlife safaris and spot leopards in Sri Lanka’s most famous national park.",
+      "description": "Yala Safari is a premier wildlife destination in Sri Lanka, famous for its diverse ecosystems and abundant wildlife. The park is home to leopards, elephants, sloth bears, and hundreds of bird species, making it a thrilling experience for nature enthusiasts and photographers. Safari tours take visitors through lush forests, open grasslands, and serene lagoons, offering unforgettable encounters with the island’s native fauna. Whether observing leopards in their natural habitat or spotting elephants bathing in the rivers, Yala Safari provides a perfect blend of adventure, excitement, and connection with the wild.",
       "highlights": {
         "leopard_safari": "Leopard Safari",
         "national_park": "Yala National Park"
@@ -494,6 +755,29 @@
       "inclusions": {
         "safari_jeep": "Safari jeep",
         "park_entry_ticket": "Park entry ticket"
+      },
+      "places": [
+        { "place_name": "Yala National Park", "specialty": "Leopard safari", "best_time_to_visit": "Feb-Jul", "season": "Dry season" },
+        { "place_name": "Kataragama Temple", "specialty": "Pilgrimage", "best_time_to_visit": "All year", "season": "All season" },
+        { "place_name": "Sithulpawwa Rock Temple", "specialty": "Rock temple", "best_time_to_visit": "All year", "season": "All season" },
+        { "place_name": "Tissa Lake", "specialty": "Lake scenery", "best_time_to_visit": "All year", "season": "All season" },
+        { "place_name": "Bundala National Park", "specialty": "Bird watching", "best_time_to_visit": "Sep-Mar", "season": "Migratory" }
+      ],
+      "activities": {
+        "yala_safari": {
+          "slug": "yala_safari",
+          "name": "Yala Safari",
+          "description": "Explore Yala National Park in a jeep safari.",
+          "overview": "Famous for leopard sightings.",
+          "category": "Wildlife",
+          "activity_type": "Safari",
+          "duration": "3-4 hours",
+          "difficulty": "Easy",
+          "suitable_for": ["Families", "Couples"],
+          "best_time_to_visit": "February to July",
+          "season": "Dry season",
+          "tags": ["leopard", "safari"]
+        }
       }
     },
 
@@ -501,6 +785,7 @@
       "imageAlt": "Elephants in Udawalawe",
       "title": "Udawalawe Safari",
       "overview": "Witness large herds of elephants and visit the famous elephant transit home.",
+      "description": "Udawalawe Safari is a spectacular wildlife destination, renowned for its large elephant herds and diverse fauna. Visitors can explore vast national parks filled with waterholes, forests, and grasslands, witnessing elephants roaming freely along with water buffaloes, deer, and exotic birds. Guided jeep safaris provide close-up encounters with nature and opportunities for stunning photography. The park is also part of important conservation efforts, making it both an educational and adventurous destination. Udawalawe Safari is perfect for families, wildlife enthusiasts, and anyone looking to experience Sri Lanka’s untamed natural beauty.",
       "highlights": {
         "elephant_safari": "Elephant Safari",
         "elephant_transit_home": "Elephant Transit Home"
@@ -508,7 +793,30 @@
       "inclusions": {
         "jeep_safari": "Jeep safari",
         "park_ticket": "Park ticket"
+      },
+      "places": [
+        { "place_name": "Udawalawe National Park", "specialty": "Elephant safari", "best_time_to_visit": "All year", "season": "All season" },
+        { "place_name": "Elephant Transit Home", "specialty": "Elephant care", "best_time_to_visit": "All year", "season": "All season" },
+        { "place_name": "Udawalawe Reservoir", "specialty": "Scenic lake", "best_time_to_visit": "All year", "season": "All season" },
+        { "place_name": "Maduwanwela Walawwa", "specialty": "Historic mansion", "best_time_to_visit": "All year", "season": "All season" },
+        { "place_name": "Waulpane Cave", "specialty": "Cave exploration", "best_time_to_visit": "All year", "season": "All season" }
+      ],
+      "activities": {
+      "udawalawe_safari": {
+        "slug": "udawalawe_safari",
+        "name": "Udawalawe Safari",
+        "description": "See elephants in their natural habitat.",
+        "overview": "Best place in Sri Lanka for elephant sightings.",
+        "category": "Wildlife",
+        "activity_type": "Safari",
+        "duration": "3 hours",
+        "difficulty": "Easy",
+        "suitable_for": ["Families"],
+        "best_time_to_visit": "All year",
+        "season": "All season",
+        "tags": ["elephants"]
       }
+    }
     }
   },
   "why_book": {

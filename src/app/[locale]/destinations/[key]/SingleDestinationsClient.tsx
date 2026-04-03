@@ -9,6 +9,25 @@ import ThingsToDo from '@/components/destination/ThingsToDo';
 import DestinationGallery from '@/components/destination/DestinationGallery';
 import { getGalleryImages } from '@/utils/gallery';
 
+type ActivityItem = {
+  slug: string;
+  key: string;
+  name: string;
+  duration: string;
+  best_time_to_visit: string;
+  category: string;
+  overview: string;
+  description: string;
+};
+
+type LineupItem = {
+  place_name: string;
+  specialty: string;
+  best_time_to_visit: string;
+  season?: string;
+  overview?: string;
+};
+
 type Props = {
   locale: string;
   destination: any;
@@ -16,38 +35,62 @@ type Props = {
 
 export default function SingleDestinationsClient({ destination }: Props) {
   const { t } = useTranslation();
-
+  const key = destination.locale_tag;
   if (!destination) {
     return <div>Destination not found</div>;
   }
+  const rawItems = t(`destinations.${key}.places`, {
+    returnObjects: true,
+    defaultValue: [],
+  });
 
-  // Use destination.activities directly
+  const lineupItems: LineupItem[] = Array.isArray(rawItems)
+    ? rawItems
+    : [];
+  const rawActivities = t(`destinations.${key}.activities`, {
+    returnObjects: true,
+    defaultValue: {},
+  });
+
+  const activityItems: ActivityItem[] =
+  rawActivities && typeof rawActivities === 'object'
+    ? Object.values(rawActivities)
+    : [];
+    
   const galleryImages = getGalleryImages(destination, destination.activities);
 
-  console.log("🔥 FULL DESTINATION:", destination);
-  console.log("🔥 ACTIVITIES:", destination?.activities);
 
   return (
     <Box sx={{ display: 'block', position: 'relative', width: '100%' }}>
       <HeroBanner
-        headTitle={destination.title}      
-        title={destination.label}         
-        subtitle={destination.overview}    
-        image={`/images/destinations/hero/${destination.main_banner}`} 
+        headTitle={t(`destinations.${key}.title`)}
+        title={t(`destinations.${key}.title`)}
+        subtitle={t(`destinations.${key}.overview`)}
+        image={`/images/destinations/hero/${destination.main_banner}`}
       />
 
       <AboutSection
-        title="About Destination"
-        subtitle={destination?.overview || destination?.label || ''}
-        description={destination?.description || ''}
+        title={t('destinations.about_title')}
+        subtitle={t(`destinations.${key}.overview`, {
+          defaultValue: destination?.overview || destination?.label || '',
+        })}
+        description={t(`destinations.${key}.description`, {
+          defaultValue: destination?.description || '',
+        })}
       />
 
-      <DestinationLineup items={destination.destination_lineups} />
-      <ThingsToDo items={destination.activities} />
+      <DestinationLineup
+        items={lineupItems}
+        images={destination.destination_lineups}
+      />
+      <ThingsToDo
+        items={activityItems}
+        images={destination.activities}
+      />
 
       <DestinationGallery
         destination={destination}
-        activities={destination.activities} // <-- pass activities here
+        activities={destination.activities}
       />
     </Box>
   );

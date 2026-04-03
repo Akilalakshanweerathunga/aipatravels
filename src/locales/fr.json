@@ -142,7 +142,19 @@
     "places" : "Lieux",
     "activities" : "Activités",
     "Most visited locations" : "Les lieux les plus visités",
-    "Your next favorite place awaits" : "Votre prochain endroit préféré vous attend"
+    "Your next favorite place awaits" : "Votre prochain endroit préféré vous attend",
+    "starting_from" : "À partir de",
+    "whatsIncluded" : "Ce qui est inclus",
+    "stats": {
+      "satisfaction": "Taux de satisfaction",
+      "reviews": "Avis clients satisfaits",
+      "experience": "Années de notre expertise",
+      "tours": "Tours guidés annuellement"
+    },
+    "things_to_do": {
+      "title": "Activités à faire",
+      "subtitle": "Découvrez des activités et expériences inoubliables sélectionnées pour cette destination."
+    }
   },
   "categories": {
     "All" : "All",
@@ -397,26 +409,82 @@
   "destinations": {
     "headTitle": "Explorer le Sri Lanka",
     "title": "Destinations",
-    "subtitle": "Des lieux soigneusement sélectionnés révélant la beauté du Sri Lanka",
-
+    "subtitle": "Des lieux soigneusement sélectionnés mettant en valeur la beauté et la diversité du Sri Lanka",
+    "about_title": "À propos de la destination",
+    "d_highlight": "Points forts de la destination",
+    "d_subtitle": "Découvrez les points forts uniques de chaque destination",
     "mirissaDestination": {
       "imageAlt": "Plage de Mirissa",
-      "title": "Évasion à Mirissa",
-      "overview": "Détendez-vous sur des plages dorées et profitez d’une expérience inoubliable d’observation des baleines.",
+      "title": "Évasion à la plage de Mirissa",
+      "overview": "Détendez-vous sur des plages de sable doré et profitez d’expériences inoubliables d’observation des baleines sur la côte sud du Sri Lanka.",
+      "description": "La plage de Mirissa est un paradis tropical situé sur la côte sud du Sri Lanka, célèbre pour son sable doré, ses eaux cristallines et son ambiance détendue. Les visiteurs peuvent nager dans des lagons calmes, surfer sur des vagues douces ou partir en excursion d’observation des baleines. La région propose également une vie nocturne animée, des cafés en bord de mer et des restaurants de fruits de mer.",
       "highlights": {
         "whale_watching": "Observation des baleines",
-        "golden_beach_relax": "Détente sur la plage"
+        "golden_beach_relax": "Détente sur plage dorée"
       },
       "inclusions": {
         "beach_hotel": "Hôtel en bord de mer",
         "breakfast_included": "Petit-déjeuner inclus"
+      },
+      "places": [
+        { "place_name": "Plage de Mirissa", "specialty": "Observation des baleines", "best_time_to_visit": "Nov-Avr", "season": "Saison sèche" },
+        { "place_name": "Secret Beach Mirissa", "specialty": "Plage cachée", "best_time_to_visit": "Nov-Avr", "season": "Saison sèche" },
+        { "place_name": "Coconut Tree Hill", "specialty": "Photographie", "best_time_to_visit": "Nov-Avr", "season": "Saison sèche" },
+        { "place_name": "Parrot Rock", "specialty": "Point de vue", "best_time_to_visit": "Nov-Avr", "season": "Saison sèche" },
+        { "place_name": "Plage de Weligama", "specialty": "Surf", "best_time_to_visit": "Nov-Avr", "season": "Saison sèche" },
+        { "place_name": "Plage de Polhena", "specialty": "Snorkeling", "best_time_to_visit": "Nov-Avr", "season": "Saison sèche" }
+      ],
+       "activities": {
+        "whale_watching_mirissa": {
+          "slug": "whale_watching_mirissa",
+          "name": "Observation des baleines",
+          "description": "Observez les baleines bleues et les dauphins dans l’océan Indien.",
+          "overview": "Mirissa est l’un des meilleurs endroits au monde pour observer les baleines.",
+          "category": "Faune",
+          "activity_type": "Excursion en bateau",
+          "duration": "3-5 heures",
+          "difficulty": "Facile",
+          "suitable_for": ["Couples", "Familles", "Solo"],
+          "best_time_to_visit": "Novembre à avril",
+          "season": "Saison sèche",
+          "tags": ["baleines", "bateau", "océan"]
+        },
+        "snorkeling_polhena": {
+          "slug": "snorkeling_polhena",
+          "name": "Snorkeling avec les tortues",
+          "description": "Nagez avec des tortues de mer dans des eaux peu profondes.",
+          "overview": "Parfait pour les débutants.",
+          "category": "Nature",
+          "activity_type": "Activité aquatique",
+          "duration": "1-2 heures",
+          "difficulty": "Facile",
+          "suitable_for": ["Familles", "Enfants"],
+          "best_time_to_visit": "Novembre à avril",
+          "season": "Saison sèche",
+          "tags": ["tortues", "snorkeling"]
+        },
+        "surfing_weligama": {
+          "slug": "surfing_weligama",
+          "name": "Cours de surf",
+          "description": "Apprenez à surfer avec des instructeurs.",
+          "overview": "Idéal pour les débutants.",
+          "category": "Aventure",
+          "activity_type": "Activité aquatique",
+          "duration": "2 heures",
+          "difficulty": "Facile",
+          "suitable_for": ["Solo", "Couples"],
+          "best_time_to_visit": "Novembre à avril",
+          "season": "Saison sèche",
+          "tags": ["surf"]
+        }
       }
     },
 
     "bentotaDestination": {
       "imageAlt": "Plage de Bentota",
-      "title": "Évasion à Bentota",
-      "overview": "Profitez des sports nautiques et des safaris fluviaux dans une destination balnéaire célèbre.",
+      "title": "Évasion côtière à Bentota",
+      "overview": "Profitez de sports nautiques passionnants et de safaris fluviaux paisibles.",
+      "description": "Bentota est une destination côtière paisible offrant détente, sports nautiques et charme culturel. Les visiteurs peuvent pratiquer le jet-ski, la planche à voile ou se détendre sur la plage.",
       "highlights": {
         "water_sports": "Sports nautiques",
         "river_safari": "Safari fluvial"
@@ -424,90 +492,307 @@
       "inclusions": {
         "luxury_resort": "Séjour en resort de luxe",
         "boat_safari": "Safari en bateau"
+      },
+      "places": [
+        { "place_name": "Plage de Bentota", "specialty": "Sports nautiques", "best_time_to_visit": "Nov-Avr", "season": "Saison sèche" },
+        { "place_name": "Rivière Bentota", "specialty": "Safari en bateau", "best_time_to_visit": "Nov-Avr", "season": "Saison sèche" },
+        { "place_name": "Lunuganga Estate", "specialty": "Jardin architectural", "best_time_to_visit": "Toute l’année", "season": "Toutes saisons" },
+        { "place_name": "Brief Garden", "specialty": "Jardin", "best_time_to_visit": "Toute l’année", "season": "Toutes saisons" },
+        { "place_name": "Kosgoda Turtle Hatchery", "specialty": "Conservation", "best_time_to_visit": "Toute l’année", "season": "Toutes saisons" },
+        { "place_name": "Madu River Safari", "specialty": "Mangroves", "best_time_to_visit": "Nov-Avr", "season": "Saison sèche" }
+      ],
+      "activities": {
+        "bentota_river_safari": {
+          "slug": "bentota_river_safari",
+          "name": "Safari sur la rivière Bentota",
+          "description": "Explorez les mangroves et la faune.",
+          "overview": "Safari en bateau pittoresque.",
+          "category": "Nature",
+          "activity_type": "Excursion en bateau",
+          "duration": "2-3 heures",
+          "difficulty": "Facile",
+          "suitable_for": ["Familles", "Couples", "Solo"],
+          "best_time_to_visit": "Novembre à avril",
+          "season": "Saison sèche",
+          "tags": ["rivière", "bateau"]
+        },
+        "bentota_water_sports": {
+          "slug": "bentota_water_sports",
+          "name": "Sports nautiques à Bentota",
+          "description": "Jet-ski et bouée tractée.",
+          "overview": "Destination idéale pour l’aventure.",
+          "category": "Aventure",
+          "activity_type": "Activité aquatique",
+          "duration": "1-2 heures",
+          "difficulty": "Facile",
+          "suitable_for": ["Amis", "Couples"],
+          "best_time_to_visit": "Novembre à avril",
+          "season": "Saison sèche",
+          "tags": ["jetski"]
+        },
+        "bentota_beach_relax": {
+          "slug": "bentota_beach_relax",
+          "name": "Détente à la plage",
+          "description": "Détendez-vous sur des plages de sable.",
+          "overview": "Ambiance paisible en bord de mer.",
+          "category": "Loisir",
+          "activity_type": "Plage",
+          "duration": "Flexible",
+          "difficulty": "Facile",
+          "suitable_for": ["Tous"],
+          "best_time_to_visit": "Novembre à avril",
+          "season": "Saison sèche",
+          "tags": ["plage"]
+        }
       }
     },
 
     "sigiriyaDestination": {
       "imageAlt": "Rocher de Sigiriya",
-      "title": "Héritage de Sigiriya",
-      "overview": "Découvrez les merveilles anciennes du Sri Lanka et ses sites classés à l’UNESCO.",
+      "title": "Patrimoine de Sigiriya",
+      "overview": "Découvrez des merveilles anciennes et des sites classés à l’UNESCO.",
+      "description": "Sigiriya est célèbre pour son rocher emblématique et ses ruines anciennes. Ce site historique offre une expérience mêlant culture, aventure et paysages naturels.",
       "highlights": {
         "sigiriya_rock_fortress": "Rocher de Sigiriya",
         "ancient_ruins": "Ruines anciennes"
       },
       "inclusions": {
-        "heritage_hotel": "Hôtel historique",
+        "heritage_hotel": "Hôtel de charme",
         "guide_service": "Guide professionnel"
+      },
+      "places": [
+        { "place_name": "Rocher de Sigiriya", "specialty": "Forteresse antique", "best_time_to_visit": "Mai-Sep", "season": "Saison sèche" },
+        { "place_name": "Pidurangala Rock", "specialty": "Randonnée", "best_time_to_visit": "Mai-Sep", "season": "Saison sèche" },
+        { "place_name": "Temple de Dambulla", "specialty": "Temple troglodyte", "best_time_to_visit": "Toute l’année", "season": "Toutes saisons" }
+      ],
+     "activities": {
+        "sigiriya_climb": {
+          "slug": "sigiriya_climb",
+          "name": "Ascension du rocher de Sigiriya",
+          "description": "Grimpez cette forteresse ancienne.",
+          "overview": "Expérience classée UNESCO.",
+          "category": "Culturel",
+          "activity_type": "Randonnée",
+          "duration": "2-3 heures",
+          "difficulty": "Modéré",
+          "suitable_for": ["Couples", "Solo"],
+          "best_time_to_visit": "Matin",
+          "season": "Saison sèche",
+          "tags": ["patrimoine"]
+        },
+        "pidurangala_hike": {
+          "slug": "pidurangala_hike",
+          "name": "Randonnée au lever du soleil à Pidurangala",
+          "description": "Meilleur point de vue pour le lever du soleil.",
+          "overview": "Expérience de randonnée économique.",
+          "category": "Aventure",
+          "activity_type": "Randonnée",
+          "duration": "2 heures",
+          "difficulty": "Modéré",
+          "suitable_for": ["Solo", "Couples"],
+          "best_time_to_visit": "Matin",
+          "season": "Saison sèche",
+          "tags": ["lever du soleil"]
+        }
       }
     },
 
     "kandyDestination": {
       "imageAlt": "Temple de la Dent",
       "title": "Expérience culturelle à Kandy",
-      "overview": "Plongez dans les traditions sri-lankaises avec des visites de temples et spectacles culturels.",
+      "overview": "Découvrez les traditions et temples du Sri Lanka.",
+      "description": "Kandy est la capitale culturelle du Sri Lanka, célèbre pour le Temple de la Dent et ses festivals traditionnels.",
       "highlights": {
         "temple_of_tooth": "Temple de la Dent",
-        "cultural_dance_show": "Spectacle de danse"
+        "cultural_dance_show": "Spectacle culturel"
       },
       "inclusions": {
         "city_hotel": "Hôtel en ville",
-        "cultural_show_ticket": "Billet de spectacle"
+        "cultural_show_ticket": "Billet spectacle"
+      },
+      "places": [
+        { "place_name": "Temple de la Dent", "specialty": "Temple sacré", "best_time_to_visit": "Toute l’année", "season": "Toutes saisons" },
+        { "place_name": "Jardin botanique de Peradeniya", "specialty": "Jardin", "best_time_to_visit": "Toute l’année", "season": "Toutes saisons" }
+      ],
+      "activities": {
+        "tooth_temple_visit": {
+          "slug": "tooth_temple_visit",
+          "name": "Visite du Temple de la Dent",
+          "description": "Visitez ce temple sacré.",
+          "overview": "Un site bouddhiste majeur.",
+          "category": "Culturel",
+          "activity_type": "Intérieur",
+          "duration": "1-2 heures",
+          "difficulty": "Facile",
+          "suitable_for": ["Tous"],
+          "best_time_to_visit": "Toute l’année",
+          "season": "Toutes saisons",
+          "tags": ["religieux"]
+        }
       }
     },
 
     "ellaDestination": {
-      "imageAlt": "Pont des neuf arches",
+      "imageAlt": "Pont des Neuf Arches",
       "title": "Aventure à Ella",
-      "overview": "Explorez les montagnes, plantations de thé et paysages emblématiques.",
+      "overview": "Explorez montagnes, plantations de thé et paysages spectaculaires.",
+      "description": "Ella est une destination montagneuse célèbre pour ses randonnées, ses plantations de thé et ses vues panoramiques.",
       "highlights": {
-        "nine_arch_bridge": "Pont des neuf arches",
-        "ella_rock_hike": "Randonnée à Ella Rock"
+        "nine_arch_bridge": "Pont des Neuf Arches",
+        "ella_rock_hike": "Randonnée Ella Rock"
       },
       "inclusions": {
-        "mountain_view_hotel": "Hôtel avec vue sur la montagne",
-        "train_experience": "Expérience en train panoramique"
+        "mountain_view_hotel": "Hôtel vue montagne",
+        "train_experience": "Train panoramique"
+      },
+      "places": [
+        { "place_name": "Nine Arches Bridge", "specialty": "Photographie", "best_time_to_visit": "Jan-Mar", "season": "Saison sèche" }
+      ],
+      "activities": {
+        "ella_rock_hike": {
+          "slug": "ella_rock_hike",
+          "name": "Randonnée à Ella Rock",
+          "description": "Randonnée à travers les plantations de thé.",
+          "overview": "Vue panoramique incroyable.",
+          "category": "Aventure",
+          "activity_type": "Randonnée",
+          "duration": "3-4 heures",
+          "difficulty": "Difficile",
+          "suitable_for": ["Solo", "Aventure"],
+          "best_time_to_visit": "Janvier à mars",
+          "season": "Saison sèche",
+          "tags": ["randonnée", "montagne"]
+        },
+        "ravana_zipline": {
+          "slug": "ravana_zipline",
+          "name": "Tyrolienne Flying Ravana",
+          "description": "Tyrolienne rapide avec vue sur la vallée.",
+          "overview": "Première méga tyrolienne du Sri Lanka.",
+          "category": "Aventure",
+          "activity_type": "Extérieur",
+          "duration": "30 minutes",
+          "difficulty": "Modéré",
+          "suitable_for": ["Aventure"],
+          "best_time_to_visit": "Janvier à mars",
+          "season": "Saison sèche",
+          "tags": ["tyrolienne"]
+        },
+        "nine_arches_photos": {
+          "slug": "nine_arches_photos",
+          "name": "Photographie du pont aux neuf arches",
+          "description": "Capturez le train traversant le pont.",
+          "overview": "Lieu emblématique au Sri Lanka.",
+          "category": "Culturel",
+          "activity_type": "Extérieur",
+          "duration": "1 heure",
+          "difficulty": "Facile",
+          "suitable_for": ["Tous"],
+          "best_time_to_visit": "Matin",
+          "season": "Toute l’année",
+          "tags": ["photographie"]
+        }
       }
     },
 
     "nuwaraEliyaDestination": {
       "imageAlt": "Plantation de thé",
       "title": "Retraite à Nuwara Eliya",
-      "overview": "Profitez du climat frais et du charme colonial au cœur des plantations de thé.",
+      "overview": "Profitez du climat frais et des plantations de thé.",
+      "description": "Nuwara Eliya est connue comme la 'Petite Angleterre' pour son climat et son charme colonial.",
       "highlights": {
         "tea_plantations": "Plantations de thé",
         "colonial_town": "Ville coloniale"
       },
       "inclusions": {
-        "tea_bungalow": "Séjour en bungalow de thé",
+        "tea_bungalow": "Séjour en bungalow",
         "tea_factory_visit": "Visite d’usine de thé"
+      },
+      "places": [
+        { "place_name": "Lac Gregory", "specialty": "Activités nautiques", "best_time_to_visit": "Avr-Juin", "season": "Saisonnier" }
+      ],
+      "activities": {
+        "peradeniya_walk": {
+          "slug": "peradeniya_walk",
+          "name": "Promenade au jardin botanique",
+          "description": "Découvrez le plus grand jardin botanique du Sri Lanka.",
+          "overview": "Connu pour ses orchidées et plantes exotiques.",
+          "category": "Nature",
+          "activity_type": "Extérieur",
+          "duration": "2-3 heures",
+          "difficulty": "Facile",
+          "suitable_for": ["Familles"],
+          "best_time_to_visit": "Toute l’année",
+          "season": "Toutes saisons",
+          "tags": ["nature"]
+        }
       }
     },
 
     "yalaDestination": {
       "imageAlt": "Léopard à Yala",
       "title": "Safari à Yala",
-      "overview": "Vivez une aventure safari et observez des léopards dans un parc national célèbre.",
+      "overview": "Observez les léopards et la faune sauvage.",
+      "description": "Yala est le parc national le plus célèbre du Sri Lanka pour les safaris animaliers.",
       "highlights": {
         "leopard_safari": "Safari léopard",
-        "national_park": "Parc national"
+        "national_park": "Parc national de Yala"
       },
       "inclusions": {
         "safari_jeep": "Jeep safari",
         "park_entry_ticket": "Billet d’entrée"
+      },
+      "places": [
+        { "place_name": "Parc national de Yala", "specialty": "Safari", "best_time_to_visit": "Fév-Juil", "season": "Saison sèche" }
+      ],
+      "activities": {
+        "yala_safari": {
+          "slug": "yala_safari",
+          "name": "Safari à Yala",
+          "description": "Explorez le parc national en jeep.",
+          "overview": "Célèbre pour les léopards.",
+          "category": "Faune",
+          "activity_type": "Safari",
+          "duration": "3-4 heures",
+          "difficulty": "Facile",
+          "suitable_for": ["Familles", "Couples"],
+          "best_time_to_visit": "Février à juillet",
+          "season": "Saison sèche",
+          "tags": ["léopard", "safari"]
+        }
       }
     },
 
     "udawalaweDestination": {
       "imageAlt": "Éléphants à Udawalawe",
       "title": "Safari à Udawalawe",
-      "overview": "Observez des éléphants et visitez le centre de transit des éléphants.",
+      "overview": "Découvrez les éléphants et la nature sauvage.",
+      "description": "Udawalawe est célèbre pour ses grands troupeaux d’éléphants et ses safaris.",
       "highlights": {
         "elephant_safari": "Safari éléphants",
-        "elephant_transit_home": "Centre de transit"
+        "elephant_transit_home": "Centre de transit des éléphants"
       },
       "inclusions": {
         "jeep_safari": "Safari en jeep",
-        "park_ticket": "Billet du parc"
+        "park_ticket": "Billet parc"
+      },
+      "places": [
+        { "place_name": "Parc national d’Udawalawe", "specialty": "Safari éléphants", "best_time_to_visit": "Toute l’année", "season": "Toutes saisons" }
+      ],
+      "activities": {
+        "udawalawe_safari": {
+          "slug": "udawalawe_safari",
+          "name": "Safari à Udawalawe",
+          "description": "Observez les éléphants dans leur habitat naturel.",
+          "overview": "Meilleur endroit pour voir des éléphants.",
+          "category": "Faune",
+          "activity_type": "Safari",
+          "duration": "3 heures",
+          "difficulty": "Facile",
+          "suitable_for": ["Familles"],
+          "best_time_to_visit": "Toute l’année",
+          "season": "Toute l’année",
+          "tags": ["éléphants"]
+        }
       }
     }
   },
