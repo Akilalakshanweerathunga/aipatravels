@@ -11,6 +11,8 @@ import { locales, Locale } from "@/i18n/settings";
 const flagMap: Record<Locale, string> = {
   en: "https://flagcdn.com/w20/gb.png",
   fr: "https://flagcdn.com/w20/fr.png",
+  it: "https://flagcdn.com/w20/it.png",
+  kr: "https://flagcdn.com/w20/kr.png",
 };
 
 interface LanguageSwitcherProps {
@@ -42,7 +44,16 @@ export default function LanguageSwitcher({ currentLocale }: LanguageSwitcherProp
 
     handleClose();
 
-    const newPathname = pathname.replace(/^\/(en|fr)/, `/${selectedLocale}`);
+    // Replace the first segment of the pathname with the selected locale
+    const segments = pathname.split("/").filter(Boolean); // ["en", "about"] => ["en", "about"]
+    
+    if (locales.includes(segments[0] as Locale)) {
+      segments[0] = selectedLocale; // replace existing locale
+    } else {
+      segments.unshift(selectedLocale); // add locale at beginning if not present
+    }
+
+    const newPathname = "/" + segments.join("/");
     if (pathname !== newPathname) router.push(newPathname);
   };
 

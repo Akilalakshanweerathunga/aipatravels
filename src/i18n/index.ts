@@ -7,6 +7,8 @@ import { defaultLocale } from "./settings";
 
 import en from "@/locales/en.json";
 import fr from "@/locales/fr.json";
+import it from "@/locales/it.json";
+import kr from "@/locales/kr.json";
 
 i18n
   .use(LanguageDetector)
@@ -16,7 +18,9 @@ i18n
     debug: false,
     resources: {
       en: { translation: en },
-      de: { translation: fr },
+      fr: { translation: fr },
+      it: { translation: it },
+      kr: { translation: kr },
     },
     interpolation: {
       escapeValue: false,

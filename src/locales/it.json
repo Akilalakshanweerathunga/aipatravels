@@ -1,0 +1,607 @@
+{
+  "nav": {
+    "home": "Casa",
+    "itineraries": "Itinerari",
+    "destinations": "Destinazioni",
+    "activities": "Attività",
+    "tailorMade": "Su misura",
+    "aboutUs": "Chi siamo",
+    "planTrip": "Pianifica il tuo viaggio",
+    "chatWithUs": "Chatta con noi"
+  },
+  "homePage": {
+    "title": "Il tuo compagno di viaggio AIPA",
+    "welcome": "Benvenuto su AIPA - Il tuo compagno di viaggio AIPA",
+    "description": "Scopri itinerari di viaggio personalizzati, esplora le migliori destinazioni e pianifica il tuo viaggio perfetto con AIPA. Inizia la tua avventura oggi!",
+    "middleBannerTitle": "Esperti di viaggio di fiducia",
+    "middleBannerDescription": "In AIPA, crediamo che relazioni solide migliorino la nostra capacità di servirti meglio. Siamo orgogliosi membri della Sri Lanka Association of Inbound Tour Operators (SLAITO) e possediamo accreditamenti da autorità riconosciute del settore turistico, garantendo che ogni viaggio con noi sia affidabile, professionale e indimenticabile.",
+    "adventuresTitle": "Avventure incredibili",
+    "adventuresDescription": "Vivi il brivido delle avventure più incredibili dello Sri Lanka, dai safari alla fauna selvatica agli sport acquatici e tutto ciò che sta in mezzo. Lascia che AIPA ti guidi verso esperienze indimenticabili che creeranno ricordi duraturi.",
+    "adventuresAlt": "Avventure incredibili",
+    "adventuresBgAlt": "Sfondo avventure"
+  },
+  "hero": {
+    "nineArch": {
+      "title": "Tra le colline",
+      "subtitle": "Viaggi panoramici in treno",
+      "description": "Vivi il famoso Ponte dei Nove Archi circondato da una vegetazione lussureggiante."
+    },
+    "galle": {
+      "title": "Fascino coloniale",
+      "subtitle": "Passeggia nella storia",
+      "description": "Scopri la bellezza senza tempo del Forte di Galle e il patrimonio costiero."
+    },
+    "sigiriya": {
+      "title": "Meraviglie antiche",
+      "subtitle": "Scala la Roccia del Leone",
+      "description": "Esplora la maestosa fortezza di Sigiriya e i suoi antichi segreti."
+    },
+    "bentota": {
+      "title": "Lusso ridefinito",
+      "subtitle": "Dove la natura incontra l'eleganza",
+      "description": "Rilassati su spiagge dorate e vivi la serenità di Bentota."
+    },
+    "tea": {
+      "title": "Paese del tè",
+      "subtitle": "Fresco dalle colline",
+      "description": "Passeggia tra le lussureggianti piantagioni di tè dello Sri Lanka e i climi freschi."
+    }
+  },
+  "aboutUs": {
+    "title": "Chi è AIPA",
+    "shortDescription": "AIPA è un'agenzia di viaggi leader in Sri Lanka, dedicata a fornire esperienze di viaggio eccezionali. Il nostro scopo è mostrare i tesori nascosti dello Sri Lanka, collegando i viaggiatori con la bellezza autentica, la cultura e le esperienze uniche che quest'isola ha da offrire.\n\nSiamo impegnati a offrire servizi di valore ai nostri clienti combinando la nostra esperienza, guida personalizzata e passione per i viaggi. In AIPA, ogni viaggio è creato per essere memorabile, senza intoppi e davvero speciale.",
+    "services": ["Meno lavoro amministrativo", "Più impatto", "Esperienza cliente elevata"],
+    "leftService": "Preventiva e aggiorna i viaggi in pochi minuti",
+    "rightService": "Crea viaggi che i tuoi clienti non dimenticheranno mai",
+    "leftImageAlt": "Safari del Leone",
+    "centerImageAlt": "Itinerario video con marchio",
+    "rightImageAlt": "Tramonto in un lodge di lusso"
+  },
+  "other": {
+    "loading": "Caricamento...",
+    "noResults": "Nessun risultato trovato.",
+    "error": "Si è verificato un errore. Riprova.",
+    "searchPlaceholder": "Cerca destinazioni, attività e altro...",
+    "whoWeAre": "Chi siamo",
+    "ourMission": "La nostra missione",
+    "Explore Now": "Esplora ora",
+    "Get Free Consultation": "Ottieni una consulenza gratuita",
+    "See All Itineraries": "Vedi tutti gli itinerari",
+    "See All Destinations": "Vedi tutte le destinazioni",
+    "See All Activities": "Vedi tutte le attività",
+    "Plan Your Trip": "Pianifica il tuo viaggio",
+    "Chat with Us": "Chatta con noi",
+    "Discover More": "Scopri di più",
+    "Learn More": "Scopri di più",
+    "Contact Us": "Contattaci",
+    "Book Now": "Prenota ora",
+    "View Details": "Visualizza dettagli",
+    "Start Planning": "Inizia a pianificare",
+    "Get in Touch": "Mettiti in contatto",
+    "Read More": "Leggi di più",
+    "See More": "Vedi di più",
+    "Back to Home": "Torna alla home",
+    "Next": "Avanti",
+    "Previous": "Precedente",
+    "Submit": "Invia",
+    "Cancel": "Annulla",
+    "Yes": "Sì",
+    "No": "No",
+    "Close": "Chiudi",
+    "Save": "Salva",
+    "Edit": "Modifica",
+    "Delete": "Elimina",
+    "View": "Visualizza",
+    "Add to Cart": "Aggiungi al carrello",
+    "Remove from Cart": "Rimuovi dal carrello",
+    "Checkout": "Checkout",
+    "Continue": "Continua",
+    "Finish": "Finisci",
+    "Search": "Cerca",
+    "Filter": "Filtra",
+    "Sort": "Ordina",
+    "Reset": "Reimposta",
+    "Apply": "Applica",
+    "Clear": "Pulisci",
+    "Download": "Scarica",
+    "Share": "Condividi",
+    "Follow Us": "Seguici",
+    "Subscribe": "Iscriviti",
+    "Unsubscribe": "Annulla iscrizione",
+    "Accept": "Accetta",
+    "Decline": "Rifiuta",
+    "Approve": "Approva",
+    "Reject": "Rifiuta",
+    "Yes, Delete": "Sì, elimina",
+    "No, Keep": "No, mantieni",
+    "Are you sure?": "Sei sicuro?",
+    "This action cannot be undone.": "Questa azione non può essere annullata.",
+    "Please enter a valid email address.": "Inserisci un indirizzo email valido.",
+    "Please enter your password.": "Inserisci la tua password.",
+    "Please confirm your password.": "Conferma la tua password.",
+    "Passwords do not match.": "Le password non corrispondono.",
+    "Please enter your name.": "Inserisci il tuo nome.",
+    "Please enter your message.": "Inserisci il tuo messaggio.",
+    "Thank you for your message. We will get back to you soon.": "Grazie per il tuo messaggio. Ti risponderemo presto.",
+    "An error occurred while sending your message. Please try again later.": "Si è verificato un errore durante l'invio del messaggio. Riprova più tardi.",
+    "Please fill out all required fields.": "Compila tutti i campi obbligatori.",
+    "Please agree to the terms and conditions.": "Accetta i termini e le condizioni.",
+    "Your session has expired. Please log in again.": "La tua sessione è scaduta. Effettua di nuovo l'accesso.",
+    "You have been logged out.": "Sei stato disconnesso.",
+    "view more": "Vedi di più",
+    "overview" : "Panoramica",
+    "Day by Day Itinerary" : "Itinerario giorno per giorno",
+    "Customize" : "Personalizza",
+    "Enquire Now" : "Richiedi ora",
+    "Plan your trip" : "Pianifica il tuo viaggio",
+    "Highlights" : "Punti salienti",
+    "Start From" : "A partire da",
+    "day" : "Giorno",
+    "Days": "Giorni",
+    "Nights" : "Notti",
+    "places" : "Luoghi",
+    "activities" : "Attività",
+    "Most visited locations" : "Luoghi più visitati",
+    "Your next favorite place awaits" : "Il tuo prossimo posto preferito ti aspetta"
+  },
+  "categories": {
+    "All" : "Tutti",
+    "Wildlife": "Fauna selvatica",
+    "Coastal": "Costiero",
+    "History": "Storia",
+    "Colonial": "Coloniale",
+    "Religion": "Religione",
+    "Highlands": "Altopiani",
+    "cultural_explorer": "L'esploratore culturale",
+    "Tea" :  "Tè", 
+    "Culture" : "Cultura", 
+    "Safari" : "Safari", 
+    "Beach" : "Spiaggia", 
+    "Island" : "Isola", 
+    "Wellness" : "Benessere",
+    "Tea Highland" :  "Altopiano del tè", 
+    "Cultural Triangle" : "Triangolo culturale", 
+    "Wildlife Safari" : "Safari nella fauna selvatica", 
+    "Coastal Paradise" : "Paradiso costiero", 
+    "Grand Island" : "Grande isola", 
+    "Wellness Retreat" : "Ritiro benessere"
+  },
+  "itineraries": {
+    "headTitle" : "Viaggi curati",
+    "title" : "Itinerari",
+    "subtitle" : "Avventure artigianali che rivelano il cuore e l'anima dello Sri Lanka",
+    "chipText" : "Tour in evidenza",
+    "animeText": "Il tuo nuovo ritrovo è dietro l'angolo!",
+    "culturalTriangleItinerary": {
+      "imageAlt": "Sigiriya Rock Fortress",
+      "title": "Cultural Triangle Itinerary",
+        "overview": "Scopri la ricca storia e cultura del Triangolo Culturale dello Sri Lanka con questo itinerario di 7 giorni. Esplora antiche città, maestose fortezze di roccia, templi sacri e la vita tradizionale del villaggio, il tutto godendo di sistemazioni di lusso e visite guidate personalizzate.",
+      "highlights": {
+        "sigiriya_rock_fortress": "Sigiriya Rock Fortress",
+        "polonnaruwa_ancient_city": "Polonnaruwa Ancient City",
+        "dambulla_cave_temple": "Dambulla Cave Temple",
+        "anuradhapura_sacred_city": "Anuradhapura Sacred City",
+        "temple_of_tooth": "Temple of the Tooth"
+      },
+      "days": {
+        "day1_title": "Arrival in Colombo",
+          "day1_desc": "Benvenuto in Sri Lanka! Trasferimento al tuo hotel di lusso nell'area del Triangolo Culturale.",
+
+        "day2_title": "Temple of the Tooth",
+          "day2_desc": "Visita il Tempio del Dente.",
+
+        "day3_title": "Sigiriya Rock Fortress",
+          "day3_desc": "Salita privata all'alba seguita da visita a Dambulla.",
+
+        "day4_title": "Polonnaruwa Ancient City",
+          "day4_desc": "Esplora l'antica capitale medievale.",
+
+        "day5_title": "Anuradhapura Sacred City",
+          "day5_desc": "Visita l'albero Sri Maha Bodhi.",
+
+        "day6_title": "Village Experience",
+          "day6_desc": "Tour tradizionale del villaggio con pranzo.",
+
+        "day7_title": "Mihintale & Departure",
+          "day7_desc": "Visita mattutina a Mihintale e partenza."
+      },
+      "inclusions": {
+          "luxury_accommodation": "Sistemazione di lusso",
+          "private_guided_tours": "Visite guidate private",
+          "entrance_fees": "Tutti i biglietti d'ingresso",
+          "airport_transfers": "Trasferimenti aeroportuali",
+          "meals": "Colazione e cena giornaliera"
+      }
+    },
+    "teaHighlandItinerary": {
+      "imageAlt": "Tea Plantation in Nuwara Eliya",
+      "title": "Tea Country & Highland Retreat",
+        "overview": "Immergiti nelle montagne nebbiose di Nuwara Eliya e vivi le migliori piantagioni di tè di Ceylon.",
+      "highlights": {
+        "nuwara_eliya": "Nuwara Eliya",
+        "tea_factory_visits": "Tea Factory Visits",
+        "horton_plains": "Horton Plains",
+        "ella_nine_arches": "Ella Nine Arches"
+      },
+      "days": {
+        "day1_title": "Arrival in Kandy",
+          "day1_desc": "Trasferimento a Kandy, la capitale culturale dello Sri Lanka.",
+        "day2_title": "Tea Country Journey",
+          "day2_desc": "Viaggio panoramico verso Nuwara Eliya attraverso le piantagioni di tè.",
+        "day3_title": "Tea Factory & Horton Plains",
+          "day3_desc": "Visita una fabbrica di tè ed esplora Horton Plains.",
+        "day4_title": "Ella Adventure",
+          "day4_desc": "Visita il Ponte dei Nove Archi e le viste su Ella Rock.",
+        "day5_title": "Departure",
+          "day5_desc": "Trasferimento in aeroporto o proseguimento del viaggio."
+      },
+      "inclusions": {
+          "boutique_hotel": "Soggiorno in hotel boutique",
+          "tea_factory_tours": "Tour delle fabbriche di tè",
+          "scenic_train": "Viaggio panoramico in treno",
+          "transfers": "Tutti i trasferimenti",
+          "breakfast": "Colazione inclusa"
+      }
+    },
+    "wildlifeSafariItinerary": {
+      "imageAlt": "Leopard in Yala National Park",
+      "title": "Wildlife Safari Adventure",
+        "overview": "Segui i leopardi a Yala, osserva gli elefanti a Udawalawe e vivi le migliori avventure nella natura selvaggia.",
+      "highlights": {
+        "yala": "Yala National Park",
+        "udawalawe": "Udawalawe",
+        "leopard_tracking": "Leopard Tracking",
+        "elephant_orphanage": "Elephant Orphanage"
+      },
+      "days": {
+        "day1_title": "Arrival in Yala",
+          "day1_desc": "Trasferimento a Yala e sistemazione nel tuo lodge safari di lusso.",
+        "day2_title": "Yala Safari - Morning",
+          "day2_desc": "Safari all'alba nel Parco Nazionale di Yala.",
+        "day3_title": "Yala Safari - Evening",
+          "day3_desc": "Safari pomeridiano con avvistamento notturno.",
+        "day4_title": "Udawalawe",
+          "day4_desc": "Trasferimento a Udawalawe e safari pomeridiano con gli elefanti.",
+        "day5_title": "Elephant Orphanage",
+          "day5_desc": "Visita l'Orfanotrofio degli Elefanti e altra fauna selvatica.",
+        "day6_title": "Departure",
+          "day6_desc": "Trasferimento in aeroporto con ricordi della fauna selvatica."
+      },
+      "inclusions": {
+          "safari_lodges": "Lodge safari di lusso",
+          "morning_evening_safaris": "Safari mattutini e serali",
+          "expert_trackers": "Tracciatori esperti",
+          "all_meals": "Tutti i pasti inclusi",
+          "park_entries": "Ingressi ai parchi"
+      }
+    },
+    "coastalParadiseItinerary": {
+      "imageAlt": "Galle Fort at sunset",
+      "title": "Coastal Paradise Journey",
+        "overview": "Dall'osservazione delle balene a Mirissa allo storico Forte di Galle, vivi il meglio della costa meridionale dello Sri Lanka.",
+      "highlights": {
+        "mirissa_whale": "Mirissa Whale Watching",
+        "galle_fort": "Galle Fort",
+        "stilt_fishing": "Stilt Fishing",
+        "beach_villas": "Beach Villas"
+      },
+      "days": {
+        "day1_title": "Arrival in Colombo",
+          "day1_desc": "Trasferimento alla villa sulla spiaggia di Mirissa.",
+        "day2_title": "Whale Watching",
+          "day2_desc": "Spedizione di osservazione delle balene la mattina presto.",
+        "day3_title": "Beach Leisure",
+          "day3_desc": "Relax in spiaggia o prova sport acquatici.",
+        "day4_title": "Galle Fort",
+          "day4_desc": "Giornata intera di esplorazione del Forte di Galle.",
+        "day5_title": "Stilt Fishing",
+          "day5_desc": "Vivi la tradizionale pesca sui trampoli.",
+        "day6_title": "Tangalle & More Beach",
+          "day6_desc": "Visita spiagge e calette nascoste.",
+        "day7_title": "Cultural Show",
+          "day7_desc": "Spettacolo serale di danza tradizionale.",
+        "day8_title": "Departure",
+          "day8_desc": "Trasferimento in aeroporto."
+      },
+      "inclusions": {
+          "beach_villa": "Sistemazione in villa sulla spiaggia",
+          "whale_tour": "Tour di osservazione delle balene",
+          "galle_guide": "Guida al Forte di Galle",
+          "transfers": "Tutti i trasferimenti",
+          "breakfast": "Colazione giornaliera"
+      }
+    },
+    "grandIslandItinerary": {
+      "imageAlt": "Sri Lanka Map with highlights",
+      "title": "The Grand Island Circuit",
+        "overview": "La suprema avventura in Sri Lanka che copre tutte le principali attrazioni da nord a sud, da est a ovest.",
+      "highlights": {
+        "cultural_triangle": "Cultural Triangle",
+        "hill_country": "Hill Country",
+        "wildlife_parks": "Wildlife Parks",
+        "coastal_treasures": "Coastal Treasures"
+      },
+      "days": {
+        "day1_title": "Arrival in Colombo",
+          "day1_desc": "Benvenuto e trasferimento in hotel.",
+        "day2_title": "Anuradhapura",
+          "day2_desc": "Esplorazione della città antica.",
+        "day3_title": "Sigiriya & Dambulla",
+          "day3_desc": "Fortezza di roccia e grotte.",
+        "day4_title": "Polonnaruwa",
+          "day4_desc": "Tour della capitale medievale.",
+        "day5_title": "Kandy",
+          "day5_desc": "Tempio del Dente e città.",
+        "day6_title": "Nuwara Eliya",
+          "day6_desc": "Viaggio nella regione del tè.",
+        "day7_title": "Ella",
+          "day7_desc": "Nove Archi e avventure.",
+        "day8_title": "Udawalawe",
+          "day8_desc": "Safari pomeridiano.",
+        "day9_title": "Yala",
+          "day9_desc": "Safari dei leopardi.",
+        "day10_title": "Mirissa",
+          "day10_desc": "Osservazione delle balene.",
+        "day11_title": "Galle",
+          "day11_desc": "Esplorazione del Forte.",
+        "day12_title": "Hikkaduwa",
+          "day12_desc": "Spiaggia e snorkeling.",
+        "day13_title": "Colombo",
+          "day13_desc": "Tour della città e shopping.",
+        "day14_title": "Departure",
+          "day14_desc": "Trasferimento in aeroporto."
+      },
+      "inclusions": {
+          "all_accommodation": "Tutte le sistemazioni",
+          "all_meals": "Tutti i pasti inclusi",
+          "private_guide": "Guida privata",
+          "park_entries": "Tutti gli ingressi ai parchi",
+          "transfers": "Tutti i trasferimenti",
+          "domestic_flights": "Voli nazionali"
+      }
+    },
+    "wellnessRetreatItinerary": {
+      "imageAlt": "Ayurvedic Spa Treatment",
+      "title": "Wellness & Spiritual Retreat",
+        "overview": "Rigenera la tua anima con trattamenti ayurvedici, sessioni di meditazione e visite a templi buddisti sacri.",
+      "highlights": {
+        "ayurvedic_spa": "Ayurvedic Spa",
+        "temple_visits": "Temple Visits",
+        "meditation": "Meditation",
+        "sri_lankan_cuisine": "Sri Lankan Cuisine"
+      },
+      "days": {
+        "day1_title": "Arrival & Welcome",
+          "day1_desc": "Consultazione ayurvedica e trattamento di benvenuto.",
+        "day2_title": "Temple Visit",
+          "day2_desc": "Visita a templi sacri e meditazione.",
+        "day3_title": "Full Spa Day",
+          "day3_desc": "Giornata intera di trattamenti e yoga.",
+        "day4_title": "Nature & Wellness",
+          "day4_desc": "Passeggiata nella natura e sessioni di meditazione.",
+        "day5_title": "Final Treatments",
+          "day5_desc": "Ultimi trattamenti spa e riflessione.",
+        "day6_title": "Departure",
+          "day6_desc": "Sentirsi rinnovati e rigenerati."
+      },
+      "inclusions": {
+          "wellness_resort": "Soggiorno in resort benessere",
+          "daily_treatments": "Trattamenti giornalieri",
+          "yoga_sessions": "Sessioni di yoga",
+          "all_meals": "Tutti i pasti inclusi",
+          "spa_facilities": "Strutture spa"
+      }
+    }
+  },
+  "destinations": {
+    "headTitle": "Explore Sri Lanka",
+      "title": "Destinazioni",
+      "subtitle": "Luoghi selezionati che mostrano la bellezza e la diversità dello Sri Lanka",
+
+    "mirissaDestination": {
+      "imageAlt": "Spiaggia di Mirissa",
+      "title": "Fuga a Mirissa Beach",
+      "overview": "Rilassati su spiagge dorate e goditi esperienze indimenticabili di avvistamento balene sulla costa sud dello Sri Lanka.",
+      "description": "Mirissa Beach è un paradiso tropicale mozzafiato situato sulla costa meridionale dello Sri Lanka. Nota per le sue spiagge dorate, acque cristalline e atmosfera rilassata, Mirissa è la fuga perfetta per chi cerca relax e avventura. I visitatori possono nuotare in lagune tranquille, fare surf sulle onde dolci o partire per un tour di avvistamento balene. Oltre alla spiaggia, la città offre una vivace vita notturna, accoglienti caffè sulla spiaggia e ristoranti di pesce fresco. Passeggia al tramonto, esplora calette nascoste o fai una gita in barca alle isole vicine, rendendo ogni momento a Mirissa indimenticabile.",
+      "highlights": {
+          "whale_watching": "Avvistamento balene",
+          "golden_beach_relax": "Relax sulla spiaggia dorata"
+      },
+      "inclusions": {
+          "beach_hotel": "Soggiorno in hotel sulla spiaggia",
+          "breakfast_included": "Colazione inclusa"
+      }
+    },
+
+    "bentotaDestination": {
+      "imageAlt": "Spiaggia di Bentota",
+      "title": "Fuga costiera a Bentota",
+      "overview": "Vivi sport acquatici emozionanti e safari fluviali rilassanti in una delle destinazioni balneari più famose dello Sri Lanka.",
+      "highlights": {
+          "water_sports": "Sport acquatici",
+          "river_safari": "Safari sul fiume"
+      },
+      "inclusions": {
+          "luxury_resort": "Soggiorno in resort di lusso",
+          "boat_safari": "Esperienza di safari in barca"
+      }
+    },
+
+    "sigiriyaDestination": {
+      "imageAlt": "Fortezza di Sigiriya",
+      "title": "Patrimonio di Sigiriya",
+      "overview": "Scopri le meraviglie antiche dello Sri Lanka visitando siti UNESCO iconici e rovine storiche.",
+      "highlights": {
+          "sigiriya_rock_fortress": "Fortezza di Sigiriya",
+          "ancient_ruins": "Rovine antiche"
+      },
+      "inclusions": {
+          "heritage_hotel": "Soggiorno in hotel storico",
+          "guide_service": "Servizio guida professionale"
+      }
+    },
+
+    "kandyDestination": {
+      "imageAlt": "Tempio del Dente",
+      "title": "Esperienza culturale a Kandy",
+      "overview": "Immergiti nelle ricche tradizioni dello Sri Lanka con visite ai templi e spettacoli culturali.",
+      "highlights": {
+          "temple_of_tooth": "Tempio del Dente",
+          "cultural_dance_show": "Spettacolo di danza culturale"
+      },
+      "inclusions": {
+          "city_hotel": "Soggiorno in hotel in città",
+          "cultural_show_ticket": "Biglietto per spettacolo culturale"
+      }
+    },
+
+    "ellaDestination": {
+      "imageAlt": "Ponte dei Nove Archi Ella",
+      "title": "Avventura a Ella",
+      "overview": "Esplora paesaggi montani panoramici, piantagioni di tè e luoghi iconici a Ella.",
+      "highlights": {
+          "nine_arch_bridge": "Ponte dei Nove Archi",
+          "ella_rock_hike": "Escursione a Ella Rock"
+      },
+      "inclusions": {
+          "mountain_view_hotel": "Hotel con vista montagna",
+          "train_experience": "Esperienza in treno panoramico"
+      }
+    },
+
+    "nuwaraEliyaDestination": {
+      "imageAlt": "Piantagione di tè Nuwara Eliya",
+      "title": "Ritiro a Nuwara Eliya",
+      "overview": "Goditi il clima fresco, il fascino coloniale e le spettacolari piantagioni di tè nelle colline dello Sri Lanka.",
+      "highlights": {
+          "tea_plantations": "Piantagioni di tè",
+          "colonial_town": "Città coloniale"
+      },
+      "inclusions": {
+          "tea_bungalow": "Soggiorno in bungalow del tè",
+          "tea_factory_visit": "Visita a fabbrica di tè"
+      }
+    },
+
+    "yalaDestination": {
+      "imageAlt": "Leopardo a Yala",
+      "title": "Avventura safari a Yala",
+      "overview": "Vivi emozionanti safari nella natura e avvista leopardi nel parco nazionale più famoso dello Sri Lanka.",
+      "highlights": {
+          "leopard_safari": "Safari dei leopardi",
+          "national_park": "Parco Nazionale di Yala"
+      },
+      "inclusions": {
+          "safari_jeep": "Jeep safari",
+          "park_entry_ticket": "Biglietto d'ingresso al parco"
+      }
+    },
+
+    "udawalaweDestination": {
+      "imageAlt": "Elefanti a Udawalawe",
+      "title": "Safari a Udawalawe",
+      "overview": "Osserva grandi branchi di elefanti e visita il famoso centro di transito degli elefanti.",
+      "highlights": {
+          "elephant_safari": "Safari degli elefanti",
+          "elephant_transit_home": "Centro di transito degli elefanti"
+      },
+      "inclusions": {
+          "jeep_safari": "Jeep safari",
+          "park_ticket": "Biglietto del parco"
+      }
+    }
+  },
+  "why_book": {
+     "title": "Perché prenotare con noi?",
+    "best_price": {
+      "title": "Miglior prezzo",
+      "desc": "Garantiamo prezzi competitivi senza costi nascosti, assicurandoti sempre il miglior valore per il tuo viaggio."
+    },
+    "hand_picked": {
+      "title": "Destinazioni selezionate",
+      "desc": "I nostri esperti selezionano con cura le destinazioni per offrirti esperienze uniche, memorabili e di alta qualità."
+    },
+    "customer_care": {
+      "title": "Assistenza clienti 24 ore su 24",
+      "desc": "Il nostro team di supporto è disponibile in ogni momento per assisterti prima, durante e dopo il viaggio."
+    }
+  },
+  "cta": {
+     "title": "PRENOTA LA TUA VACANZA PERFETTA DIRETTAMENTE",
+     "book_online": "PRENOTA ONLINE",
+     "call": "CHIAMACI",
+     "email": "SCRIVICI",
+     "whatsapp": "CHATTA SU WHATSAPP"
+  },
+  "footer": {
+     "description": "Ispirazione per viaggiare nel mondo. Scopri programmi, viaggi ed esperienze indimenticabili ovunque.",
+     "links": "Link",
+     "itineraries": "Itinerari",
+     "company": "Azienda",
+     "workingHoliday": "Vacanza lavoro",
+     "volunteer": "Volontariato all'estero",
+     "internships": "Tirocini",
+     "study": "Studio all'estero",
+     "africa": "Africa",
+     "asia": "Asia",
+     "sea": "Sud-est asiatico",
+     "southAmerica": "Sud America",
+     "about": "Chi siamo",
+     "blog": "Blog",
+     "contact": "Contatto",
+     "terms": "Termini",
+     "privacy": "Privacy",
+     "imprint": "Impronta"
+  },
+  "customJourney": {
+     "heading": "Non trovi quello che cerchi?",
+     "description": "I nostri esperti possono creare un itinerario completamente personalizzato solo per te.",
+     "button": "Crea il tuo viaggio su misura"
+  },
+  "about": {
+     "chip": "Chi siamo",
+     "title": "L'avventura ti aspetta, la passione ci guida",
+     "subtitle": "Esperienze reali da viaggiatori felici che hanno scoperto destinazioni indimenticabili con noi.",
+    "story": {
+      "chip": "La nostra storia",
+      "title": "Un viaggio costruito sulla passione",
+      "description": "Un'agenzia di viaggi e servizio di guida nata nel 2010, dedicata a creare connessioni, condividere la nostra esperienza di viaggio e ottenere riconoscimenti lungo il percorso."
+    },
+    "features": {
+      "chip": "Perché viaggiare con noi",
+      "title": "Crea ricordi di viaggio indimenticabili!",
+
+      "item1": {
+          "title": "Avventure su misura solo per te",
+          "desc": "Ogni viaggio è creato con cura per adattarsi ai tuoi interessi, destinazioni e stile di viaggio—garantendo un'esperienza davvero personalizzata e indimenticabile."
+      },
+
+      "item2": {
+          "title": "Supporto e documentazione completi",
+          "desc": "Dall'assicurazione di viaggio all'assistenza per i visti e le prenotazioni, ci occupiamo di ogni dettaglio così puoi viaggiare con serenità."
+      },
+
+      "item3": {
+          "title": "Ricordi che durano una vita",
+          "desc": "Andiamo oltre i viaggi—creando esperienze significative, connessioni autentiche e momenti indimenticabili che custodirai per sempre."
+      }
+    },
+    "culture": {
+      "chip": "La nostra cultura",
+      "title": "Crea ricordi di viaggio indimenticabili!",
+
+      "item1": {
+          "title": "Attrezzatura di alta qualità",
+          "desc": "Preparati all'avventura con la nostra gamma completa di attrezzature—che sia immersione, trekking o campeggio, abbiamo tutto ciò che ti serve!"
+      },
+      "item2": {
+          "title": "Documentazione personale",
+          "desc": "Conserva i tuoi ricordi con il nostro team di fotografi che cattura ogni momento speciale."
+      },
+      "item3": {
+          "title": "Assicurazione completa",
+          "desc": "Ti proteggiamo con un'assicurazione di viaggio completa così puoi rilassarti e goderti il viaggio."
+      }
+    }
+  }
+}
