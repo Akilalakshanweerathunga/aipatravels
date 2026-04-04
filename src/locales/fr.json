@@ -888,5 +888,80 @@
         "desc": "Nous vous couvrons avec une assurance voyage complète pour que vous puissiez profiter de votre voyage en toute tranquillité."
       }
     }
+  },
+  "tailorMade": {
+    "chip": "Voyage sur Mesure",
+    "title": "Concevez Votre Voyage Idéal",
+    "subtitle": "Vos idées, notre expérience. Partagez le voyage de vos rêves à travers le Sri Lanka.",
+    "conditions": "Veuillez remplir tous les champs obligatoires en anglais et vous assurer que vos informations sont exactes avant de soumettre.",
+    "form": {
+      "title": "Questionnaire de Voyage Personnalisé",
+      "subtitle": "Parlez-nous de vos préférences de voyage et des détails de votre groupe, et nous créerons un itinéraire personnalisé juste pour vous.",
+      "note": "Après votre soumission, notre équipe examinera vos préférences et vous recontactera sous 24 heures avec un itinéraire et un devis personnalisés.",
+      "contact": {
+        "section": "Informations de Contact",
+        "name": "Nom du contact",
+        "email": "E-mail",
+        "phone": "Téléphone"
+      },
+      "group": {
+        "section": "Détails du Groupe",
+        "adults": "Nombre d'adultes",
+        "adultAges": "Âge des adultes",
+        "children": "Nombre d'enfants",
+        "childAges": "Âge des enfants",
+        "noChildren": "Pas d'enfants"
+      },
+      "trip": {
+        "section": "Informations Générales sur le Voyage",
+        "departure": "Date de départ prévue",
+        "duration": "Durée du séjour souhaitée",
+        "firstTime": "Est-ce votre première visite au Sri Lanka ?",
+        "medical": "Avez-vous des conditions médicales dont nous devrions être informés ?",
+        "dietary": "Avez-vous des préférences ou restrictions alimentaires ?",
+        "medicalPlaceholder": "Veuillez décrire toute condition médicale"
+      },
+      "common": {
+        "yes": "Oui",
+        "no": "Non",
+        "select": "Sélectionnez une option",
+        "selectMultiple": "Sélectionnez tout ce qui s'applique",
+        "selectDate": "Sélectionnez une date",
+        "selectDuration": "Sélectionnez la durée",
+        "selectYesNo": "Sélectionnez Oui ou Non",
+        "selectAges": "Entrez les âges séparés par des virgules",
+        "selectNumber": "Entrez un nombre",
+        "selectText": "Entrez du texte",
+        "selectMultipleOptions": "Sélectionnez plusieurs options",
+        "vegetarian": "Végétarien",
+        "vegan": "Végétalien",
+        "nonVegetarian": "Non-végétarien"
+      },
+      "extra": {
+        "dietary": "Préférence alimentaire",
+        "medical": "Problèmes médicaux (Veuillez décrire)",
+        "vehicle": "Besoins en véhicule",
+        "places": "Lieux à visiter",
+        "activities": "Activités",
+        "budget": "Budget",
+        "observations": "Observations",
+        "otherPlaces": "Autres lieux",
+        "otherActivities": "Autres activités",
+        "dietaryPlaceholder": "Veuillez décrire vos préférences alimentaires",
+        "placesPlaceholder": "Y a-t-il des endroits spécifiques que vous souhaitez visiter ?",
+        "activitiesPlaceholder": "Y a-t-il des activités spécifiques que vous souhaitez inclure ?",
+        "vehiclePlaceholder": "Aurez-vous besoin d'un véhicule pendant votre voyage ?",
+        "observationsPlaceholder": "D'autres observations ou préférences que vous aimeriez partager ?",
+        "dietaryOtherLabel": "Autre préférence alimentaire"
+      },
+      "submit": "Envoyer la demande",
+      "successMessage": "Merci pour votre soumission ! Notre équipe examinera vos préférences et vous recontactera sous 24 heures avec un itinéraire et un devis personnalisés.",
+      "errorMessage": "Une erreur est survenue lors de l'envoi de votre demande. Veuillez réessayer plus tard.",
+      "submitting": "Envoi en cours..."
+    },
+    "validation": {
+      "required": "Ce champ est obligatoire",
+      "invalidEmail": "Veuillez entrer une adresse e-mail valide"
+    }
   }
 }

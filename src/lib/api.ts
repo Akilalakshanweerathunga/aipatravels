@@ -28,6 +28,15 @@ export async function getCategories() {
   if (error) throw error;
   return data;
 }
+export async function getActivity() {
+  const { data, error } = await supabase
+    .from('activities')
+    .select('*')
+    .order('slug', { ascending: true });
+
+  if (error) throw error;
+  return data;
+}
 
 export async function getDestinations(): Promise<Destination[]> {
   const { data: destinations, error: destError } = await supabase

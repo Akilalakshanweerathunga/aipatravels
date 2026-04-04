@@ -900,5 +900,80 @@
         "desc": "여행자 보험으로 든든하게 보호해드리니 마음껏 여행을 즐기실 수 있습니다."
       }
     }
+  },
+  "tailorMade": {
+    "chip": "맞춤 여행",
+    "title": "나만의 완벽한 여정 설계하기",
+    "subtitle": "고객님의 아이디어에 저희의 경험을 더합니다. 스리랑카에서 꿈꾸던 여행을 공유해 주세요.",
+    "conditions": "모든 필수 항목은 영어로 작성해 주시기 바라며, 제출 전 정보가 정확한지 다시 한번 확인해 주세요.",
+    "form": {
+      "title": "맞춤 여행 설문지",
+      "subtitle": "여행 취향과 그룹 구성에 대해 알려주시면, 고객님만을 위한 맞춤형 일정을 만들어 드립니다.",
+      "note": "제출해 주신 내용은 담당 팀에서 검토 후, 24시간 이내에 개인별 맞춤 일정과 견적을 보내드립니다.",
+      "contact": {
+        "section": "연락처 정보",
+        "name": "성함",
+        "email": "이메일",
+        "phone": "전화번호"
+      },
+      "group": {
+        "section": "그룹 상세 정보",
+        "adults": "성인 인원",
+        "adultAges": "성인 연령대",
+        "children": "아동 인원",
+        "childAges": "아동 연령대",
+        "noChildren": "아동 없음"
+      },
+      "trip": {
+        "section": "일반 여행 정보",
+        "departure": "여행 출발일",
+        "duration": "희망 여행 기간",
+        "firstTime": "스리랑카 방문이 처음이신가요?",
+        "medical": "저희가 알아야 할 건강상의 특이사항이 있나요?",
+        "dietary": "선호하시는 식단이나 못 드시는 음식이 있나요?",
+        "medicalPlaceholder": "건강상의 특이사항을 설명해 주세요"
+      },
+      "common": {
+        "yes": "예",
+        "no": "아니오",
+        "select": "옵션 선택",
+        "selectMultiple": "해당되는 항목을 모두 선택해 주세요",
+        "selectDate": "날짜 선택",
+        "selectDuration": "기간 선택",
+        "selectYesNo": "예/아니오 선택",
+        "selectAges": "연령대를 쉼표로 구분하여 입력해 주세요",
+        "selectNumber": "숫자를 입력해 주세요",
+        "selectText": "내용을 입력해 주세요",
+        "selectMultipleOptions": "여러 옵션 선택 가능",
+        "vegetarian": "채식주의자 (베지테리언)",
+        "vegan": "비건",
+        "nonVegetarian": "일반식 (비채식)"
+      },
+      "extra": {
+        "dietary": "식단 선호도",
+        "medical": "건강 관련 사항 (상세히 작성)",
+        "vehicle": "차량 요청 사항",
+        "places": "방문하고 싶은 장소",
+        "activities": "활동 (액티비티)",
+        "budget": "예산 범위",
+        "observations": "기타 요청 사항",
+        "otherPlaces": "기타 장소",
+        "otherActivities": "기타 활동",
+        "dietaryPlaceholder": "식단 관련 선호 사항을 설명해 주세요",
+        "placesPlaceholder": "특별히 방문하고 싶은 장소가 있나요?",
+        "activitiesPlaceholder": "포함하고 싶은 특별한 활동이 있나요?",
+        "vehiclePlaceholder": "여행 중 차량 지원이 필요하신가요?",
+        "observationsPlaceholder": "그 외 공유하고 싶은 의견이나 취향이 있다면 자유롭게 적어주세요",
+        "dietaryOtherLabel": "기타 식단 선호"
+      },
+      "submit": "신청하기",
+      "successMessage": "신청해 주셔서 감사합니다! 담당 팀에서 검토 후 24시간 이내에 맞춤 일정과 견적을 보내드리겠습니다.",
+      "errorMessage": "신청서 제출 중 오류가 발생했습니다. 잠시 후 다시 시도해 주세요.",
+      "submitting": "제출 중..."
+    },
+    "validation": {
+      "required": "필수 입력 항목입니다",
+      "invalidEmail": "유효한 이메일 주소를 입력해 주세요"
+    }
   }
 }

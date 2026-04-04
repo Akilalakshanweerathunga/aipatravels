@@ -57,7 +57,8 @@ export default function Navbar({ locale }: NavbarProps) {
 
   const forceWhiteBgRoutes = [
     `/${currentLocale}/about-us`,
-    `/${currentLocale}/itineraries`
+    `/${currentLocale}/itineraries`,
+    `/${currentLocale}/tailor-made`
   ];
 
   const forceWhiteBg = forceWhiteBgRoutes.includes(pathname);

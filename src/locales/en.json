@@ -911,5 +911,81 @@
         "desc": "We've got your back with complete travel insurance so you can relax and fully enjoy your journey."
       }
     }
+  },
+ "tailorMade": {
+    "chip": "Custom Travel",
+    "title": "Design Your Perfect Journey",
+    "subtitle": "Your ideas, our experience. Share your dream trip across Sri Lanka.",
+    "conditions": "Please complete all required fields in English and ensure your information is accurate before submitting.",
+    "form": {
+      "title": "Custom Trip Questionnaire",
+      "subtitle": "Tell us about your travel preferences and group details, and we'll create a personalized itinerary just for you.",
+      "note": "After you submit, our team will review your preferences and get back to you within 24 hours with a personalized itinerary and quote.",
+      "contact": {
+        "section": "Contact Information",
+        "name": "Contact Name",
+        "email": "E-mail",
+        "phone": "Telephone"
+      },
+      "group": {
+        "section": "Group Details",
+        "adults": "Number of Adults",
+        "adultAges": "Age of Adults",
+        "children": "Number of Children",
+        "childAges": "Age of Children",
+        "noChildren": "No Children"
+      },
+      "trip": {
+        "section": "General Trip Information",
+        "departure": "Trip Departure Date",
+        "duration": "Length of Tour Requested",
+        "firstTime": "Is it your first time to visit Sri Lanka?",
+        "medical": "Any medical conditions we should be aware of?",
+        "dietary": "Any dietary preferences or restrictions?",
+        "medicalPlaceholder": "Please describe any medical conditions"
+        
+      },
+      "common": {
+        "yes": "Yes",
+        "no": "No",
+        "select": "Select an option",
+        "selectMultiple": "Select all that apply",
+          "selectDate": "Select a date",
+          "selectDuration": "Select duration",
+          "selectYesNo": "Select Yes or No",
+          "selectAges": "Enter ages separated by commas",
+          "selectNumber": "Enter a number",
+          "selectText": "Enter text",
+          "selectMultipleOptions": "Select multiple options",
+          "vegetarian": "Vegetarian",
+          "vegan": "Vegan",
+          "nonVegetarian": "Non-Vegetarian"
+      },
+      "extra": {
+        "dietary": "Dietary Preference",
+        "medical": "Medical Issues (Please describe)",
+        "vehicle": "Vehicle Requirements",
+        "places": "Places to Visit",
+        "activities": "Activities",
+        "budget": "Budget",
+        "observations": "Observations",
+        "otherPlaces": "Other Places",
+        "otherActivities": "Other Activities",
+        "dietaryPlaceholder": "Please describe any dietary preferences",
+        "placesPlaceholder": "Are there specific places you want to visit?",
+        "activitiesPlaceholder": "Are there specific activities you want to include?",
+        "vehiclePlaceholder": "Will you require a vehicle during your trip?",
+        "observationsPlaceholder": "Any other observations or preferences you'd like to share?",
+        "dietaryOtherLabel": "Other Dietary Preference"
+      },
+      "submit": "Submit Request",
+      "successMessage": "Thank you for your submission! Our team will review your preferences and get back to you within 24 hours with a personalized itinerary and quote.",
+      "errorMessage": "There was an error submitting your request. Please try again later.",
+      "submitting": "Submitting..."
+    },
+    "validation": {
+      "required": "This field is required",
+      "invalidEmail": "Please enter a valid email"
+    }
   }
 }
