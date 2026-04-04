@@ -6,7 +6,7 @@ export const company = {
   email: 'info@aipatravels.com',
   whatsapp: '94771234567',
   address: '123 Colombo Street, Colombo, Sri Lanka',
-  logo: '/logo.png',
+  logo: '/images/logo/logo.png',
   website: 'https://aipatravels.com',
   slogan: 'Your Trusted Sri Lanka Travel Partner',
   description: 'AIPA Travels is a leading travel agency specializing in tailor-made journeys across Sri Lanka. With over 10 years of experience, we offer personalized itineraries, expert local guides, and exceptional customer service to create unforgettable travel experiences.',

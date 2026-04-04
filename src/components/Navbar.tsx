@@ -24,7 +24,7 @@ import { navLinks } from '@/data/links';
 import { company } from '@/data/company';
 import { currencies } from '@/data/config';
 import { useTranslation } from 'react-i18next';
-
+import Image from 'next/image';
 
 interface NavbarProps {
   locale?: string;
@@ -119,13 +119,17 @@ export default function Navbar({ locale }: NavbarProps) {
           }}
         >
 
-          <Box sx={{ display: { xs: 'none', md: 'flex' }, gap: 2 }}>
-            <Typography
-              fontWeight="bold"
-              sx={{ fontSize: shrink ? '1rem' : '1.5rem', transition: '0.3s' }}
-            >
-              {company.name}
-            </Typography>
+          <Box sx={{ display: { xs: 'none', md: 'flex' }, gap: 2, alignItems: 'center', width: '100%' }}>
+            <Box sx={{ flexGrow: 1, display: 'flex', alignItems: 'center' }}>
+              <Image
+                src={company.logo}
+                alt={company.name}
+                width={shrink ? 100 : 110}
+                height={40}
+                priority
+                style={{ objectFit: 'contain', transition: '0.3s' }}
+              />
+            </Box>
             {navLinks.map((link) => {
               const fullPath = `/${currentLocale}${link.path}`;
               const isActive = pathname === fullPath;
@@ -144,14 +148,17 @@ export default function Navbar({ locale }: NavbarProps) {
               );
             })}
           </Box>
-          <Typography
-            fontWeight="bold"
-            sx={{ fontSize: shrink ? '1rem' : '1.5rem', transition: '0.3s', display: { xs: 'block', md: 'none' }  }}
-          >
-            {company.name}
-          </Typography>
+          <Box sx={{ display: { xs: 'block', md: 'none' } }}>
+            <Image
+              src={company.logo}
+              alt={company.name}
+              width={shrink ? 90 : 120}
+              height={35}
+              priority
+              style={{ objectFit: 'contain', transition: '0.3s' }}
+            />
+          </Box>
           <Box display="flex" alignItems="center">
-            <IconButton sx={{color:scrolled ? 'black' : 'white'}}><AccountCircleIcon /></IconButton>
 
             <IconButton
               sx={{ display: { md: 'none' }, color: scrolled ? 'black' : 'white' }}
