@@ -3,12 +3,13 @@
 import React, { useEffect, useState } from "react";
 import { Box, Typography } from "@mui/material";
 import Lottie from "lottie-react";
-
-// Import your Lottie animation
 import travelerAnimation from "@/loading/Traveler.json";
-
+import { useTranslation } from "react-i18next";
+import { company } from "@/data/company";
 export default function FullPageLoader() {
   const [isClient, setIsClient] = useState(false);
+  const { t } = useTranslation();
+
 
   useEffect(() => {
     setIsClient(true);
@@ -45,7 +46,7 @@ export default function FullPageLoader() {
           mb: 1,
         }}
       >
-        AIPA Travels
+        {company.name}
       </Typography>
 
       {/* Loading text */}
@@ -56,7 +57,7 @@ export default function FullPageLoader() {
           textAlign: "center",
         }}
       >
-        Loading your journey...
+        {t('other.loading')}
       </Typography>
     </Box>
   );

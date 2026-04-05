@@ -1,0 +1,21 @@
+{
+  "name": "AIPA Travels",
+  "short_name": "AIPA",
+  "description": "AIPA Travels is your ultimate travel companion, offering personalized itineraries, real-time updates, and seamless booking experiences. Explore the world with confidence and ease, knowing that AIPA Travels has your back every step of the way.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
