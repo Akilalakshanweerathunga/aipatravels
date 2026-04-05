@@ -6,6 +6,7 @@ export type ItineraryType = {
   nights: number;
   day_num: number;
   locale_tag: string;
+  slug: string;
   itinerary_days: { day_number: number; title_key: string; description_key: string }[];
   highlights: { highlight_key: string }[];
   inclusions: { inclusion_key: string }[];

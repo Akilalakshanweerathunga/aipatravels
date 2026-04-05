@@ -120,3 +120,22 @@ export async function getDestinationByKey(key: string) {
     activities: activitiesData,
   };
 }
+
+export async function getItineraryBySlug(slug: string) {
+  const { data, error } = await supabase
+    .from('itineraries')
+    .select(`
+      *,
+      highlights:itinerary_highlights(*),
+      itinerary_days:itinerary_days(*),
+      inclusions:itinerary_inclusions(*)
+    `)
+    .eq('slug', slug)
+    .single();
+
+  if (error) {
+    console.error('Error fetching itinerary:', error);
+    return null;
+  }
+  return data;
+}

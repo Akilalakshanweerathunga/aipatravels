@@ -199,22 +199,22 @@ export default function TailorMadeMUI() {
 
               <Section title={t("tailorMade.form.group.section")}>
                 <Row>
-                  <Box flex="1 1 250px">
+                  <Box flex={{ xs: "1 1 100%", sm: "1 1 250px" }}>
                     <Typography mb={1}>{t("tailorMade.form.group.adults")} *</Typography>
                     <Input placeholder="e.g. 2, 3, 4" onChange={(e:any)=>handleChange("numAdults",e.target.value)} required/>
                   </Box>
-                  <Box flex="1 1 250px">
+                  <Box flex={{ xs: "1 1 100%", sm: "1 1 250px" }}>
                     <Typography mb={1}>{t("tailorMade.form.group.adultAges")} *</Typography>
                     <Input placeholder="e.g. 25-30, 30-35" onChange={(e:any)=>handleChange("ageAdults", e.target.value)} required/>
                   </Box>
                 </Row>
                 <Box mt={3}>
                   <Row>
-                    <Box flex="1 1 250px">
+                    <Box flex={{ xs: "1 1 100%", sm: "1 1 250px" }}>
                       <Typography mb={1}>{t("tailorMade.form.group.children")} *</Typography>
                       <Input placeholder="e.g. 1, 2, 3" onChange={(e:any)=>handleChange("numChildren",e.target.value)} required />
                     </Box>
-                    <Box flex="1 1 250px">
+                    <Box flex={{ xs: "1 1 100%", sm: "1 1 250px" }}>
                       <Typography mb={1}>{t("tailorMade.form.group.childAges")} *</Typography>
                       <Input  placeholder="e.g. 5-10, 10-15" onChange={(e:any)=>handleChange("ageChildren", e.target.value)} required/>
                     </Box>
@@ -224,21 +224,21 @@ export default function TailorMadeMUI() {
 
               <Section title={t("tailorMade.form.trip.section")}>
                 <Row>
-                  <Box flex="1 1 250px">
+                  <Box flex={{ xs: "1 1 100%", sm: "1 1 250px" }}>
                     <Typography mb={1}>{t("tailorMade.form.trip.departure")} *</Typography>
                     <Input type="date" value={formData.tripDepartureDate} onChange={(e:any)=>handleChange("tripDepartureDate", e.target.value)} required/>
                   </Box>
-                  <Box flex="1 1 250px">
+                  <Box flex={{ xs: "1 1 100%", sm: "1 1 250px" }}>
                     <Typography mb={1}>{t("tailorMade.form.trip.duration")} *</Typography>
                     <Select options={["3-5 days","7-10 days","14+ days"]} value={formData.tourLength} onChange={(e:any)=>handleChange("tourLength",e.target.value)} required/>
                   </Box>
                 </Row>
                 <Row>
-                  <Box mt={3} flex="1 1 250px">
+                  <Box  mt={3} flex={{ xs: "1 1 100%", sm: "1 1 250px" }}>
                     <Typography mb={2}>{t("tailorMade.form.trip.firstTime")}</Typography>
                     <Chips options={[t("tailorMade.form.common.yes"), t("tailorMade.form.common.no")]} value={formData.firstTimeVisit} onChange={(v:any)=>handleChange("firstTimeVisit",v)} />
                   </Box>
-                  <Box mt={3} flex="1 1 250px">
+                  <Box  mt={3} flex={{ xs: "1 1 100%", sm: "1 1 250px" }}>
                     <Typography mb={2}>{t("tailorMade.form.extra.dietary")} *</Typography>
                     <Select 
                       options={["Non-Vegetarian", "Vegetarian", "Vegan", "Other"]} 
