@@ -15,6 +15,7 @@ export const company = {
     instagram: 'https://www.instagram.com/aipatravels',
     twitter: 'https://twitter.com/aipatravels',
     linkedin: 'https://www.linkedin.com/company/aipatravels',
+    youtube: 'https://www.youtube.com/aipatravels',
   },
   terms: 'By using our services, you agree to our terms and conditions. We are committed to providing the best travel experience while respecting local cultures and the environment. Please read our full terms on our website.',
   conditions: 'All bookings are subject to availability. Prices may vary based on season and demand. A deposit is required to secure your booking, with the balance due before departure. Cancellations may incur fees depending on the timing and nature of the cancellation.',

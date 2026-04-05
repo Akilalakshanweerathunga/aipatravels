@@ -5,5 +5,5 @@ export const navLinks = [
   // { name: 'nav.activities', path: '/activities' },
   { name: 'nav.tailorMade', path: '/tailor-made' },
   { name: 'nav.aboutUs', path: '/about-us' },
-  // { name: 'nav.planTrip', path: '/plan-your-trip' },
+  { name: 'nav.planTrip', path: '/contact-us' },
 ]

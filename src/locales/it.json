@@ -848,8 +848,10 @@
      "sea": "Sud-est asiatico",
      "southAmerica": "Sud America",
      "about": "Chi siamo",
+     "about-us": "Chi siamo",
      "blog": "Blog",
      "contact": "Contatto",
+     "contact-us": "Contatto",
      "terms": "Termini",
      "privacy": "Privacy",
      "imprint": "Impronta"
@@ -978,6 +980,183 @@
     "validation": {
       "required": "Questo campo è obbligatorio",
       "invalidEmail": "Inserisci un indirizzo e-mail valido"
+    }
+  },
+  "commonForms": {
+    "firstName": "Nome",
+    "firstNamePlaceholder": "Inserisci il tuo nome",
+    "lastName": "Cognome",
+    "lastNamePlaceholder": "Inserisci il tuo cognome",
+    "email": "Email",
+    "emailPlaceholder": "Inserisci il tuo indirizzo email",
+    "phone": "Numero di telefono",
+    "phonePlaceholder": "Inserisci il tuo numero di telefono",
+    "numberOfAdults": "Numero di adulti",
+    "numberOfAdultsPlaceholder": "Inserisci il numero di adulti",
+    "agesOfAdults": "Età degli adulti",
+    "agesOfAdultsPlaceholder": "Inserisci le età es: 25-30, 30-35, 35-40",
+    "numberOfChildren": "Numero di bambini",
+    "numberOfChildrenPlaceholder": "Inserisci il numero di bambini",
+    "agesOfChildren": "Età dei bambini",
+    "agesOfChildrenPlaceholder": "Inserisci le età es: 10-12, 8-10, 5-8",
+    "departureDate": "Data di partenza",
+    "departureDatePlaceholder": "Seleziona la data di partenza",
+    "tripDuration": "Durata del viaggio",
+    "tripDurationPlaceholder": "Seleziona la durata del viaggio",
+    "dietaryPreference": "Preferenze alimentari",
+    "dietaryPreferencePlaceholder": "Descrivi eventuali preferenze alimentari",
+    "medicalConditions": "Condizioni mediche",
+    "medicalConditionsPlaceholder": "Descrivi eventuali condizioni mediche",
+    "submitting": "Invio in corso...",
+    "submitInquiry": "Invia richiesta",
+    "observations": "Osservazioni",
+    "observationsPlaceholder": "Altre osservazioni o preferenze da condividere?",
+    "firstTimeInSriLanka": "È la tua prima visita in Sri Lanka?",
+    "arrangeVideoCall": "Organizza una videochiamata",
+    "videoCallDescription": "Parla con uno specialista dei tuoi piani di viaggio tramite videochiamata, senza scaricare software e in un orario comodo per te.",
+    "contactInformation": "Potremmo aver bisogno di contattarti per discutere più nel dettaglio i tuoi piani di viaggio, quindi fornisci informazioni di contatto accurate.",
+    "privacyPolicy": "Inviando questo modulo, accetti la nostra Informativa sulla privacy e acconsenti a essere contattato in merito alla tua richiesta di viaggio.",
+    "selectOption": "Seleziona un'opzione",
+    "selectMultiple": "Seleziona tutte le opzioni applicabili",
+    "selectDate": "Seleziona una data",
+    "selectDuration": "Seleziona la durata",
+    "selectYesNo": "Seleziona Sì o No",
+    "selectText": "Inserisci il testo",
+    "interestedInItinerary": "Interessato all'itinerario:",
+    "generalTripInfo": "Informazioni generali sul viaggio",
+    "selectMultipleOptions": "Seleziona più opzioni",
+    "vegetarian": "Vegetariano",
+    "vegan": "Vegano",
+    "nonVegetarian": "Non vegetariano",
+    "yes": "Sì",
+    "no": "No",
+    "personalDetails": "Dettagli personali",
+    "titleLabel": "Titolo",
+    "whenTraveling": "Quando hai intenzione di viaggiare?",
+    "groupDetails": "Dettagli del gruppo",
+    "tripInformation": "Informazioni sul viaggio",
+    "travelPlansSection": "Raccontaci i tuoi piani e preferenze di viaggio e creeremo un itinerario personalizzato solo per te.",
+    "agreeDetailsShare": "Acconsento alla raccolta e al trattamento dei miei dati personali da parte di Aipa Travels. Comprendo che queste informazioni saranno utilizzate esclusivamente per creare il mio itinerario su misura, comunicare i dettagli del viaggio e fornire servizi personalizzati. Accetto i termini dell'Informativa sulla privacy.",
+    "agreementRequired": "Devi accettare di condividere i tuoi dati per procedere.",
+    "successMessage": "La tua richiesta è stata inviata con successo!",
+    "errorMessage": "Si è verificato un errore durante l'invio della richiesta. Riprova.",
+    "titles": {
+      "Mr": "Sig.",
+      "Mrs": "Sig.ra",
+      "Ms": "Sig.ra",
+      "Miss": "Sig.na",
+      "Dr": "Dott.",
+      "Prof": "Prof.",
+      "Sir": "Sir",
+      "Dame": "Dama"
+    },
+    "timing": {
+      "Within 3 months": "Entro 3 mesi",
+      "3-6 months": "3-6 mesi",
+      "Over 6 months": "Oltre 6 mesi"
+    }
+  },
+  "contact": {
+    "chip": "Contattaci",
+    "title": "Contatta Aipa Travels",
+    "description": "Hai domande o hai bisogno di assistenza? Il nostro team è qui per aiutarti a pianificare il tuo viaggio perfetto in Sri Lanka. Contattaci oggi stesso!",
+    "phone": "Telefono",
+    "email": "Email",
+    "address": "Indirizzo",
+    "form": {
+      "firstName": "Nome",
+      "lastName": "Cognome",
+      "name": "Il tuo nome",
+      "namePlaceholder": "Inserisci il tuo nome",
+      "email": "La tua email",
+      "emailPlaceholder": "Inserisci il tuo indirizzo email",
+      "phone": "Numero di telefono",
+      "message": "Il tuo messaggio",
+      "messagePlaceholder": "Inserisci il tuo messaggio qui",
+      "submit": "Invia messaggio",
+      "sending": "Invio in corso...",
+      "successMessage": "Il tuo messaggio è stato inviato con successo!",
+      "errorMessage": "Si è verificato un errore durante l'invio del messaggio. Riprova.",
+      "required": "Questo campo è obbligatorio",
+      "whatsapp": "CHATTA SU WHATSAPP",
+      "invalidEmail": "Inserisci un indirizzo email valido",
+      "fillRequired": "Compila tutti i campi obbligatori",
+      "whatsappDefault": "Ciao, vorrei avere informazioni sui vostri servizi di viaggio."
+    }
+  },
+  "PrivacyPolicy": {
+    "chipLabel": "Informativa sulla Privacy",
+    "title": "Informativa sulla Privacy —",
+    "intro": "In AIPA Travels, rispettiamo la tua privacy e ci impegniamo a proteggere le tue informazioni personali.",
+    "informationCollection": {
+      "title": "Raccolta e utilizzo delle informazioni",
+      "description": "Raccogliamo le informazioni che fornisci durante l'utilizzo del nostro sito web o dei nostri servizi. Queste informazioni vengono archiviate in modo sicuro e utilizzate per fornire e migliorare i nostri servizi, personalizzare la tua esperienza e rispondere alle tue richieste."
+    },
+    "marketingCommunications": {
+      "title": "Comunicazioni di marketing",
+      "description": "Potremmo inviarti aggiornamenti sui nostri pacchetti di viaggio, promozioni e servizi. Puoi annullare l'iscrizione in qualsiasi momento tramite il link di disiscrizione o contattandoci a info@aipatravels.com."
+    },
+    "dataSharing": {
+      "title": "Condivisione dei dati",
+      "description": "AIPA Travels non vende i tuoi dati personali. Possiamo condividere le tue informazioni solo con partner affidabili per completare le tue prenotazioni di viaggio e i servizi richiesti."
+    },
+    "internationalTransfers": {
+      "title": "Trasferimenti internazionali dei dati",
+      "description": "A causa della natura globale dei servizi di viaggio, le tue informazioni possono essere elaborate o archiviate in paesi diversi dal tuo."
+    },
+    "dataRetention": {
+      "title": "Conservazione dei dati",
+      "description": "Conserviamo i tuoi dati solo per il tempo necessario a fornire i nostri servizi e rispettare gli obblighi legali."
+    },
+    "externalLinks": {
+      "title": "Link esterni",
+      "description": "Il nostro sito web può contenere link verso siti esterni. Non siamo responsabili delle loro pratiche sulla privacy e ti invitiamo a consultare le loro politiche."
+    },
+    "yourRights": {
+      "title": "I tuoi diritti",
+      "description": "Hai il diritto di accedere, aggiornare o eliminare le tue informazioni personali. Contattaci per qualsiasi richiesta."
+    },
+    "cookies": {
+      "title": "Cookie",
+      "description": "Utilizziamo cookie per migliorare la tua esperienza di navigazione. Puoi gestire le impostazioni dei cookie tramite il tuo browser. Disabilitare i cookie può influire sulle funzionalità del sito web."
+    },
+    "consent": {
+      "title": "Consenso",
+      "description": "Utilizzando il nostro sito web, acconsenti a questa Informativa sulla Privacy."
+    }
+  },
+  "Terms": {
+    "chipLabel": "Termini di Servizio",
+    "title": "Termini di Servizio — AIPA Travels",
+    "intro": "Accedendo o utilizzando i nostri servizi, accetti i seguenti termini e condizioni.",
+    "lastUpdated": "Ultimo aggiornamento: aprile 2026",
+    "acceptance": {
+      "title": "Accettazione dei termini",
+      "description": "Accedendo o utilizzando i servizi di AIPA Travels, accetti di essere vincolato da questi Termini. Se non accetti, ti preghiamo di non utilizzare i nostri servizi."
+    },
+    "description": {
+      "title": "Descrizione dei servizi",
+      "description": "AIPA Travels fornisce servizi di viaggio e turismo, inclusa la pianificazione dei viaggi, le prenotazioni e esperienze curate in tutto lo Sri Lanka. I servizi possono evolversi nel tempo."
+    },
+    "responsibilities": {
+      "title": "Responsabilità dell'utente",
+      "description": "Ti impegni a utilizzare i nostri servizi in modo legale e responsabile. Non devi abusare, interrompere o tentare di ottenere accessi non autorizzati ai nostri sistemi."
+    },
+    "intellectualProperty": {
+      "title": "Proprietà intellettuale",
+      "description": "Tutti i contenuti, marchi, design e materiali sono di proprietà di AIPA Travels e protetti dalle leggi applicabili sulla proprietà intellettuale."
+    },
+    "payments": {
+      "title": "Pagamenti e rimborsi",
+      "description": "Tutti i pagamenti devono essere completati come concordato. Le politiche di rimborso dipendono dal servizio o pacchetto specifico prenotato e saranno comunicate di conseguenza."
+    },
+    "termination": {
+      "title": "Terminazione",
+      "description": "Ci riserviamo il diritto di sospendere o terminare l'accesso ai nostri servizi se questi termini vengono violati o per qualsiasi motivo ritenuto necessario."
+    },
+    "governingLaw": {
+      "title": "Legge applicabile",
+      "description": "Questi Termini sono regolati dalle leggi dello Sri Lanka."
     }
   }
 }

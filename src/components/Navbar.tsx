@@ -58,7 +58,11 @@ export default function Navbar({ locale }: NavbarProps) {
   const forceWhiteBgRoutes = [
     `/${currentLocale}/about-us`,
     `/${currentLocale}/itineraries`,
-    `/${currentLocale}/tailor-made`
+    `/${currentLocale}/tailor-made`,
+    `/${currentLocale}/contact-us`,
+    `/${currentLocale}/privacy-policy`,
+    `/${currentLocale}/terms-and-conditions`,
+    
   ];
 
   const forceWhiteBg = forceWhiteBgRoutes.includes(pathname);
@@ -152,8 +156,8 @@ export default function Navbar({ locale }: NavbarProps) {
             <Image
               src={company.logo}
               alt={company.name}
-              width={shrink ? 90 : 120}
-              height={35}
+              width={shrink ? 100 : 110}
+              height={40}
               priority
               style={{ objectFit: 'contain', transition: '0.3s' }}
             />
@@ -161,7 +165,7 @@ export default function Navbar({ locale }: NavbarProps) {
           <Box display="flex" alignItems="center">
 
             <IconButton
-              sx={{ display: { md: 'none' }, color: scrolled ? 'black' : 'white' }}
+              sx={{ display: { md: 'none' }, color: scrolled || forceWhiteBg ? 'black' : 'white', }}
               onClick={() => setDrawerOpen(true)}
             >
               <MenuIcon />

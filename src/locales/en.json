@@ -855,8 +855,10 @@
     "sea": "South East Asia",
     "southAmerica": "South America",
     "about": "About Us",
+    "about-us": "About",
     "blog": "Blog",
-    "contact": "Contact",
+    "contact": "Contact Us",
+    "contact-us": "Contact",
     "terms": "Terms",
     "privacy": "Privacy Policy",
     "imprint": "Imprint"
@@ -1060,6 +1062,109 @@
       "Within 3 months": "Within 3 months",
       "3-6 months": "3-6 months",
       "Over 6 months": "Over 6 months"
+    }
+  },
+  "contact": {
+    "chip": "Contact Us",
+    "title": "Get in Touch with Aipa Travels",
+    "description": "Have questions or need assistance? Our team is here to help you plan your perfect trip to Sri Lanka. Contact us today!",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "form": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "name": "Your Name",
+      "namePlaceholder": "Enter your name",
+      "email": "Your Email",
+      "emailPlaceholder": "Enter your email address",
+      "phone": "Phone Number",
+      "message": "Your Message",
+      "messagePlaceholder": "Enter your message here",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "successMessage": "Your message has been sent successfully!",
+      "errorMessage": "There was an error sending your message. Please try again.",
+      "required": "This field is required",
+      "whatsapp":"CHAT ON WHATSAPP",
+      "invalidEmail": "Enter a valid email address",
+      "fillRequired": "Please fill all required fields",
+      "whatsappDefault": "Hello, I would like to inquire about your travel services."
+    }
+  },
+  "PrivacyPolicy": {
+    "chipLabel": "Privacy Policy",
+    "title": "Privacy Policy —",
+    "intro": "At AIPA Travels, we value your privacy and are committed to protecting your personal information.",
+    "informationCollection": {
+      "title": "Information Collection and Use",
+      "description": "We collect information that you provide when using our website or services. This information is securely stored and used to deliver and improve our services, personalize your experience, and respond to your inquiries."
+    },
+    "marketingCommunications": {
+      "title": "Marketing Communications",
+      "description": "We may send you updates about our travel packages, promotions, and services. You can opt out at any time using the unsubscribe link or by contacting us at info@aipatravels.com."
+    },
+    "dataSharing": {
+      "title": "Data Sharing",
+      "description": "AIPA Travels does not sell your personal data. We may share your information with trusted partners only to fulfill your travel bookings and requested services."
+    },
+    "internationalTransfers": {
+      "title": "International Data Transfers",
+      "description": "Due to the global nature of travel services, your information may be processed or stored in countries outside your own."
+    },
+    "dataRetention": {
+      "title": "Data Retention",
+      "description": "We retain your data only as long as necessary to provide our services and comply with legal obligations."
+    },
+    "externalLinks": {
+      "title": "External Links",
+      "description": "Our website may contain links to external websites. We are not responsible for their privacy practices and encourage you to review their policies."
+    },
+    "yourRights": {
+      "title": "Your Rights",
+      "description": "You have the right to access, update, or delete your personal information. Please contact us for any requests."
+    },
+    "cookies": {
+      "title": "Cookies",
+      "description": "We use cookies to enhance your browsing experience. You can manage cookie settings through your browser. Disabling cookies may affect website functionality."
+    },
+    "consent": {
+      "title": "Consent",
+      "description": "By using our website, you consent to this Privacy Policy."
+    }
+  },
+  "Terms": {
+    "chipLabel": "Terms of Service",
+    "title": "Terms of Service — AIPA Travels",
+    "intro": "By accessing or using our services, you agree to the following terms and conditions.",
+    "lastUpdated": "Last updated: April 2026",
+    "acceptance": {
+      "title": "Acceptance of Terms",
+      "description": "By accessing or using AIPA Travels services, you agree to be bound by these Terms. If you do not agree, please do not use our services."
+    },
+    "description": {
+      "title": "Description of Services",
+      "description": "AIPA Travels provides travel and tourism services including trip planning, bookings, and curated experiences across Sri Lanka. Services may evolve over time."
+    },
+    "responsibilities": {
+      "title": "User Responsibilities",
+      "description": "You agree to use our services lawfully and responsibly. You must not misuse, disrupt, or attempt to gain unauthorized access to our systems."
+    },
+    "intellectualProperty": {
+      "title": "Intellectual Property",
+      "description": "All content, branding, designs, and materials are owned by AIPA Travels and protected under applicable intellectual property laws."
+    },
+    "payments": {
+      "title": "Payments and Refunds",
+      "description": "All payments must be completed as agreed. Refund policies depend on the specific service or package booked and will be communicated accordingly."
+    },
+    "termination": {
+      "title": "Termination",
+      "description": "We reserve the right to suspend or terminate access to our services if these terms are violated or for any reason deemed necessary."
+    },
+    "governingLaw": {
+      "title": "Governing Law",
+      "description": "These Terms are governed by the laws of Sri Lanka."
     }
   }
 }

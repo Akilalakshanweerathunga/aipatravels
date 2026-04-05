@@ -60,7 +60,7 @@ export async function POST(req: Request) {
 
                 <!-- HEADER -->
                 <div style="background:linear-gradient(135deg,#657b43,#8fae5d);padding:30px;text-align:center;color:#fff">
-                    <img src="${company.logo}" alt="${company.name}" style="height:60px;margin-bottom:10px"/>
+                    <img src="https://aipatravels.com/logo.png" alt="${company.name}" style="height:60px;margin-bottom:10px"/>
                     <h1 style="margin:0;font-size:24px">${company.name}</h1>
                     <p style="margin:5px 0 0;font-size:14px;opacity:0.9">${company.slogan}</p>
                 </div>
