@@ -156,8 +156,6 @@ export default function DestinationLineup({ items = [], images = [] }: Props) {
                     opacity: 0.4,
                   }}
                 />
-
-                {/* OVERLAY */}
                 <Box
                   className="overlay"
                   sx={{
@@ -175,7 +173,6 @@ export default function DestinationLineup({ items = [], images = [] }: Props) {
                     transition: '0.5s ease',
                   }}
                 >
-                  {/* CHIP */}
                   <Chip
                     label={item.specialty}
                     size="small"
@@ -189,7 +186,6 @@ export default function DestinationLineup({ items = [], images = [] }: Props) {
                     }}
                   />
 
-                  {/* TITLE */}
                   <Typography
                     sx={{
                       fontWeight: 700,
@@ -200,7 +196,6 @@ export default function DestinationLineup({ items = [], images = [] }: Props) {
                     {item.place_name}
                   </Typography>
 
-                  {/* HOVER CONTENT */}
                   <Box
                     className="content"
                     sx={{
@@ -228,7 +223,7 @@ export default function DestinationLineup({ items = [], images = [] }: Props) {
                         letterSpacing: '0.3px',
                       }}
                     >
-                      ✨ {item.best_time_to_visit}
+                      {item.best_time_to_visit}
                     </Typography>
                   </Box>
                 </Box>

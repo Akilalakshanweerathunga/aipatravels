@@ -61,37 +61,56 @@ export default function SingleDestinationsClient({ destination }: Props) {
 
 
   return (
-    <Box sx={{ display: 'block', position: 'relative', width: '100%' }}>
-      <HeroBanner
-        headTitle={t(`destinations.${key}.title`)}
-        title={t(`destinations.${key}.title`)}
-        subtitle={t(`destinations.${key}.overview`)}
-        image={`/images/destinations/hero/${destination.main_banner}`}
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Place",
+            "name": destination.title,
+            "description": destination.overview,
+            "image": `/images/destinations/hero/${destination.main_banner}`,
+            "address": {
+              "@type": "PostalAddress",
+              "addressCountry": "Sri Lanka"
+            },
+            "touristType": destination.category_key?.replace('_', ' ') || "Tourist Attraction"
+          })
+        }}
       />
+      <Box sx={{ display: 'block', position: 'relative', width: '100%' }}>
+        <HeroBanner
+          headTitle={t(`destinations.${key}.title`)}
+          title={t(`destinations.${key}.title`)}
+          subtitle={t(`destinations.${key}.overview`)}
+          image={`/images/destinations/hero/${destination.main_banner}`}
+        />
 
-      <AboutSection
-        title={t('destinations.about_title')}
-        subtitle={t(`destinations.${key}.overview`, {
-          defaultValue: destination?.overview || destination?.label || '',
-        })}
-        description={t(`destinations.${key}.description`, {
-          defaultValue: destination?.description || '',
-        })}
-      />
+        <AboutSection
+          title={t('destinations.about_title')}
+          subtitle={t(`destinations.${key}.overview`, {
+            defaultValue: destination?.overview || destination?.label || '',
+          })}
+          description={t(`destinations.${key}.description`, {
+            defaultValue: destination?.description || '',
+          })}
+        />
 
-      <DestinationLineup
-        items={lineupItems}
-        images={destination.destination_lineups}
-      />
-      <ThingsToDo
-        items={activityItems}
-        images={destination.activities}
-      />
+        <DestinationLineup
+          items={lineupItems}
+          images={destination.destination_lineups}
+        />
+        <ThingsToDo
+          items={activityItems}
+          images={destination.activities}
+        />
 
-      <DestinationGallery
-        destination={destination}
-        activities={destination.activities}
-      />
-    </Box>
+        <DestinationGallery
+          destination={destination}
+          activities={destination.activities}
+        />
+      </Box>
+    </>
   );
 }

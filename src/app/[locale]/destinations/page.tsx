@@ -2,14 +2,24 @@ import { company } from "@/data/company";
 import DestinationsClient from "./DestinationsClient";
 import { getDestinations } from "@/lib/api";
 import { Destination } from "@/types/destination";
+import { Metadata } from 'next';
 
-export const metadata = {
-    title: company.name + ' - Explore Sri Lanka with Us',
-    description: company.description,
+export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
+  const { locale } = await params;
+  
+  return {
+    title: 'Top Destinations in Sri Lanka',
+    description: 'Explore the best of Sri Lanka, from the golden beaches of Mirissa to the ancient fortress of Sigiriya. Discover your next adventure with our curated destination guide.',
     alternates: {
-      canonical: `/destinations`,
+      canonical: `https://aipatravels.com/${locale}/destinations`,
     },
-};
+    openGraph: {
+      title: 'Explore Sri Lanka Destinations',
+      description: 'Find the perfect spot for your next holiday.',
+      images: ['/images/hero/destination.jpg'],
+    }
+  };
+}
 type PageProps = {
   params: Promise<{ locale: string }>;
 };

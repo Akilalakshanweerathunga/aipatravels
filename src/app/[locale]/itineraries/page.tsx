@@ -1,24 +1,20 @@
-'use client';
+import { Metadata } from 'next';
+import ItinerariesPage from './ItinerariesPage';
 
-import HeroBanner from '@/components/partials/HeroBanner';
-import ItinerarySection from '@/components/itinerary/ItenarySection';
-import CustomJourney from '@/components/partials/CustomJourneyBanner';
-import { useTranslation } from 'react-i18next';
+export const metadata: Metadata = {
+  title: 'Sri Lanka Tour Itineraries & Vacation Packages | AIPA Travels',
+  description: 'Browse our curated Sri Lanka tour itineraries. From 5-day wildlife safaris to 14-day grand island adventures, find the perfect holiday package for your needs.',
+  alternates: {
+    canonical: 'https://aipatravels.com/en/itineraries',
+    languages: {
+      'en-US': 'https://aipatravels.com/en/itineraries',
+      'fr-FR': 'https://aipatravels.com/fr/itineraries',
+      'it-IT': 'https://aipatravels.com/it/itineraries',
+      'kr-KR': 'https://aipatravels.com/kr/itineraries',
+    },
+  },
+};
 
-export default function ItinerariesPage() {
-  const { t } = useTranslation();
-
-  return (
-    <>
-      <HeroBanner
-        headTitle={t('itineraries.headTitle')}
-        title={t('itineraries.title')}
-        subtitle={t('itineraries.subtitle')}
-        image="/images/hero/itinerary.jpg"
-      />
-
-      <ItinerarySection />
-      <CustomJourney />
-    </>
-  );
+export default function Page() {
+  return <ItinerariesPage />;
 }

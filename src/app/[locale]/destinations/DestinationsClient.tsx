@@ -18,17 +18,34 @@ export default function DestinationsClient({ locale, data }: Props) {
   const bannerDestination = data.find((d) => d.banner);
 
   return (
-    <Box sx={{ display: 'block', position: 'relative', width: '100%' }}>
-      <HeroBanner
-        headTitle={t('destinations.headTitle')}
-        title={t('destinations.title')}
-        subtitle={t('destinations.subtitle')}
-        image="/images/hero/destination.jpg"
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "ItemList",
+            "itemListElement": data.map((dest, index) => ({
+              "@type": "ListItem",
+              "position": index + 1,
+              "url": `https://aipatravels.com/${locale}/destinations/${dest.key}`,
+              "name": dest.label
+            }))
+          })
+        }}
       />
-      
-      <DestinationList data={data} locale={locale} />
-      
-      <CustomJourney />
-    </Box>
+      <Box sx={{ display: 'block', position: 'relative', width: '100%' }}>
+        <HeroBanner
+          headTitle={t('destinations.headTitle')}
+          title={t('destinations.title')}
+          subtitle={t('destinations.subtitle')}
+          image="/images/hero/destination.jpg"
+        />
+        
+        <DestinationList data={data} locale={locale} />
+        
+        <CustomJourney />
+      </Box>
+    </>
   );
 }

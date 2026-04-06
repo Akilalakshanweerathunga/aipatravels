@@ -1,81 +1,35 @@
-'use client';
-
-import { use, useEffect, useState } from 'react';
-import HeroBanner from '@/components/partials/HeroBanner';
-import { useTranslation } from 'react-i18next';
+import { Metadata } from 'next';
 import { getItineraryBySlug } from '@/lib/api';
-import { CircularProgress, Box, Container, Typography } from '@mui/material';
-import ItineraryInquiryForm from '@/components/itinerary/InquiryForm';
-import ItineraryDetails from '@/components/itinerary/inquiryDetails'; // Import the details component
+import InquiryPage from './InquiryPage'; // Your existing client component
 
-interface PageProps {
-  params: Promise<{
-    key: string;
-    locale: string;
-  }>;
+type Props = {
+  params: Promise<{ locale: string; key: string }>;
+};
+
+// 1. DYNAMIC SEO METADATA
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale, key } = await params;
+  const itinerary = await getItineraryBySlug(key);
+
+  if (!itinerary) return { title: 'Itinerary Not Found' };
+
+  const baseUrl = 'https://aipatravels.com';
+  
+  return {
+    title: `${itinerary.name} Inquiry | AIPA Travels`,
+    description: `Book your ${itinerary.day_num}-day ${itinerary.category_key.replace('_', ' ')} experience in Sri Lanka. Request a custom quote today.`,
+    alternates: {
+      canonical: `${baseUrl}/${locale}/itineraries/inquiry/${key}`,
+    },
+    openGraph: {
+      images: [`/images/itineraries/${itinerary.slug}.png`],
+    }
+  };
 }
 
-export default function InquiryPage({ params }: PageProps) {
-  const { t } = useTranslation();
-  const { key } = use(params);
-  
-  const [itinerary, setItinerary] = useState<any>(null);
-  const [loading, setLoading] = useState(true);
+export default async function Page({ params }: Props) {
+  const resolvedParams = await params;
+  const itinerary = await getItineraryBySlug(resolvedParams.key);
 
-  useEffect(() => {
-    async function loadData() {
-      setLoading(true);
-      const data = await getItineraryBySlug(key);
-      setItinerary(data);
-      setLoading(false);
-    }
-    loadData();
-  }, [key]);
-
-  // Helper functions used by the Details component
-  const convertPrice = (price: number) => `$${price}`; // Replace with your actual conversion logic
-  const getImage = (key: string) => `/images/categories/${key}.jpg`;
-  const getAlt = (key: string) => key.replace(/-/g, ' ');
-
-  if (loading) {
-    return (
-      <Box display="flex" justifyContent="center" alignItems="center" minHeight="50vh">
-        <CircularProgress sx={{ color: '#657b43' }} />
-      </Box>
-    );
-  }
-
-  if (!itinerary) {
-    return (
-      <Container sx={{ py: 10, textAlign: 'center' }}>
-        <Typography variant="h5">Itinerary not found</Typography>
-      </Container>
-    );
-  }
-
-  return (
-    <>
-        <HeroBanner
-            headTitle={t('itineraries.headTitle')}
-            title={t(`itineraries.${itinerary.locale_tag}.title`)}
-            subtitle={t(`itineraries.${itinerary.locale_tag}.overview`)}
-            image={`/images/itineraries/${itinerary.slug}.png`} 
-        />
-        
-        <ItineraryInquiryForm 
-        itineraryTag={itinerary.locale_tag} 
-        itinerarySlug={itinerary.slug} 
-        />
-        
-        <ItineraryDetails 
-            selected={itinerary}
-            onClose={() => {}} 
-            t={t}
-            convertPrice={convertPrice}
-            getImage={getImage}
-            getAlt={getAlt}
-            isPageView={true} 
-        />
-    </>
-  );
+  return <InquiryPage params={params} />;
 }
