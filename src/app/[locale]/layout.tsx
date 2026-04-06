@@ -1,3 +1,5 @@
+// D:\projects\squreasoft\aipa\src\app\[locale]\layout.tsx
+
 import type { Metadata } from 'next';
 import MuiProvider from '../providers/MuiProvider';
 import Navbar from '@/components/Navbar';
@@ -16,6 +18,17 @@ export const metadata: Metadata = {
   description: company.description,
 
   metadataBase: new URL(company.website),
+
+  // --- ADVANCED SEO: MULTILINGUAL SUPPORT ---
+  alternates: {
+    canonical: '/',
+    languages: {
+      'en-US': '/en',
+      'fr-FR': '/fr',
+      'it-IT': '/it',
+      'kr-KR': '/kr',
+    },
+  },
 
   openGraph: {
     title: company.name,
@@ -37,7 +50,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: company.name,
     description: company.description,
-    images: '/og-image.png .png',
+    images: '/og-image.png', // FIXED: removed extra .png
   },
 
   icons: {
@@ -63,12 +76,12 @@ export default async function LocaleLayout({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
-
   const typedLocale = locale as Locale;
 
   return (
+    // The lang attribute is critical for localized search results
     <html lang={typedLocale}>
-      <body>
+      <body style={{ margin: 0, padding: 0 }}>
         <MuiProvider params={{ locale: typedLocale }}>
           <Navbar locale={typedLocale} />
           {children}
