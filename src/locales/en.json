@@ -1166,5 +1166,21 @@
       "title": "Governing Law",
       "description": "These Terms are governed by the laws of Sri Lanka."
     }
+  },
+  "notFound": {
+    "title": "Lost in Your Journey?",
+    "description": "Looks like this destination doesn’t exist or has moved. Let AIPA Travels guide you back to your next adventure.",
+    "button": "Explore Destinations"
+  },
+  "cookies": {
+    "title": "We value your privacy",
+    "intro": "We use cookies and similar technologies to improve your experience on our website. This includes:",
+    "point1": "Enhancing website functionality and performance",
+    "point2": "Analyzing how visitors use our site",
+    "point3": "Serving personalized content and recommendations",
+    "point4": "Remembering your preferences and settings",
+    "footer": "By clicking \"Accept All\", you consent to our use of cookies. If you prefer, you can choose to decline, and only essential cookies will be used.",
+    "acceptAll": "Accept All",
+    "declineAll": "Decline All"
   }
 }

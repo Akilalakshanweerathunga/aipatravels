@@ -39,7 +39,7 @@ export default function Navbar({ locale }: NavbarProps) {
   const [scrolled, setScrolled] = useState(false);
   const [shrink, setShrink] = useState(false);
   const [lastScroll, setLastScroll] = useState(0);
-  const [currency, setCurrency] = useState('LKR');
+  const [currency, setCurrency] = useState('USD');
 
   const [currentLocale, setCurrentLocale] = useState(locale || 'en');
 
@@ -55,17 +55,23 @@ export default function Navbar({ locale }: NavbarProps) {
     return () => window.removeEventListener('scroll', handleScroll);
   }, [lastScroll]);
 
-  const forceWhiteBgRoutes = [
-    `/${currentLocale}/about-us`,
-    `/${currentLocale}/itineraries`,
-    `/${currentLocale}/tailor-made`,
-    `/${currentLocale}/contact-us`,
-    `/${currentLocale}/privacy-policy`,
-    `/${currentLocale}/terms-and-conditions`,
-    
-  ];
+  // 1. Define the specific internal pages that need a white background
+const whiteBackgroundManualRoutes = [
+  `/${currentLocale}/about-us`,
+  `/${currentLocale}/itineraries`,
+  `/${currentLocale}/tailor-made`,
+  `/${currentLocale}/contact-us`,
+  `/${currentLocale}/privacy-policy`,
+  `/${currentLocale}/terms-and-conditions`,
+];
 
-  const forceWhiteBg = forceWhiteBgRoutes.includes(pathname);
+const isKnownRoute = 
+  navLinks.some(link => pathname === `/${currentLocale}${link.path}`) || 
+  pathname === `/${currentLocale}` ||
+  pathname === `/${currentLocale}/`;
+
+const forceWhiteBg = whiteBackgroundManualRoutes.includes(pathname) || !isKnownRoute;
+
   return (
     <>
       <Box
@@ -97,7 +103,10 @@ export default function Navbar({ locale }: NavbarProps) {
         <Box display="flex" gap={2} alignItems="center">
           <Typography variant="body2">{company.phone}</Typography>
           <Typography variant="body2">{company.email}</Typography>
-
+          {/* <CurrencySwitcher
+            currentCurrency={currency}
+            onChange={setCurrency}
+          /> */}
           <LanguageSwitcher />
         </Box>
       </Box>

@@ -1158,5 +1158,21 @@
       "title": "Legge applicabile",
       "description": "Questi Termini sono regolati dalle leggi dello Sri Lanka."
     }
+  },
+  "notFound": {
+    "title": "Perso durante il viaggio?",
+    "description": "Questa destinazione non esiste o è stata spostata. Lascia che AIPA Travels ti guidi verso la tua prossima avventura.",
+    "button": "Esplora destinazioni"
+  },
+  "cookies": {
+    "title": "Apprezziamo la tua privacy",
+    "intro": "Utilizziamo cookie e tecnologie simili per migliorare la tua esperienza sul nostro sito. Ciò include:",
+    "point1": "Miglioramento della funzionalità e delle prestazioni del sito",
+    "point2": "Analisi di come i visitatori utilizzano il nostro sito",
+    "point3": "Fornitura di contenuti e raccomandazioni personalizzati",
+    "point4": "Memorizzazione delle tue preferenze e impostazioni",
+    "footer": "Cliccando su \"Accetta tutto\", acconsenti all'uso dei cookie. Se preferisci, puoi scegliere di rifiutare e verranno utilizzati solo i cookie essenziali.",
+    "acceptAll": "Accetta tutto",
+    "declineAll": "Rifiuta tutto"
   }
 }

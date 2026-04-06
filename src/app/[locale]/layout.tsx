@@ -5,6 +5,8 @@ import Footer from '@/components/Footer';
 import { company } from '@/data/company';
 import { Locale } from '@/i18n/settings';
 import '../globals.css';
+import FloatingActions from "@/components/FloatingActions";
+import CookieBanner from "@/components/CookieBanner";
 
 export const metadata: Metadata = {
   title: {
@@ -70,6 +72,8 @@ export default async function LocaleLayout({
         <MuiProvider params={{ locale: typedLocale }}>
           <Navbar locale={typedLocale} />
           {children}
+          <FloatingActions />
+          <CookieBanner />
           <Footer />
         </MuiProvider>
       </body>
