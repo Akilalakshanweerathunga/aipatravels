@@ -2,9 +2,9 @@ import { Policy } from "@mui/icons-material";
 
 export const company = {
   name: 'AIPA Travels',
-  phone: '+94 77 123 4567',
+  phone: '+94 71 570 3222',
   email: 'info@aipatravels.com',
-  whatsapp: '94771234567',
+  whatsapp: '94715703222',
   address: '123 Colombo Street, Colombo, Sri Lanka',
   logo: '/images/logo/logo.png',
   website: 'https://aipatravels.com',

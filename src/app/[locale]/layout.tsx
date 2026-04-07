@@ -1,5 +1,3 @@
-// D:\projects\squreasoft\aipa\src\app\[locale]\layout.tsx
-
 import type { Metadata } from 'next';
 import MuiProvider from '../providers/MuiProvider';
 import Navbar from '@/components/Navbar';
@@ -19,7 +17,6 @@ export const metadata: Metadata = {
 
   metadataBase: new URL(company.website),
 
-  // --- ADVANCED SEO: MULTILINGUAL SUPPORT ---
   alternates: {
     canonical: '/',
     languages: {
@@ -50,7 +47,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: company.name,
     description: company.description,
-    images: '/og-image.png', // FIXED: removed extra .png
+    images: '/og-image.png', 
   },
 
   icons: {
