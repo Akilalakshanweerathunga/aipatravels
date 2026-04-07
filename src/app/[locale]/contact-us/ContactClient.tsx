@@ -16,7 +16,7 @@ export default function ContactClient() {
                 "@type": "TravelAgency",
                 "name": "AIPA Travels",
                 "image": "https://aipatravels.com/images/contact-hero.jpg",
-                "telephone": "+94XXXXXXXXX",
+                "telephone": "+94715703222",
                 "email": "info@aipatravels.com",
                 "address": {
                     "@type": "PostalAddress",
