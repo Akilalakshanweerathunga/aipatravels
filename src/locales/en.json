@@ -7,7 +7,8 @@
     "tailorMade": "Tailor-Made",
     "aboutUs": "About Us",
     "planTrip": "Plan Your Trip",
-    "chatWithUs": "Chat with Us"
+    "chatWithUs": "Chat with Us",
+    "blog": "Blogs"
   },
   "homePage": {
     "title": "Your AIPA Travel Companion",
@@ -1182,5 +1183,16 @@
     "footer": "By clicking \"Accept All\", you consent to our use of cookies. If you prefer, you can choose to decline, and only essential cookies will be used.",
     "acceptAll": "Accept All",
     "declineAll": "Decline All"
+  },
+  "blog": {
+    "title": "Travel Insights & Stories",
+    "description": "Discover travel tips, destination guides, and inspiring stories from our adventures across Sri Lanka.",
+    "readMore": "Read article",
+    "noPostsFound": "No blog posts found. Please check back later for travel insights and stories.",
+    "backToStories": "Back to Blog",
+    "publishedOn": "Published on",
+    "exploreMore": "Explore More Stories",
+    "viewItineraries": "View Itineraries",
+    "idescription": "Check out our curated itineraries and travel guides."
   }
 }

@@ -63,6 +63,8 @@ const whiteBackgroundManualRoutes = [
   `/${currentLocale}/contact-us`,
   `/${currentLocale}/privacy-policy`,
   `/${currentLocale}/terms-and-conditions`,
+  `/${currentLocale}/blogs`,
+  
 ];
 
 const isKnownRoute = 
@@ -134,14 +136,16 @@ const forceWhiteBg = whiteBackgroundManualRoutes.includes(pathname) || !isKnownR
 
           <Box sx={{ display: { xs: 'none', md: 'flex' }, gap: 2, alignItems: 'center', width: '100%' }}>
             <Box sx={{ flexGrow: 1, display: 'flex', alignItems: 'center' }}>
-              <Image
-                src={company.logo}
-                alt={company.name}
-                width={shrink ? 100 : 110}
-                height={40}
-                priority
-                style={{ objectFit: 'contain', transition: '0.3s' }}
-              />
+              <Link href={`/${currentLocale}`} style={{ display: 'flex', alignItems: 'center' }}>
+                <Image
+                  src={company.logo}
+                  alt={company.name}
+                  width={shrink ? 100 : 110}
+                  height={40}
+                  priority
+                  style={{ objectFit: 'contain', transition: '0.3s' }}
+                />
+              </Link>
             </Box>
             {navLinks.map((link) => {
               const fullPath = `/${currentLocale}${link.path}`;

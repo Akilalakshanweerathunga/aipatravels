@@ -1,5 +1,6 @@
 import { supabase } from './supabase';
 import { Destination } from "@/types/destination";
+import { BlogPost, Locale } from '@/types/blog';
 
 export async function getItineraries() {
   const { data, error } = await supabase
@@ -138,4 +139,43 @@ export async function getItineraryBySlug(slug: string) {
     return null;
   }
   return data;
+}
+
+export async function getPostsByLanguage(lang: string | undefined) {
+  // 1. Fallback if lang is missing
+  if (!lang) {
+    console.warn("⚠️ getPostsByLanguage: No language provided");
+    return [];
+  }
+
+  // 2. Clean the string: 'en-US' -> 'en', and lowercase it
+  const shortLang = lang.split('-')[0].toLowerCase();
+
+  // 3. Query with case-insensitive matching
+  const { data, error } = await supabase
+    .from('posts')
+    .select('*')
+    .ilike('language', shortLang) // ilike handles 'IT' vs 'it'
+    .order('published_at', { ascending: false });
+
+  if (error) {
+    console.error("❌ Supabase Query Error:", error.message);
+    return [];
+  }
+
+  return data || [];
+}
+
+export async function getPostBySlug(slug: string) {
+  const { data, error } = await supabase
+    .from('posts')
+    .select('*')
+    .eq('slug', slug)
+    .maybeSingle();
+
+  if (error) {
+    console.error("❌ Error fetching post:", error.message);
+    return null;
+  }
+  return data as BlogPost;
 }

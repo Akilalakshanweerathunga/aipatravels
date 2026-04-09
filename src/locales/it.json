@@ -7,7 +7,8 @@
     "tailorMade": "Su misura",
     "aboutUs": "Chi siamo",
     "planTrip": "Pianifica il tuo viaggio",
-    "chatWithUs": "Chatta con noi"
+    "chatWithUs": "Chatta con noi",
+    "blog": "Blog"
   },
   "homePage": {
     "title": "Il tuo compagno di viaggio AIPA",
@@ -1174,5 +1175,11 @@
     "footer": "Cliccando su \"Accetta tutto\", acconsenti all'uso dei cookie. Se preferisci, puoi scegliere di rifiutare e verranno utilizzati solo i cookie essenziali.",
     "acceptAll": "Accetta tutto",
     "declineAll": "Rifiuta tutto"
-  }
+  },
+  "blog": {
+    "title": "Consigli e Storie di Viaggio",
+    "description": "Scopri consigli di viaggio, guide sulle destinazioni e storie ispiratrici dalle nostre avventure in Sri Lanka.",
+    "readMore": "Leggi l'articolo"
+  },
+  "noPostsFound": "Nessun articolo del blog trovato. Torna più tardi per scoprire consigli e storie di viaggio."
 }

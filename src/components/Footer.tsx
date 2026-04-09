@@ -118,12 +118,12 @@ export default function Footer({ locale }: NavbarProps) {
               {company.phone}
             </Typography>
           </Box>
-          <Box display="flex" alignItems="center" gap={1} mb={2}>
+          {/* <Box display="flex" alignItems="center" gap={1} mb={2}>
             <LocationOn sx={{ color: "#9bb96d" }} />
             <Typography fontSize={14}>
               {company.address}
             </Typography>
-          </Box>
+          </Box> */}
         </Box>
         <Box display="flex" flexWrap="wrap" gap={6}>
           <Box>
@@ -282,12 +282,12 @@ export default function Footer({ locale }: NavbarProps) {
                 {company.phone}
               </Typography>
             </Box>
-            <Box display="flex" alignItems="center" gap={1} mb={2}>
+            {/* <Box display="flex" alignItems="center" gap={1} mb={2}>
               <LocationOn sx={{ color: "#9bb96d" }} />
               <Typography fontSize={14}>
                 {company.address}
               </Typography>
-            </Box>
+            </Box> */}
           </AccordionDetails>
         </Accordion>
       </Box>
