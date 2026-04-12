@@ -9,6 +9,8 @@ import en from "@/locales/en.json";
 import fr from "@/locales/fr.json";
 import it from "@/locales/it.json";
 import kr from "@/locales/kr.json";
+import cn from "@/locales/cn.json";
+import ru from "@/locales/ru.json";
 
 i18n
   .use(LanguageDetector)
@@ -21,6 +23,8 @@ i18n
       fr: { translation: fr },
       it: { translation: it },
       kr: { translation: kr },
+      cn: { translation: cn },
+      ru: { translation: ru },
     },
     interpolation: {
       escapeValue: false,

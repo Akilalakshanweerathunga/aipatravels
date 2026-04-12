@@ -1,0 +1,1187 @@
+{
+  "nav": {
+    "home": "首页",
+    "itineraries": "旅游行程",
+    "destinations": "目的地",
+    "activities": "体验活动",
+    "tailorMade": "私人定制",
+    "aboutUs": "关于我们",
+    "planTrip": "规划行程",
+    "chatWithUs": "在线咨询",
+    "blog": "旅游博客"
+  },
+  "homePage": {
+    "title": "您的 AIPA 旅游伙伴",
+    "welcome": "欢迎来到 AIPA - 您最贴心的旅游伙伴",
+    "description": "探索个性化的旅游行程，发现热门目的地，并与 AIPA 一起规划您的完美旅程。今天就开启您的冒险之旅！",
+    "middleBannerTitle": "值得信赖的旅游专家",
+    "middleBannerDescription": "在 AIPA，我们相信良好的合作关系能让我们为您提供更好的服务。我们是斯里兰卡入境旅游运营商协会 (SLAITO) 的骄傲成员，并获得旅游业公认权威机构的认证，确保您的每一次旅程都可靠、专业且难忘。",
+    "adventuresTitle": "奇妙冒险",
+    "adventuresDescription": "体验斯里兰卡最惊险刺激的冒险，从野生动物游猎到水上运动，应有尽有。让 AIPA 引领您开启难忘的体验，创造持久的回忆。",
+    "adventuresAlt": "奇妙冒险",
+    "adventuresBgAlt": "冒险背景"
+  },
+  "hero": {
+    "nineArch": {
+      "title": "走进山峦",
+      "subtitle": "风景优美的火车之旅",
+      "description": "体验被郁郁葱葱的绿意环绕的标志性九拱桥。"
+    },
+    "galle": {
+      "title": "殖民魅力",
+      "subtitle": "漫步历史长廊",
+      "description": "探索加勒古堡的永恒之美和沿海传承。"
+    },
+    "sigiriya": {
+      "title": "古代奇迹",
+      "subtitle": "攀登狮子岩",
+      "description": "探索宏伟的锡吉里耶堡垒及其古老的秘密。"
+    },
+    "bentota": {
+      "title": "定义奢华",
+      "subtitle": "自然与优雅的邂逅",
+      "description": "在金色沙滩上放松身心，体验本托塔的宁静。"
+    },
+    "tea": {
+      "title": "茶叶之乡",
+      "subtitle": "来自高山的清爽",
+      "description": "漫步于斯里兰卡繁茂的茶园，感受凉爽的气候。"
+    }
+  },
+  "aboutUs": {
+    "title": "关于 AIPA",
+    "shortDescription": "AIPA 是斯里兰卡领先的旅行社，致力于提供卓越的旅游体验。我们的宗旨是展示斯里兰卡隐藏的瑰宝，让旅行者与这座岛屿真实的美景、文化和独特体验相连接。\n\n我们结合专业知识、个性化指导和对旅游的热情，致力于为客户提供有价值的服务。在 AIPA，每一段旅程都经过精心设计，确保难忘、顺畅且与众不同。",
+    "services": ["减少繁琐工作", "创造更多影响力", "提升客户体验"],
+    "leftService": "在几分钟内报价并更新行程",
+    "rightService": "打造让您的客户永生难忘的旅程",
+    "leftImageAlt": "狮子游猎",
+    "centerImageAlt": "品牌视频行程",
+    "rightImageAlt": "奢华小屋日落"
+  },
+  "other": {
+    "loading": "正在开启您的旅程...",
+    "noResults": "未找到相关结果。",
+    "error": "发生错误，请重试。",
+    "searchPlaceholder": "搜索目的地、活动等...",
+    "whoWeAre": "我们是谁",
+    "ourMission": "我们的使命",
+    "Explore Now": "立即探索",
+    "Get Free Consultation": "获取免费咨询",
+    "See All Itineraries": "查看所有行程",
+    "See All Destinations": "查看所有目的地",
+    "See All Activities": "查看所有活动",
+    "Plan Your Trip": "规划您的行程",
+    "Chat with Us": "与我们聊天",
+    "Discover More": "发现更多",
+    "Learn More": "了解更多",
+    "Contact Us": "联系我们",
+    "Book Now": "立即预订",
+    "View Details": "查看详情",
+    "Start Planning": "开始规划",
+    "Get in Touch": "联系我们",
+    "Read More": "阅读更多",
+    "See More": "查看更多",
+    "Back to Home": "返回首页",
+    "Next": "下一步",
+    "Previous": "上一步",
+    "Submit": "提交",
+    "Cancel": "取消",
+    "Yes": "是",
+    "No": "否",
+    "Close": "关闭",
+    "Save": "保存",
+    "Edit": "编辑",
+    "Delete": "删除",
+    "View": "查看",
+    "Add to Cart": "加入购物车",
+    "Remove from Cart": "从购物车移除",
+    "Checkout": "结账",
+    "Continue": "继续",
+    "Finish": "完成",
+    "Search": "搜索",
+    "Filter": "筛选",
+    "Sort": "排序",
+    "Reset": "重置",
+    "Apply": "应用",
+    "Clear": "清除",
+    "Download": "下载",
+    "Share": "分享",
+    "Follow Us": "关注我们",
+    "Subscribe": "订阅",
+    "Unsubscribe": "取消订阅",
+    "Accept": "接受",
+    "Decline": "拒绝",
+    "Approve": "批准",
+    "Reject": "驳回",
+    "Yes, Delete": "是的，删除",
+    "No, Keep": "不，保留",
+    "Are you sure?": "您确定吗？",
+    "This action cannot be undone.": "此操作无法撤销。",
+    "Please enter a valid email address.": "请输入有效的电子邮件地址。",
+    "Please enter your password.": "请输入您的密码。",
+    "Please confirm your password.": "请确认您的密码。",
+    "Passwords do not match.": "密码不匹配。",
+    "Please enter your name.": "请输入您的姓名。",
+    "Please enter your message.": "请输入您的留言内容。",
+    "Thank you for your message. We will get back to you soon.": "感谢您的留言。我们会尽快给您回复。",
+    "An error occurred while sending your message. Please try again later.": "发送留言时出错，请稍后再试。",
+    "Please fill out all required fields.": "请填写所有必填字段。",
+    "Please agree to the terms and conditions.": "请同意条款和条件。",
+    "Your session has expired. Please log in again.": "您的登录已过期，请重新登录。",
+    "You have been logged out.": "您已退出登录。",
+    "view more": "查看更多",
+    "overview" : "概览",
+    "Day by Day Itinerary" : "每日行程详情",
+    "Customize" : "个性化定制",
+    "Enquire Now" : "立即咨询",
+    "Plan your trip" : "规划您的旅行",
+    "Highlights" : "行程亮点",
+    "Start From" : "起价",
+    "day" : "天",
+    "Days": "天",
+    "Nights" : "晚",
+    "places" : "地点",
+    "activities" : "活动",
+    "Most visited locations" : "最受欢迎的地点",
+    "Your next favorite place awaits" : "您下一个心仪之地就在前方",
+    "starting_from" : "起价",
+    "whatsIncluded" : "费用包含",
+    "stats": {
+      "satisfaction": "满意度",
+      "reviews": "满意的客户评价",
+      "experience": "多年的专业经验",
+      "tours": "年度带团次数"
+    },
+    "things_to_do": {
+      "title": "推荐活动",
+      "subtitle": "为您在该目的地精心策划的难忘体验和活动。"
+    }
+  },
+  "categories": {
+    "All" : "全部",
+    "Wildlife": "野生动物",
+    "Coastal": "沿海风光",
+    "History": "历史遗迹",
+    "Colonial": "殖民文化",
+    "Religion": "宗教文化",
+    "Highlands": "高山地带",
+    "cultural_explorer": "文化探索者",
+    "Tea" : "高山茶园", 
+    "Culture" : "文化遗产", 
+    "Safari" : "丛林游猎", 
+    "Beach" : "海滩休闲", 
+    "Island" : "岛屿风情", 
+    "Wellness" : "康养之旅",
+    "Tea Highland" : "高山茶乡", 
+    "Cultural Triangle" : "文化金三角", 
+    "Wildlife Safari" : "野生动物游猎", 
+    "Coastal Paradise" : "沿海天堂", 
+    "Grand Island" : "全岛大环线", 
+    "Wellness Retreat" : "康养静修"
+  },
+  "itineraries": {
+    "headTitle" : "精心策划的旅程",
+    "title" : "旅游行程",
+    "subtitle" : "精心设计的冒险之旅，展现斯里兰卡的心灵与灵魂",
+    "chipText" : "特色旅游",
+    "animeText": "您的下一个精彩去处就在眼前！",
+    "culturalTriangleItinerary": {
+      "imageAlt": "锡吉里耶岩石堡垒",
+      "title": "文化金三角之旅",
+      "overview": "通过这段为期 7 天的行程，探索斯里兰卡文化金三角的悠久历史和文化。探索古城、宏伟的岩石堡垒、神圣的寺庙和传统的乡村生活，同时享受奢华住宿和私人导游服务。",
+      "highlights": {
+        "sigiriya_rock_fortress": "锡吉里耶狮子岩堡垒",
+        "polonnaruwa_ancient_city": "波隆纳鲁沃古城",
+        "dambulla_cave_tempel": "丹布勒石窟寺",
+        "anuradhapura_sacred_city": "阿努拉德普勒圣城",
+        "temple_of_tooth": "佛牙寺"
+      },
+      "days": {
+        "day1_title": "抵达科伦坡",
+        "day1_desc": "欢迎来到斯里兰卡！前往文化金三角地区的奢华酒店。",
+        "day2_title": "佛牙寺",
+        "day2_desc": "参观神圣的佛牙寺。",
+        "day3_title": "锡吉里耶狮子岩堡垒",
+        "day3_desc": "清晨私人攀登，随后参观丹布勒。",
+        "day4_title": "波隆纳鲁沃古城",
+        "day4_desc": "探索这座中世纪都城。",
+        "day5_title": "阿努拉德普勒圣城",
+        "day5_desc": "参观圣菩提树。",
+        "day6_title": "乡村体验",
+        "day6_desc": "传统的乡村之旅并享用午餐。",
+        "day7_title": "米欣特莱与启程",
+        "day7_desc": "早晨参观米欣特莱，随后启程。"
+      },
+      "inclusions": {
+        "luxury_accommodation": "奢华住宿",
+        "private_guided_tours": "私人导游服务",
+        "entrance_fees": "所有景点门票",
+        "airport_transfers": "机场接送",
+        "meals": "每日早餐和晚餐"
+      }
+    },
+    "teaHighlandItinerary": {
+      "imageAlt": "努沃勒埃利耶的茶园",
+      "title": "茶叶之乡与高山静修",
+      "overview": "沉浸在努沃勒埃利耶云雾缭绕的山峦中，体验最顶级的锡兰红茶庄园。",
+      "highlights": {
+        "nuwara_eliya": "努沃勒埃利耶",
+        "tea_factory_visits": "茶厂参观",
+        "horton_plains": "霍顿平原",
+        "ella_nine_arches": "埃拉九拱桥"
+      },
+      "days": {
+        "day1_title": "抵达康提",
+        "day1_desc": "前往斯里兰卡的文化之都——康提。",
+        "day2_title": "茶乡之旅",
+        "day2_desc": "乘车穿过茶园，前往风景如画的努沃勒埃利耶。",
+        "day3_title": "茶厂与霍顿平原",
+        "day3_desc": "参观茶厂并探索霍顿平原国家公园。",
+        "day4_title": "埃拉冒险",
+        "day4_desc": "参观九拱桥并欣赏埃拉岩的美景。",
+        "day5_title": "启程",
+        "day5_desc": "前往机场或继续您的旅程。"
+      },
+      "inclusions": {
+        "boutique_hotel": "精品酒店住宿",
+        "tea_factory_tours": "茶厂之旅",
+        "scenic_train": "景观火车之旅",
+        "transfers": "所有交通接送",
+        "breakfast": "含早餐"
+      }
+    },
+    "wildlifeSafariItinerary": {
+      "imageAlt": "雅拉国家公园的猎豹",
+      "title": "野生动物探险游猎",
+      "overview": "在雅拉追踪猎豹，在乌达瓦拉维观赏大象，体验最顶级的野生动物冒险。",
+      "highlights": {
+        "yala": "雅拉国家公园",
+        "udawalawe": "乌达瓦拉维",
+        "leopard_tracking": "追踪猎豹",
+        "elephant_orphanage": "大象孤儿院"
+      },
+      "days": {
+        "day1_title": "抵达雅拉",
+        "day1_desc": "前往雅拉并入住您的奢华游猎小屋。",
+        "day2_title": "雅拉游猎 - 早间",
+        "day2_desc": "黎明时分在雅拉国家公园进行游猎。",
+        "day3_title": "雅拉游猎 - 晚间",
+        "day3_desc": "下午游猎及夜间探查。",
+        "day4_title": "乌达瓦拉维",
+        "day4_desc": "前往乌达瓦拉维，下午进行大象游猎。",
+        "day5_title": "大象孤儿院",
+        "day5_desc": "参观大象孤儿院，了解更多野生动物。",
+        "day6_title": "启程",
+        "day6_desc": "带着满满的野生动物回忆前往机场。"
+      },
+      "inclusions": {
+        "safari_lodges": "奢华游猎小屋",
+        "morning_evening_safaris": "早晚双游猎",
+        "expert_trackers": "专家级追踪员",
+        "all_meals": "含全餐",
+        "park_entries": "国家公园门票"
+      }
+    },
+    "coastalParadiseItinerary": {
+      "imageAlt": "日落时分的加勒古堡",
+      "title": "沿海天堂之旅",
+      "overview": "从美蕊沙的观鲸到历史悠久的加勒古堡，体验斯里兰卡南部海岸的最佳风情。",
+      "highlights": {
+        "mirissa_whale": "美蕊沙观鲸",
+        "galle_fort": "加勒古堡",
+        "stilt_fishing": "高跷钓鱼",
+        "beach_villas": "海滨别墅"
+      },
+      "days": {
+        "day1_title": "抵达科伦坡",
+        "day1_desc": "前往美蕊沙海滨别墅。",
+        "day2_title": "观鲸之旅",
+        "day2_desc": "清晨出发进行观鲸远征。",
+        "day3_title": "海滩休闲",
+        "day3_desc": "在海滩放松或尝试水上运动。",
+        "day4_title": "加勒古堡",
+        "day4_desc": "全天探索加勒古堡。",
+        "day5_title": "高跷钓鱼",
+        "day5_desc": "体验传统的高跷钓鱼。",
+        "day6_title": "唐加勒及更多海滩",
+        "day6_desc": "访问隐藏的海滩和小海湾。",
+        "day7_title": "文化表演",
+        "day7_desc": "晚间欣赏传统舞蹈表演。",
+        "day8_title": "启程",
+        "day8_desc": "前往机场。"
+      },
+      "inclusions": {
+        "beach_villa": "海滨别墅住宿",
+        "whale_tour": "观鲸之旅项目",
+        "galle_guide": "加勒古堡专业导游",
+        "transfers": "所有交通接送",
+        "breakfast": "每日早餐"
+      }
+    },
+    "grandIslandItinerary": {
+      "imageAlt": "标有亮点位置的斯里兰卡地图",
+      "title": "全岛大环线之旅",
+      "overview": "极致的斯里兰卡冒险，涵盖从北到南、从东到西的所有主要亮点。",
+      "highlights": {
+        "cultural_triangle": "文化金三角",
+        "hill_country": "山区地带",
+        "wildlife_parks": "野生动物公园",
+        "coastal_treasures": "沿海瑰宝"
+      },
+      "days": {
+        "day1_title": "抵达科伦坡",
+        "day1_desc": "欢迎仪式并前往酒店。",
+        "day2_title": "阿努拉德普勒",
+        "day2_desc": "探索千年古城。",
+        "day3_title": "锡吉里耶与丹布勒",
+        "day3_desc": "岩石堡垒与石窟寺。",
+        "day4_title": "波隆纳鲁沃",
+        "day4_desc": "中世纪都城之旅。",
+        "day5_title": "康提",
+        "day5_desc": "佛牙寺与城市观光。",
+        "day6_title": "努沃勒埃利耶",
+        "day6_desc": "茶乡驾驶之旅。",
+        "day7_title": "埃拉",
+        "day7_desc": "九拱桥与户外冒险。",
+        "day8_title": "乌达瓦拉维",
+        "day8_desc": "下午进行游猎。",
+        "day9_title": "雅拉",
+        "day9_desc": "猎豹追踪游猎。",
+        "day10_title": "美蕊沙",
+        "day10_desc": "海上观鲸。",
+        "day11_title": "加勒",
+        "day11_desc": "古堡深度探索。",
+        "day12_title": "希卡杜瓦",
+        "day12_desc": "海滩休闲与浮潜。",
+        "day13_title": "科伦坡",
+        "day13_desc": "城市之旅与购物。",
+        "day14_title": "启程",
+        "day14_desc": "送机前往机场。"
+      },
+      "inclusions": {
+        "all_accommodation": "全程住宿",
+        "all_meals": "含全程餐食",
+        "private_guide": "私人专属导游",
+        "park_entries": "所有公园门票",
+        "transfers": "全程交通接送",
+        "domestic_flights": "境内航班 (如适用)"
+      }
+    },
+    "wellnessRetreatItinerary": {
+      "imageAlt": "阿育吠陀水疗护理",
+      "title": "康养与精神静修之旅",
+      "overview": "通过阿育吠陀疗法、冥想课程和参观神圣的佛教寺庙来焕发您的灵魂。",
+      "highlights": {
+        "ayurvedic_spa": "阿育吠陀水疗",
+        "temple_visits": "寺庙参访",
+        "meditation": "冥想练习",
+        "sri_lankan_cuisine": "斯里兰卡康养美食"
+      },
+      "days": {
+        "day1_title": "抵达与欢迎",
+        "day1_desc": "阿育吠陀咨询和欢迎理疗。",
+        "day2_title": "寺庙参访",
+        "day2_desc": "参观神圣寺庙并进行冥想。",
+        "day3_title": "全天水疗",
+        "day3_desc": "全天的理疗和瑜伽课程。",
+        "day4_title": "自然与康养",
+        "day4_desc": "自然漫步与冥想环节。",
+        "day5_title": "最后理疗",
+        "day5_desc": "最后的 SPA 护理与身心反思。",
+        "day6_title": "启程",
+        "day6_desc": "带着焕然一新的身心返程。"
+      },
+      "inclusions": {
+        "wellness_resort": "康养度假村住宿",
+        "daily_treatments": "每日理疗项目",
+        "yoga_sessions": "瑜伽课程",
+        "all_meals": "含全餐",
+        "spa_facilities": "水疗设施使用"
+      }
+    }
+  },
+  "destinations": {
+    "headTitle": "探索斯里兰卡",
+    "title": "目的地",
+    "subtitle": "精心挑选的目的地，展示斯里兰卡的美丽与多样性",
+    "about_title": "关于目的地",
+    "d_highlight": "目的地亮点",
+    "d_subtitle": "发现每个目的地的独特魅力",
+    "mirissaDestination": {
+      "imageAlt": "美蕊沙海滩",
+      "title": "美蕊沙海滩避世之旅",
+      "overview": "在斯里兰卡南海岸金色的沙滩上放松身心，享受难忘的观鲸体验。",
+      "description": "美蕊沙海滩是位于斯里兰卡南海岸的迷人热带天堂。美蕊沙以其金色的沙滩、清澈的海水和悠闲的岛屿氛围而闻名，是寻求放松和冒险者的完美去处。游客可以在平静的泻湖中游泳，在温和的海浪中冲浪，或者开启一段难忘的观鲸之旅。除了海滩，镇上还拥有充满活力的夜生活、舒适的海滨咖啡馆和新鲜的海鲜餐厅。在日落时分沿着海岸散步，探索隐藏的海湾，或乘船前往附近的岛屿，让在美蕊沙的每一刻都成为难忘的经历。",
+      "highlights": {
+        "whale_watching": "海上观鲸",
+        "golden_beach_relax": "金色海滩放松"
+      },
+      "inclusions": {
+        "beach_hotel": "海滨酒店住宿",
+        "breakfast_included": "含早餐"
+      },
+      "places": [
+        { "place_name": "美蕊沙海滩", "specialty": "观鲸", "best_time_to_visit": "11月-4月", "season": "旱季" },
+        { "place_name": "美蕊沙秘密海滩", "specialty": "隐秘海滩", "best_time_to_visit": "11月-4月", "season": "旱季" },
+        { "place_name": "椰树山", "specialty": "摄影圣地", "best_time_to_visit": "11月-4月", "season": "旱季" },
+        { "place_name": "鹦鹉岩", "specialty": "观景点", "best_time_to_visit": "11月-4月", "season": "旱季" },
+        { "place_name": "韦利格默海滩", "specialty": "冲浪", "best_time_to_visit": "11月-4月", "season": "旱季" },
+        { "place_name": "波尔赫纳海滩", "specialty": "浮潜", "best_time_to_visit": "11月-4月", "season": "旱季" }
+      ],
+      "activities": {
+        "whale_watching_mirissa": {
+          "slug": "whale_watching_mirissa",
+          "name": "海上观鲸",
+          "description": "在印度洋观察蓝鲸和海豚的壮观景象。",
+          "overview": "美蕊沙是全球最佳的观鲸地点之一。",
+          "category": "野生动物",
+          "activity_type": "游船之旅",
+          "duration": "3-5 小时",
+          "difficulty": "简单",
+          "suitable_for": ["情侣", "家庭", "独自旅行"],
+          "best_time_to_visit": "11月至4月",
+          "season": "旱季",
+          "tags": ["鲸鱼", "乘船", "海洋"]
+        },
+        "snorkeling_polhena": {
+          "slug": "snorkeling_polhena",
+          "name": "与海龟浮潜",
+          "description": "在浅水区与海龟一同畅游。",
+          "overview": "非常适合浮潜初学者。",
+          "category": "自然",
+          "activity_type": "水上活动",
+          "duration": "1-2 小时",
+          "difficulty": "简单",
+          "suitable_for": ["家庭", "儿童"],
+          "best_time_to_visit": "11月至4月",
+          "season": "旱季",
+          "tags": ["海龟", "浮潜"]
+        },
+        "surfing_weligama": {
+          "slug": "surfing_weligama",
+          "name": "冲浪课程",
+          "description": "在教练指导下学习冲浪。",
+          "overview": "初学者的理想选择。",
+          "category": "探险",
+          "activity_type": "水上活动",
+          "duration": "2 小时",
+          "difficulty": "简单",
+          "suitable_for": ["独自旅行", "情侣"],
+          "best_time_to_visit": "11月至4月",
+          "season": "旱季",
+          "tags": ["冲浪"]
+        }
+      }
+    },
+
+    "bentotaDestination": {
+      "imageAlt": "本托塔海滩",
+      "title": "本托塔沿海避世之所",
+      "overview": "在斯里兰卡最著名的海滨胜地之一，体验刺激的水上运动和宁静的河流游猎。",
+      "description": "本托塔避世之所是一个宁静的海岸目的地，捕捉了斯里兰卡恬静海滩的精髓。本托塔沿着印度洋的青绿色海水延伸，融合了放松、冒险和文化魅力。游客可以享受滑水、风筝冲浪和帆船等水上运动，或者只是在摇曳的棕榈树下的柔软沙滩上小憩。该地区还提供奢华度假村、河畔餐厅，以及前往当地寺庙和红树林的导游巡游。本托塔是追求浪漫之旅的情侣、寻求海滨乐趣的家庭以及渴望在自然怀抱中重获宁静的独行旅客的理想选择。",
+      "highlights": {
+        "water_sports": "水上运动",
+        "river_safari": "河流游猎"
+      },
+      "inclusions": {
+        "luxury_resort": "奢华度假村住宿",
+        "boat_safari": "游船游猎体验"
+      },
+      "places": [
+        { "place_name": "本托塔海滩", "specialty": "水上运动", "best_time_to_visit": "11月-4月", "season": "旱季" },
+        { "place_name": "本托塔河", "specialty": "游船游猎", "best_time_to_visit": "11月-4月", "season": "旱季" },
+        { "place_name": "鲁努甘加庄园", "specialty": "建筑园林", "best_time_to_visit": "全年", "season": "全季" },
+        { "place_name": "简庭 (Brief Garden)", "specialty": "园林艺术", "best_time_to_visit": "全年", "season": "全季" },
+        { "place_name": "科斯戈德海龟孵化场", "specialty": "动物保护", "best_time_to_visit": "全年", "season": "全季" },
+        { "place_name": "马渡河游猎", "specialty": "红树林游猎", "best_time_to_visit": "11月-4月", "season": "旱季" }
+      ],
+      "activities": {
+        "bentota_river_safari": {
+          "slug": "bentota_river_safari",
+          "name": "本托塔河流游猎",
+          "description": "探索红树林和野生动物。",
+          "overview": "风景优美的游船巡游。",
+          "category": "自然",
+          "activity_type": "游船之旅",
+          "duration": "2-3 小时",
+          "difficulty": "简单",
+          "suitable_for": ["家庭", "情侣", "独自旅行"],
+          "best_time_to_visit": "11月至4月",
+          "season": "旱季",
+          "tags": ["河流", "乘船"]
+        },
+        "bentota_water_sports": {
+          "slug": "bentota_water_sports",
+          "name": "本托塔水上运动",
+          "description": "摩托艇和香蕉船体验。",
+          "overview": "顶级冒险目的地。",
+          "category": "探险",
+          "activity_type": "水上活动",
+          "duration": "1-2 小时",
+          "difficulty": "简单",
+          "suitable_for": ["朋友", "情侣"],
+          "best_time_to_visit": "11月至4月",
+          "season": "旱季",
+          "tags": ["摩托艇"]
+        },
+        "bentota_beach_relax": {
+          "slug": "bentota_beach_relax",
+          "name": "海滩放松",
+          "description": "在沙滩上享受悠闲时光。",
+          "overview": "平和的海洋氛围。",
+          "category": "休闲",
+          "activity_type": "海滩",
+          "duration": "灵活",
+          "difficulty": "简单",
+          "suitable_for": ["所有人"],
+          "best_time_to_visit": "11月至4月",
+          "season": "旱季",
+          "tags": ["海滩"]
+        }
+      }
+    },
+
+    "sigiriyaDestination": {
+      "imageAlt": "锡吉里耶岩石堡垒",
+      "title": "锡吉里耶遗产之旅",
+      "overview": "通过参观标志性的联合国教科文组织世界遗产和历史遗迹，发现斯里兰卡的古代奇迹。",
+      "description": "锡吉里耶遗产地拥有斯里兰卡最著名的标志性地标——锡吉里耶岩石堡垒，常被称为“狮子岩”。这座古老的遗址从茂密的丛林中拔地而起，展示了该国丰富的历史和卓越的建筑成就。游客可以攀登岩石，探索古老的壁画、著名的镜面墙，以及顶部的皇家宫殿遗迹。周围的花园、水系和护城河展示了几个世纪前先进的工程学和美学设计。锡吉里耶不仅是一座历史丰碑，更是一次融合了冒险、文化和斯里兰卡中部平原自然美景的深度体验。",
+      "highlights": {
+        "sigiriya_rock_fortress": "锡吉里耶岩石堡垒",
+        "ancient_ruins": "古代遗迹"
+      },
+      "inclusions": {
+        "heritage_hotel": "特色遗产酒店住宿",
+        "guide_service": "专业导游服务"
+      },
+      "places": [
+        { "place_name": "锡吉里耶岩石堡垒", "specialty": "古代要塞", "best_time_to_visit": "5月-9月", "season": "旱季" },
+        { "place_name": "比杜兰加拉岩石", "specialty": "攀岩登山", "best_time_to_visit": "5月-9月", "season": "旱季" },
+        { "place_name": "丹布勒石窟寺", "specialty": "石窟寺庙", "best_time_to_visit": "全年", "season": "全季" },
+        { "place_name": "锡吉里耶博物馆", "specialty": "历史博物馆", "best_time_to_visit": "全年", "season": "全季" },
+        { "place_name": "米内里亚国家公园", "specialty": "大象游猎", "best_time_to_visit": "5月-9月", "season": "旱季" },
+        { "place_name": "利蒂加拉森林寺院", "specialty": "丛林遗迹", "best_time_to_visit": "全年", "season": "全季" }
+      ],
+      "activities": {
+        "sigiriya_climb": {
+          "slug": "sigiriya_climb",
+          "name": "锡吉里耶攀登",
+          "description": "攀登这座古老的堡垒。",
+          "overview": "联合国教科文组织世界遗产体验。",
+          "category": "文化",
+          "activity_type": "徒步",
+          "duration": "2-3 小时",
+          "difficulty": "中等",
+          "suitable_for": ["情侣", "独自旅行"],
+          "best_time_to_visit": "早晨",
+          "season": "旱季",
+          "tags": ["世界遗产"]
+        },
+        "pidurangala_hike": {
+          "slug": "pidurangala_hike",
+          "name": "比杜兰加拉日出徒步",
+          "description": "斯里兰卡最佳的日出观景点。",
+          "overview": "极具性价比的徒步体验。",
+          "category": "探险",
+          "activity_type": "徒步",
+          "duration": "2 小时",
+          "difficulty": "中等",
+          "suitable_for": ["独自旅行", "情侣"],
+          "best_time_to_visit": "早晨",
+          "season": "旱季",
+          "tags": ["日出"]
+        }
+      }
+    },
+
+    "kandyDestination": {
+      "imageAlt": "佛牙寺",
+      "title": "康提文化体验",
+      "overview": "通过参观寺庙和欣赏文化表演，沉浸在斯里兰卡丰富的传统中。",
+      "description": "康提作为斯里兰卡的文化之都，是一座充满历史、传统和自然美景的城市。康提坐落在起伏的群山之中，被郁郁葱葱的绿意环绕，以佛牙寺而闻名，这里供奉着佛陀的神圣遗物，每年吸引成千上万的朝圣者。这座城市提供充满活力的节日，如佛牙节 (Esala Perahera)，届时传统舞者、鼓手和装饰精美的象群会在街头游行，呈现一场色彩与文化的盛宴。游客可以绕着如画的康提湖散步，探索皇家植物园，感受斯里兰卡人民的热情，使康提成为文化爱好者的必经之地。",
+      "highlights": {
+        "temple_of_tooth": "佛牙寺",
+        "cultural_dance_show": "文化舞蹈表演"
+      },
+      "inclusions": {
+        "city_hotel": "市区酒店住宿",
+        "cultural_show_ticket": "文化表演门票"
+      },
+      "places": [
+        { "place_name": "神圣佛牙寺", "specialty": "神圣寺庙", "best_time_to_visit": "全年", "season": "全季" },
+        { "place_name": "佩拉德尼亚皇家植物园", "specialty": "植物园林", "best_time_to_visit": "全年", "season": "全季" },
+        { "place_name": "康提湖", "specialty": "湖边漫步", "best_time_to_visit": "全年", "season": "全季" },
+        { "place_name": "乌达瓦塔凯勒森林保护区", "specialty": "森林保护区", "best_time_to_visit": "全年", "season": "全季" },
+        { "place_name": "恩贝克德瓦拉亚 (Embekke)", "specialty": "木雕艺术", "best_time_to_visit": "全年", "season": "全季" },
+        { "place_name": "加达拉德尼亚寺", "specialty": "古寺院", "best_time_to_visit": "全年", "season": "全季" }
+      ],
+      "activities": {
+        "tooth_temple_visit": {
+          "slug": "tooth_temple_visit",
+          "name": "寺庙参观",
+          "description": "参观神圣的寺庙遗址。",
+          "overview": "重要的佛教圣地。",
+          "category": "文化",
+          "activity_type": "室内",
+          "duration": "1-2 小时",
+          "difficulty": "简单",
+          "suitable_for": ["所有人"],
+          "best_time_to_visit": "全年",
+          "season": "全季",
+          "tags": ["宗教"]
+        }
+      }
+    },
+
+    "ellaDestination": {
+      "imageAlt": "埃拉九拱桥",
+      "title": "埃拉冒险之旅",
+      "overview": "探索埃拉迷人的山景、茶园和标志性地标。",
+      "description": "埃拉是斯里兰卡山区最迷人的小镇之一，这里拥有壮观的高山美景、飞流直下的瀑布和一望无际的茶园。标志性的九拱桥是这里的必看景点，您可以见证火车穿过绿意盎然的山谷。对于冒险爱好者，埃拉岩徒步和攀登小亚当峰提供了俯瞰山区的绝佳视角。这里气候凉爽宜人，是远离沿海炎热的完美避暑胜地，同时也拥有充满活力的背包客氛围和丰富的自然景观。",
+      "highlights": {
+        "nine_arch_bridge": "九拱桥",
+        "ella_rock_hike": "埃拉岩徒步"
+      },
+      "inclusions": {
+        "mountain_view_hotel": "山景酒店住宿",
+        "train_experience": "景观火车体验"
+      },
+      "places": [
+        { "place_name": "九拱桥", "specialty": "大桥摄影", "best_time_to_visit": "1月-3月", "season": "旱季" },
+        { "place_name": "埃拉岩", "specialty": "徒步攀登", "best_time_to_visit": "1月-3月", "season": "旱季" },
+        { "place_name": "小亚当峰", "specialty": "简易徒步", "best_time_to_visit": "1月-3月", "season": "旱季" },
+        { "place_name": "拉瓦纳瀑布", "specialty": "高山瀑布", "best_time_to_visit": "全年", "season": "全季" },
+        { "place_name": "德莫达拉环线", "specialty": "铁路奇观", "best_time_to_visit": "全年", "season": "全季" }
+      ],
+      "activities": {
+        "ella_rock_hike": {
+          "slug": "ella_rock_hike",
+          "name": "埃拉岩徒步",
+          "description": "穿过茶园前往壮丽的观景点。",
+          "overview": "一段极具挑战性但风景优美的登山之旅。",
+          "category": "探险",
+          "activity_type": "徒步",
+          "duration": "3-4 小时",
+          "difficulty": "困难",
+          "suitable_for": ["独自旅行", "探险者"],
+          "best_time_to_visit": "1月至3月",
+          "season": "旱季",
+          "tags": ["徒步", "登山"]
+        },
+        "ravana_zipline": {
+          "slug": "ravana_zipline",
+          "name": "飞越拉瓦纳高空滑索",
+          "description": "在高速滑索上欣赏震撼的山谷美景。",
+          "overview": "斯里兰卡首个大型高空滑索体验。",
+          "category": "探险",
+          "activity_type": "户外活动",
+          "duration": "30 分钟",
+          "difficulty": "中等",
+          "suitable_for": ["探险者"],
+          "best_time_to_visit": "1月至3月",
+          "season": "旱季",
+          "tags": ["滑索"]
+        },
+        "nine_arches_photos": {
+          "slug": "nine_arches_photos",
+          "name": "九拱桥摄影",
+          "description": "捕捉火车穿过标志性大桥的画面。",
+          "overview": "斯里兰卡上镜率最高的地点之一。",
+          "category": "文化",
+          "activity_type": "户外活动",
+          "duration": "1 小时",
+          "difficulty": "简单",
+          "suitable_for": ["所有人"],
+          "best_time_to_visit": "早晨",
+          "season": "全季",
+          "tags": ["摄影"]
+        }
+      }
+    },
+
+    "nuwaraEliyaDestination": {
+      "imageAlt": "努沃勒埃利耶茶园",
+      "title": "努沃勒埃利耶静修",
+      "overview": "在斯里兰卡山区享受凉爽的气候、殖民时期的魅力和惊艳的茶园。",
+      "description": "努沃勒埃利耶静修地是斯里兰卡高地的一个风景如画的去处，因其殖民时期的魅力、凉爽的气候和茂盛的茶园而被称为“小英伦”。游客可以漫步于充满活力的花园，探索宁静的湖泊，并参观正在运营的茶厂，了解茶叶种植的过程。这里的建筑风格让人联想到英国殖民时期，增加了其独特性，而附近的霍顿平原国家公园则提供令人叹为观止的徒步路线和壮丽的悬崖景观。努沃勒埃利耶是追求宁静、自然美景和斯里兰卡殖民历史文化缩影的旅行者的理想之地。",
+      "highlights": {
+        "tea_plantations": "高山茶园",
+        "colonial_town": "英伦殖民小镇"
+      },
+      "inclusions": {
+        "tea_bungalow": "茶园别墅住宿",
+        "tea_factory_visit": "茶厂参观体验"
+      },
+      "places": [
+        { "place_name": "格雷戈里湖", "specialty": "湖泊活动", "best_time_to_visit": "4月-6月", "season": "旺季" },
+        { "place_name": "哈克加拉植物园", "specialty": "植物景观", "best_time_to_visit": "全年", "season": "全季" },
+        { "place_name": "佩德罗茶庄园", "specialty": "茶叶种植园", "best_time_to_visit": "全年", "season": "全季" },
+        { "place_name": "情人崖瀑布", "specialty": "高山瀑布", "best_time_to_visit": "全年", "season": "全季" },
+        { "place_name": "维多利亚公园", "specialty": "城市公园", "best_time_to_visit": "全年", "season": "全季" },
+        { "place_name": "月亮平原", "specialty": "景观瞭望", "best_time_to_visit": "1月-3月", "season": "旱季" }
+      ],
+      "activities": {
+        "peradeniya_walk": {
+          "slug": "peradeniya_walk",
+          "name": "植物园漫步",
+          "description": "漫步于斯里兰卡最大的植物园。",
+          "overview": "这里是兰花和各类奇异植物的家园。",
+          "category": "自然",
+          "activity_type": "户外活动",
+          "duration": "2-3 小时",
+          "difficulty": "简单",
+          "suitable_for": ["家庭"],
+          "best_time_to_visit": "全年",
+          "season": "全季",
+          "tags": ["自然"]
+        }
+      }
+    },
+
+    "yalaDestination": {
+      "imageAlt": "雅拉的猎豹",
+      "title": "雅拉游猎冒险",
+      "overview": "在斯里兰卡最著名的国家公园体验刺激的野生动物游猎并寻找猎豹的踪迹。",
+      "description": "雅拉游猎是斯里兰卡首屈一指的野生动物目的地，以其多样的生态系统和丰富的野生生物而闻名。该公园是猎豹、大象、懒熊和数百种鸟类的家园，为自然爱好者和摄影师提供了激动人心的体验。游猎之旅带领游客穿过茂密的森林、开阔的草地和宁静的泻湖，与岛上的原生动物群进行难忘的邂逅。无论是观察自然栖息地中的猎豹，还是发现大象在河中洗澡，雅拉游猎都完美融合了冒险、兴奋和与自然的连接。",
+      "highlights": {
+        "leopard_safari": "猎豹追踪游猎",
+        "national_park": "雅拉国家公园"
+      },
+      "inclusions": {
+        "safari_jeep": "专业游猎吉普车",
+        "park_entry_ticket": "公园入场门票"
+      },
+      "places": [
+        { "place_name": "雅拉国家公园", "specialty": "猎豹游猎", "best_time_to_visit": "2月-7月", "season": "旱季" },
+        { "place_name": "卡塔拉格马寺庙", "specialty": "圣地朝圣", "best_time_to_visit": "全年", "season": "全季" },
+        { "place_name": "斯图帕瓦石窟寺", "specialty": "古代岩庙", "best_time_to_visit": "全年", "season": "全季" },
+        { "place_name": "提瑟湖", "specialty": "湖泊景色", "best_time_to_visit": "全年", "season": "全季" },
+        { "place_name": "本达拉国家公园", "specialty": "观鸟圣地", "best_time_to_visit": "9月-3月", "season": "候鸟季" }
+      ],
+      "activities": {
+        "yala_safari": {
+          "slug": "yala_safari",
+          "name": "雅拉丛林游猎",
+          "description": "乘坐吉普车探索雅拉国家公园。",
+          "overview": "以高概率目睹猎豹而闻名。",
+          "category": "野生动物",
+          "activity_type": "游猎 (Safari)",
+          "duration": "3-4 小时",
+          "difficulty": "简单",
+          "suitable_for": ["家庭", "情侣"],
+          "best_time_to_visit": "2月至7月",
+          "season": "旱季",
+          "tags": ["猎豹", "游猎"]
+        }
+      }
+    },
+
+    "udawalaweDestination": {
+      "imageAlt": "乌达瓦拉维的大象",
+      "title": "乌达瓦拉维游猎",
+      "overview": "目睹庞大的象群并参观著名的野生大象中转站。",
+      "description": "乌达瓦拉维游猎是一个壮观的野生动物目的地，因其庞大的象群和多样的动物群而享有盛誉。游客可以探索充满水坑、森林和草地的广阔国家公园，目睹大象以及水牛、鹿和各类奇异鸟类自由自在地生活。专业的吉普游猎提供了与大自然近距离接触的机会和绝佳的摄影时机。该公园也是重要保护工作的一部分，使其成为一个既有教育意义又具冒险色彩的目的地。乌达瓦拉维非常适合家庭、野生动物爱好者以及任何想要体验斯里兰卡原始自然美景的人。",
+      "highlights": {
+        "elephant_safari": "大象专属游猎",
+        "elephant_transit_home": "大象孤儿/中转站"
+      },
+      "inclusions": {
+        "jeep_safari": "专属游猎吉普车",
+        "park_ticket": "公园门票"
+      },
+      "places": [
+        { "place_name": "乌达瓦拉维国家公园", "specialty": "大象游猎", "best_time_to_visit": "全年", "season": "全季" },
+        { "place_name": "大象中转站 (Transit Home)", "specialty": "大象保育", "best_time_to_visit": "全年", "season": "全季" },
+        { "place_name": "乌达瓦拉维水库", "specialty": "湖光山色", "best_time_to_visit": "全年", "season": "全季" },
+        { "place_name": "马杜万维拉大宅", "specialty": "历史古宅", "best_time_to_visit": "全年", "season": "全季" },
+        { "place_name": "瓦尔潘尼石窟", "specialty": "溶洞探险", "best_time_to_visit": "全年", "season": "全季" }
+      ],
+      "activities": {
+      "udawalawe_safari": {
+        "slug": "udawalawe_safari",
+        "name": "乌达瓦拉维游猎",
+        "description": "在自然栖息地观察象群。",
+        "overview": "斯里兰卡观赏大象的最佳地点。",
+        "category": "野生动物",
+        "activity_type": "游猎 (Safari)",
+        "duration": "3 小时",
+        "difficulty": "简单",
+        "suitable_for": ["家庭"],
+        "best_time_to_visit": "全年",
+        "season": "全季",
+        "tags": ["大象"]
+      }
+    }
+    }
+  },
+  "why_book": {
+    "title": "为什么选择我们？",
+    "best_price": {
+      "title": "最优价格",
+      "desc": "我们保证极具竞争力的定价且无隐藏费用，确保您的旅程物超所值。"
+    },
+    "hand_picked": {
+      "title": "精心挑选的目的地",
+      "desc": "我们的旅游专家精心筛选每一个目的地，力求为您提供独特、难忘且高品质的体验。"
+    },
+    "customer_care": {
+      "title": "24小时客户服务",
+      "desc": "我们的支持团队全天候为您服务，在您行前、行中和行后提供协助。"
+    }
+  },
+  "cta": {
+    "title": "直接预订您的完美假期",
+    "book_online": "在线预订",
+    "call": "致电我们",
+    "email": "向我们发送邮件",
+    "whatsapp": "在 WHATSAPP 上咨询"
+  },
+  "footer": {
+    "description": "为您提供旅行灵感。在世界各地发现优质的项目、旅行和难忘的体验。",
+    "links": "常用链接",
+    "itineraries": "旅游行程",
+    "company": "公司信息",
+    "workingHoliday": "工作假期",
+    "volunteer": "国际志愿者",
+    "internships": "实习项目",
+    "study": "留学教育",
+    "africa": "非洲",
+    "asia": "亚洲",
+    "sea": "东南亚",
+    "southAmerica": "南美洲",
+    "about": "关于我们",
+    "about-us": "关于",
+    "blog": "旅游博客",
+    "contact": "联系我们",
+    "contact-us": "联系方式",
+    "terms": "条款与细则",
+    "privacy": "隐私政策",
+    "imprint": "版本说明 (Imprint)"
+  },
+  "customJourney": {
+    "heading": "没找到您心仪的行程？",
+    "description": "我们的旅游专家可以为您量身打造完全个性化的行程。",
+    "button": "开启您的私人定制之旅"
+  },
+  "about": {
+    "chip": "关于公司",
+    "title": "探险在前方，激情驱动我们",
+    "subtitle": "来自与我们一同探索难忘目的地的快乐旅行者的真实体验。",
+    "story": {
+      "chip": "品牌故事",
+      "title": "建立在激情之上的旅程",
+      "description": "成立于 2010 年的优质旅游机构和导游服务商，致力于建立连接、分享旅游专长，并在过程中屡获殊荣。"
+    },
+    "features": {
+      "chip": "为什么选择我们",
+      "title": "创造精彩的旅行回忆！",
+      "item1": {
+        "title": "为您量身定制的冒险",
+        "desc": "每一段旅程都经过精心设计，以匹配您的兴趣、目的地和旅行风格，确保真正个性化且难忘的体验。"
+      },
+      "item2": {
+        "title": "完善的旅行支持与文档",
+        "desc": "从旅行保险到签证指导及预订，我们处理每一个细节，让您可以安心、从容地旅行。"
+      },
+      "item3": {
+        "title": "伴随一生的回忆",
+        "desc": "我们不仅提供旅行，更创造有意义的体验、真实的连接和值得永远珍藏的难忘时刻。"
+      }
+    },
+    "culture": {
+      "chip": "我们的文化",
+      "title": "创造精彩的旅行回忆！",
+      "item1": {
+        "title": "高品质设备",
+        "desc": "无论潜水、徒步还是户外露营，我们提供全套优质设备，助您开启探险之旅！"
+      },
+      "item2": {
+        "title": "个人影像记录",
+        "desc": "我们优秀的摄影团队会记录下每一个特别瞬间，为您珍藏宝贵的回忆。"
+      },
+      "item3": {
+        "title": "全面的保险保障",
+        "desc": "我们提供完善的旅行保险，为您保驾护航，让您可以尽情享受旅程。"
+      }
+    }
+  },
+  "tailorMade": {
+    "chip": "定制旅行",
+    "title": "设计您的完美旅程",
+    "subtitle": "您的想法，我们的经验。分享您在斯里兰卡的梦想之旅。",
+    "conditions": "请用英文填写所有必填字段，并在提交前确保信息的准确性。",
+    "form": {
+      "title": "定制旅行问卷",
+      "subtitle": "请告知我们您的旅行偏好和团队详情，我们将为您创建一个私人定制的行程。",
+      "note": "提交后，我们的团队将审核您的偏好，并在 24 小时内为您提供个性化的行程方案和报价。",
+      "contact": {
+        "section": "联系信息",
+        "name": "联系人姓名",
+        "email": "电子邮箱",
+        "phone": "联系电话"
+      },
+      "group": {
+        "section": "团队详情",
+        "adults": "成人人数",
+        "adultAges": "成人年龄",
+        "children": "儿童人数",
+        "childAges": "儿童年龄",
+        "noChildren": "无儿童"
+      },
+      "trip": {
+        "section": "基本旅行信息",
+        "departure": "出发日期",
+        "duration": "预计旅行天数",
+        "firstTime": "这是您第一次访问斯里兰卡吗？",
+        "medical": "是否有任何我们需要了解的健康状况？",
+        "dietary": "是否有任何饮食偏好或限制？",
+        "medicalPlaceholder": "请描述任何健康状况"
+      },
+      "common": {
+        "yes": "是",
+        "no": "否",
+        "select": "请选择一个选项",
+        "selectMultiple": "选择所有适用项",
+        "selectDate": "选择日期",
+        "selectDuration": "选择时长",
+        "selectYesNo": "选择“是”或“否”",
+        "selectAges": "输入年龄，用逗号分隔",
+        "selectNumber": "输入数字",
+        "selectText": "输入文本",
+        "selectMultipleOptions": "选择多个选项",
+        "vegetarian": "素食",
+        "vegan": "纯素食",
+        "nonVegetarian": "非素食"
+      },
+      "extra": {
+        "dietary": "饮食偏好",
+        "medical": "医疗问题 (请描述)",
+        "vehicle": "车辆需求",
+        "places": "想去的地点",
+        "activities": "想体验的活动",
+        "budget": "预算范围",
+        "observations": "其他备注",
+        "otherPlaces": "其他地点",
+        "otherActivities": "其他活动",
+        "dietaryPlaceholder": "请描述任何饮食偏好",
+        "placesPlaceholder": "有特定的想去的地方吗？",
+        "activitiesPlaceholder": "有特定的想参加的活动吗？",
+        "vehiclePlaceholder": "旅行期间是否需要用车？",
+        "observationsPlaceholder": "还有其他任何想分享的意见或偏好吗？",
+        "dietaryOtherLabel": "其他饮食偏好"
+      },
+      "submit": "提交申请",
+      "successMessage": "感谢您的提交！我们的团队将审核您的偏好，并在 24 小时内为您提供个性化行程和报价。",
+      "errorMessage": "提交申请时出错。请稍后再试。",
+      "submitting": "提交中..."
+    },
+    "validation": {
+      "required": "此字段为必填项",
+      "invalidEmail": "请输入有效的电子邮箱地址"
+    }
+  },
+  "commonForms": {
+    "firstName": "名",
+    "firstNamePlaceholder": "请输入您的名",
+    "lastName": "姓",
+    "lastNamePlaceholder": "请输入您的姓",
+    "email": "电子邮箱",
+    "emailPlaceholder": "请输入您的电子邮箱地址",
+    "phone": "电话号码",
+    "phonePlaceholder": "请输入您的电话号码",
+    "numberOfAdults": "成人人数",
+    "numberOfAdultsPlaceholder": "输入成人人数",
+    "agesOfAdults": "成人年龄",
+    "agesOfAdultsPlaceholder": "输入年龄，例如：25-30, 30-35",
+    "numberOfChildren": "儿童人数",
+    "numberOfChildrenPlaceholder": "输入儿童人数",
+    "agesOfChildren": "儿童年龄",
+    "agesOfChildrenPlaceholder": "输入年龄，例如：10-12, 8-10",
+    "departureDate": "出发日期",
+    "departureDatePlaceholder": "选择您的出发日期",
+    "tripDuration": "旅行时长",
+    "tripDurationPlaceholder": "选择您的旅行天数",
+    "dietaryPreference": "饮食偏好",
+    "dietaryPreferencePlaceholder": "请描述任何饮食偏好",
+    "medicalConditions": "健康状况",
+    "medicalConditionsPlaceholder": "请描述任何健康状况",
+    "submitting": "提交中...",
+    "submitInquiry": "提交咨询",
+    "observations": "其他备注",
+    "observationsPlaceholder": "还有其他想分享的意见或偏好吗？",
+    "firstTimeInSriLanka": "这是您第一次访问斯里兰卡吗？",
+    "arrangeVideoCall": "安排视频预约",
+    "videoCallDescription": "在您方便的时间通过视频通话与专家讨论您的旅行计划，无需下载任何软件。",
+    "contactInformation": "我们可能需要联系您以详细讨论您的旅行计划，请提供准确的联系信息。",
+    "privacyPolicy": "提交此表单即表示您同意我们的隐私政策，并同意我们通过联系您来处理您的旅行咨询。",
+    "selectOption": "选择一个选项",
+    "selectMultiple": "选择所有适用项",
+    "selectDate": "选择日期",
+    "selectDuration": "选择时长",
+    "selectYesNo": "选择“是”或“否”",
+    "selectText": "输入文本",
+    "interestedInItinerary": "感兴趣的行程：",
+    "generalTripInfo": "基本旅行信息",
+    "selectMultipleOptions": "选择多个选项",
+    "vegetarian": "素食",
+    "vegan": "纯素食",
+    "nonVegetarian": "非素食",
+    "yes": "是",
+    "no": "否",
+    "personalDetails": "个人详细信息",
+    "titleLabel": "称谓",
+    "whenTraveling": "您计划什么时候旅行？",
+    "groupDetails": "团队详情",
+    "tripInformation": "旅行信息",
+    "travelPlansSection": "告知我们您的旅行计划和偏好，我们将为您量身定制专属行程。",
+    "agreeDetailsShare": "我特此同意 Aipa Travels 收集并处理我的个人数据。我理解这些信息将仅用于创建定制行程、沟通旅行详情及提供个性化服务。我同意隐私政策条款。",
+    "agreementRequired": "您必须同意分享您的信息才能继续。",
+    "successMessage": "您的咨询已成功发送！",
+    "errorMessage": "发送咨询时出错，请重试。",
+    "titles": {
+      "Mr": "先生",
+      "Mrs": "夫人",
+      "Ms": "女士",
+      "Miss": "小姐",
+      "Dr": "博士",
+      "Prof": "教授",
+      "Sir": "爵士",
+      "Dame": "女爵"
+    },
+    "timing": {
+      "Within 3 months": "3个月内",
+      "3-6 months": "3-6个月",
+      "Over 6 months": "6个月以上探索"
+    }
+  },
+  "contact": {
+    "chip": "联系我们",
+    "title": "联系 Aipa Travels",
+    "description": "有疑问或需要帮助吗？我们的团队致力于帮您规划完美的斯里兰卡之旅。今天就联系我们吧！",
+    "phone": "电话",
+    "email": "电子邮箱",
+    "address": "地址",
+    "form": {
+      "firstName": "名",
+      "lastName": "姓",
+      "name": "姓名",
+      "namePlaceholder": "请输入您的姓名",
+      "email": "电子邮箱",
+      "emailPlaceholder": "请输入您的电子邮箱地址",
+      "phone": "电话号码",
+      "message": "您的留言",
+      "messagePlaceholder": "在此输入您的留言",
+      "submit": "发送消息",
+      "sending": "发送中...",
+      "successMessage": "您的消息已成功发送！",
+      "errorMessage": "发送消息时出错，请重试。",
+      "required": "此字段为必填项",
+      "whatsapp": "在 WHATSAPP 上咨询",
+      "invalidEmail": "请输入有效的电子邮箱地址",
+      "fillRequired": "请填写所有必填字段",
+      "whatsappDefault": "你好，我想咨询关于你们的旅游服务。"
+    }
+  },
+  "PrivacyPolicy": {
+    "chipLabel": "隐私政策",
+    "title": "隐私政策 —",
+    "intro": "在 AIPA Travels，我们重视您的隐私并致力于保护您的个人信息。",
+    "informationCollection": {
+      "title": "信息收集与使用",
+      "description": "我们收集您在使用我们的网站或服务时提供的信息。这些信息将被安全存储，用于提供和改进我们的服务、个性化您的体验并回复您的咨询。"
+    },
+    "marketingCommunications": {
+      "title": "市场推广通讯",
+      "description": "我们可能会向您发送有关旅游套餐、促销活动和服务更新的消息。您可以随时通过退订链接或发送邮件至 info@aipatravels.com 取消订阅。"
+    },
+    "dataSharing": {
+      "title": "数据共享",
+      "description": "AIPA Travels 不会出售您的个人数据。我们仅会与受信任的合作伙伴共享信息，以完成您的旅行预订和所要求的服务。"
+    },
+    "internationalTransfers": {
+      "title": "国际数据传输",
+      "description": "由于旅游服务的全球性质，您的信息可能会在您所在国家以外的国家进行处理或存储。"
+    },
+    "dataRetention": {
+      "title": "数据保留",
+      "description": "我们仅在提供服务和履行法律义务所需的时间内保留您的数据。"
+    },
+    "externalLinks": {
+      "title": "外部链接",
+      "description": "我们的网站可能包含外部网站链接。我们不对这些网站的隐私惯例负责，建议您查看其政策。"
+    },
+    "yourRights": {
+      "title": "您的权利",
+      "description": "您有权访问、更新或删除您的个人信息。如有任何要求，请联系我们。"
+    },
+    "cookies": {
+      "title": "Cookie 技术",
+      "description": "我们使用 Cookie 来提升您的浏览体验。您可以通过浏览器管理 Cookie 设置。禁用 Cookie 可能会影响网站功能。"
+    },
+    "consent": {
+      "title": "同意",
+      "description": "使用我们的网站即表示您同意本隐私政策。"
+    }
+  },
+  "Terms": {
+    "chipLabel": "服务条款",
+    "title": "服务条款 — AIPA Travels",
+    "intro": "访问或使用我们的服务即表示您同意以下条款和条件。",
+    "lastUpdated": "最后更新时间：2026年4月",
+    "acceptance": {
+      "title": "接受条款",
+      "description": "通过访问或使用 AIPA Travels 的服务，您同意受这些条款的约束。如果您不同意，请勿使用我们的服务。"
+    },
+    "description": {
+      "title": "服务描述",
+      "description": "AIPA Travels 提供旅游相关服务，包括行程规划、预订以及覆盖斯里兰卡全境的精选体验。服务内容可能会随时间更新。"
+    },
+    "responsibilities": {
+      "title": "用户责任",
+      "description": "您同意以合法且负责任的方式使用我们的服务。不得滥用、干扰或试图未经授权访问我们的系统。"
+    },
+    "intellectualProperty": {
+      "title": "知识产权",
+      "description": "所有内容、品牌、设计和材料均归 AIPA Travels 所有，并受相关知识产权法律保护。"
+    },
+    "payments": {
+      "title": "支付与退款",
+      "description": "所有款项必须按约定完成支付。退款政策取决于具体的服务或预订套餐，并会相应进行告知。"
+    },
+    "termination": {
+      "title": "终止服务",
+      "description": "如果违反这些条款或出于任何必要原因，我们保留暂停或终止访问我们服务的权利。"
+    },
+    "governingLaw": {
+      "title": "准据法",
+      "description": "这些条款受斯里兰卡法律管辖。"
+    }
+  },
+  "notFound": {
+    "title": "在旅途中迷路了？",
+    "description": "看来此目的地不存在或已搬迁。让 AIPA Travels 引导您回到下一次冒险。",
+    "button": "探索目的地"
+  },
+  "cookies": {
+    "title": "我们重视您的隐私",
+    "intro": "我们使用 Cookie 和类似技术来改善您的网站体验。这包括：",
+    "point1": "提升网站功能和性能",
+    "point2": "分析访问者如何使用我们的网站",
+    "point3": "提供个性化内容和推荐",
+    "point4": "记住您的偏好和设置",
+    "footer": "点击“全部接受”即表示您同意我们使用 Cookie。如果您愿意，可以选择拒绝，届时将仅使用必要的 Cookie。",
+    "acceptAll": "全部接受",
+    "declineAll": "全部拒绝"
+  },
+  "blog": {
+    "title": "旅行洞察与故事",
+    "description": "发现来自我们斯里兰卡探险之旅的旅行贴士、目的地指南和鼓舞人心的故事。",
+    "readMore": "阅读文章",
+    "noPostsFound": "暂无博客文章。请稍后再回来查看旅行洞察与故事。",
+    "backToStories": "返回博客",
+    "publishedOn": "发布于",
+    "exploreMore": "探索更多故事",
+    "viewItineraries": "查看行程",
+    "idescription": "查看我们精心策划的行程和旅游指南。"
+  }
+}
