@@ -8,6 +8,7 @@ import liMessages from "@/locales/it.json";
 import krMessage from "@/locales/kr.json";
 import cnMessagee from "@/locales/cn.json";
 import ruMessage from "@/locales/ru.json";
+import jpMessage from "@/locales/jp.json";
 
 
 import Cookies from "js-cookie";
@@ -33,6 +34,7 @@ i18n
       kr: { translation: krMessage },
       cn: { translation: cnMessagee },
       ru: { translation: ruMessage },
+      jp: { translation: jpMessage },
     },
   });
 

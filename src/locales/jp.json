@@ -1,0 +1,1187 @@
+{
+  "nav": {
+    "home": "ホーム",
+    "itineraries": "ツアー行程",
+    "destinations": "目的地",
+    "activities": "アクティビティ",
+    "tailorMade": "オーダーメイド旅行",
+    "aboutUs": "私たちについて",
+    "planTrip": "旅行を計画する",
+    "chatWithUs": "チャットで相談",
+    "blog": "ブログ"
+  },
+  "homePage": {
+    "title": "あなたのAIPAトラベルコンパニオン",
+    "welcome": "AIPAへようこそ - あなたの旅のパートナー",
+    "description": "パーソナライズされた旅行プラン、人気の目的地の探索、AIPAと一緒に完璧な旅を計画しましょう。今日からあなたの冒険を始めましょう！",
+    "middleBannerTitle": "信頼される旅行のエキスパート",
+    "middleBannerDescription": "AIPAでは、強固な信頼関係がより良いサービスの提供に繋がると信じています。私たちはスリランカ・インバウンド・ツアーオペレーター協会（SLAITO）の誇り高き会員であり、認定された業界当局からの承認を受けています。信頼できるプロフェッショナルな、忘れられない旅をお約束します。",
+    "adventuresTitle": "素晴らしい冒険",
+    "adventuresDescription": "野生動物サファリからウォータースポーツまで、スリランカで最もエキサイティングな冒険を体験してください。一生の思い出となる忘れられない体験をAIPAがご案内します。",
+    "adventuresAlt": "素晴らしい冒険",
+    "adventuresBgAlt": "冒険の背景"
+  },
+  "hero": {
+    "nineArch": {
+      "title": "丘陵地帯へ",
+      "subtitle": "絶景列車の旅",
+      "description": "豊かな緑に囲まれた象徴的なナイン・アーチ・ブリッジを体験してください。"
+    },
+    "galle": {
+      "title": "コロニアルな魅力",
+      "subtitle": "歴史を歩く",
+      "description": "ゴール要塞の時代を超越した美しさと海岸沿いの遺産を探索しましょう。"
+    },
+    "sigiriya": {
+      "title": "古代の驚異",
+      "subtitle": "ライオンロックを登る",
+      "description": "壮大なシーギリヤ要塞とその古代の秘密を解き明かしてください。"
+    },
+    "bentota": {
+      "title": "再定義された贅沢",
+      "subtitle": "自然とエレガンスの融合",
+      "description": "黄金のビーチでリラックスし、ベントタの静寂を体感してください。"
+    },
+    "tea": {
+      "title": "紅茶の国",
+      "subtitle": "高地からの贈り物",
+      "description": "スリランカの緑豊かな茶園と涼しい気候の中を散策しましょう。"
+    }
+  },
+  "aboutUs": {
+    "title": "AIPAについて",
+    "shortDescription": "AIPAはスリランカを代表する旅行代理店であり、卓越した旅行体験の提供に専念しています。私たちの目的は、スリランカの隠れた宝石を紹介し、旅行者をこの島の真の美しさ、文化、そしてユニークな体験へと繋ぐことです。\n\n専門知識、パーソナライズされたガイダンス、そして旅行への情熱を組み合わせることで、お客様に価値あるサービスを提供することをお約束します。AIPAでは、すべての旅が思い出深く、スムーズで、真に特別なものになるよう作り上げられています。",
+    "services": ["事務作業の軽減", "より大きな感動", "洗練された顧客体験"],
+    "leftService": "数分で旅の見積もりと更新が可能",
+    "rightService": "一生忘れられない旅を創り出す",
+    "leftImageAlt": "ライオンサファリ",
+    "centerImageAlt": "ブランドビデオ行程",
+    "rightImageAlt": "夕暮れの高級ロッジ"
+  },
+  "other": {
+    "loading": "旅の準備をしています...",
+    "noResults": "結果が見つかりませんでした。",
+    "error": "エラーが発生しました。もう一度お試しください。",
+    "searchPlaceholder": "目的地、アクティビティなどを検索...",
+    "whoWeAre": "私たちについて",
+    "ourMission": "私たちの使命",
+    "Explore Now": "今すぐ探索",
+    "Get Free Consultation": "無料相談を受ける",
+    "See All Itineraries": "すべての行程を見る",
+    "See All Destinations": "すべての目的地を見る",
+    "See All Activities": "すべてのアクティビティを見る",
+    "Plan Your Trip": "旅行を計画する",
+    "Chat with Us": "チャットで相談",
+    "Discover More": "さらに詳しく",
+    "Learn More": "詳細を見る",
+    "Contact Us": "お問い合わせ",
+    "Book Now": "今すぐ予約",
+    "View Details": "詳細を表示",
+    "Start Planning": "計画を始める",
+    "Get in Touch": "連絡を取る",
+    "Read More": "続きを読む",
+    "See More": "もっと見る",
+    "Back to Home": "ホームに戻る",
+    "Next": "次へ",
+    "Previous": "前へ",
+    "Submit": "送信",
+    "Cancel": "キャンセル",
+    "Yes": "はい",
+    "No": "いいえ",
+    "Close": "閉じる",
+    "Save": "保存",
+    "Edit": "編集",
+    "Delete": "削除",
+    "View": "表示",
+    "Add to Cart": "カートに追加",
+    "Remove from Cart": "カートから削除",
+    "Checkout": "チェックアウト",
+    "Continue": "続行",
+    "Finish": "完了",
+    "Search": "検索",
+    "Filter": "フィルター",
+    "Sort": "並べ替え",
+    "Reset": "リセット",
+    "Apply": "適用",
+    "Clear": "クリア",
+    "Download": "ダウンロード",
+    "Share": "共有",
+    "Follow Us": "フォローする",
+    "Subscribe": "購読する",
+    "Unsubscribe": "購読解除",
+    "Accept": "同意する",
+    "Decline": "辞退する",
+    "Approve": "承認",
+    "Reject": "拒否",
+    "Yes, Delete": "はい、削除します",
+    "No, Keep": "いいえ、残します",
+    "Are you sure?": "本当によろしいですか？",
+    "This action cannot be undone.": "この操作は取り消せません。",
+    "Please enter a valid email address.": "有効なメールアドレスを入力してください。",
+    "Please enter your password.": "パスワードを入力してください。",
+    "Please confirm your password.": "パスワードを再入力してください。",
+    "Passwords do not match.": "パスワードが一致しません。",
+    "Please enter your name.": "お名前を入力してください。",
+    "Please enter your message.": "メッセージを入力してください。",
+    "Thank you for your message. We will get back to you soon.": "メッセージありがとうございます。まもなくご連絡いたします。",
+    "An error occurred while sending your message. Please try again later.": "送信中にエラーが発生しました。後でもう一度お試しください。",
+    "Please fill out all required fields.": "必須項目をすべて入力してください。",
+    "Please agree to the terms and conditions.": "利用規約に同意してください。",
+    "Your session has expired. Please log in again.": "セッションの有効期限が切れました。再度ログインしてください。",
+    "You have been logged out.": "ログアウトしました。",
+    "view more": "もっと見る",
+    "overview" : "概要",
+    "Day by Day Itinerary" : "日ごとの行程",
+    "Customize" : "カスタマイズ",
+    "Enquire Now" : "今すぐ問い合わせ",
+    "Plan your trip" : "旅行を計画する",
+    "Highlights" : "ハイライト",
+    "Start From" : "開始価格",
+    "day" : "日目",
+    "Days": "日間",
+    "Nights" : "泊",
+    "places" : "場所",
+    "activities" : "アクティビティ",
+    "Most visited locations" : "人気の場所",
+    "Your next favorite place awaits" : "次のお気に入りの場所があなたを待っています",
+    "starting_from" : "参考価格",
+    "whatsIncluded" : "含まれるもの",
+    "stats": {
+      "satisfaction": "満足度",
+      "reviews": "お客様のレビュー数",
+      "experience": "専門知識の年数",
+      "tours": "年間のガイドツアー数"
+    },
+    "things_to_do": {
+      "title": "おすすめのアクティビティ",
+      "subtitle": "この目的地のために厳選された、忘れられない体験を探索しましょう。"
+    }
+  },
+  "categories": {
+    "All" : "すべて",
+    "Wildlife": "野生動物",
+    "Coastal": "沿岸部",
+    "History": "歴史",
+    "Colonial": "コロニアル",
+    "Religion": "宗教",
+    "Highlands": "高地",
+    "cultural_explorer": "文化探訪",
+    "Tea" : "紅茶", 
+    "Culture" : "文化", 
+    "Safari" : "サファリ", 
+    "Beach" : "ビーチ", 
+    "Island" : "島", 
+    "Wellness" : "ウェルネス",
+    "Tea Highland" : "ティー・ハイランド", 
+    "Cultural Triangle" : "文化の三角地帯", 
+    "Wildlife Safari" : "野生動物サファリ", 
+    "Coastal Paradise" : "沿岸の楽園", 
+    "Grand Island" : "グランド・アイランド", 
+    "Wellness Retreat" : "ウェルネス・リトリート"
+  },
+  "itineraries": {
+    "headTitle" : "厳選された旅",
+    "title" : "ツアー行程",
+    "subtitle" : "スリランカの心と魂に触れる、手作りのアドベンチャー",
+    "chipText" : "おすすめツアー",
+    "animeText": "新しい発見がすぐそこに！",
+    "culturalTriangleItinerary": {
+      "imageAlt": "シーギリヤ・ロック要塞",
+      "title": "文化の三角地帯巡り",
+      "overview": "この7日間のプランで、スリランカの文化の三角地帯の豊かな歴史と文化を発見してください。古代都市、壮大な岩の要塞、聖なる寺院、伝統的な村の生活を、贅沢な宿泊施設とパーソナライズされたガイド付きツアーで楽しみましょう。",
+      "highlights": {
+        "sigiriya_rock_fortress": "シーギリヤ・ロック要塞",
+        "polonnaruwa_ancient_city": "ポロンナルワ古代都市",
+        "dambulla_cave_temple": "ダンブッラ石窟寺院",
+        "anuradhapura_sacred_city": "アヌラーダプラ聖地",
+        "temple_of_tooth": "仏歯寺"
+      },
+      "days": {
+        "day1_title": "コロンボ到着",
+        "day1_desc": "スリランカへようこそ！文化の三角地帯エリアの高級ホテルへ送迎します。",
+        "day2_title": "仏歯寺",
+        "day2_desc": "聖地キャンディの仏歯寺を訪問します。",
+        "day3_title": "シーギリヤ・ロック要塞",
+        "day3_desc": "早朝のプライベート登山に続き、ダンブッラを訪問します。",
+        "day4_title": "ポロンナルワ古代都市",
+        "day4_desc": "中世の首都の遺跡を探索します。",
+        "day5_title": "アヌラーダプラ聖地",
+        "day5_desc": "聖なる菩提樹スリー・マハー菩提を訪問します。",
+        "day6_title": "村の生活体験",
+        "day6_desc": "ランチ付きの伝統的な村巡りツアーです。",
+        "day7_title": "ミヒンタレーと出発",
+        "day7_desc": "午前にミヒンタレーを訪れた後、出発します。"
+      },
+      "inclusions": {
+        "luxury_accommodation": "ラグジュアリーな宿泊施設",
+        "private_guided_tours": "プライベートガイド付きツアー",
+        "entrance_fees": "すべての入場料",
+        "airport_transfers": "空港送迎",
+        "meals": "毎日の朝食と夕食"
+      }
+    },
+    "teaHighlandItinerary": {
+      "imageAlt": "ヌワラエリヤの茶園",
+      "title": "紅茶の国と高地リトリート",
+      "overview": "ヌワラエリヤの霧深い山々に浸り、最高級のセイロンティーの茶園を体験してください。",
+      "highlights": {
+        "nuwara_eliya": "ヌワラエリヤ",
+        "tea_factory_visits": "製茶工場見学",
+        "horton_plains": "ホートン・プレインズ",
+        "ella_nine_arches": "エラ・ナイン・アーチ"
+      },
+      "days": {
+        "day1_title": "キャンディ到着",
+        "day1_desc": "スリランカの文化的な首都、キャンディへ移動します。",
+        "day2_title": "紅茶の国への旅",
+        "day2_desc": "茶園を抜けてヌワラエリヤまでの絶景ドライブを楽しみます。",
+        "day3_title": "製茶工場とホートン・プレインズ",
+        "day3_desc": "紅茶工場を見学し、ホートン・プレインズを探索します。",
+        "day4_title": "エラの冒険",
+        "day4_desc": "ナイン・アーチ・ブリッジを訪れ、エラ・ロックからの眺めを楽しみます。",
+        "day5_title": "出発",
+        "day5_desc": "空港へ送迎、または旅を続けます。"
+      },
+      "inclusions": {
+        "boutique_hotel": "ブティックホテル宿泊",
+        "tea_factory_tours": "製茶工場ツアー",
+        "scenic_train": "絶景列車の旅",
+        "transfers": "すべての送迎",
+        "breakfast": "朝食付き"
+      }
+    },
+    "wildlifeSafariItinerary": {
+      "imageAlt": "ヤーラ国立公園のヒョウ",
+      "title": "野生動物サファリ・アドベンチャー",
+      "overview": "ヤーラでヒョウを追跡し、ウダワラウェでゾウを目撃する、最高峰の野生動物体験を。",
+      "highlights": {
+        "yala": "ヤーラ国立公園",
+        "udawalawe": "ウダワラウェ",
+        "leopard_tracking": "ヒョウの追跡",
+        "elephant_orphanage": "ゾウの孤児院"
+      },
+      "days": {
+        "day1_title": "ヤーラ到着",
+        "day1_desc": "ヤーラに移動し、贅沢なサファリロッジにチェックインします。",
+        "day2_title": "ヤーラサファリ - 午前の部",
+        "day2_desc": "ヤーラ国立公園での早朝サファリを楽しみます。",
+        "day3_title": "ヤーラサファリ - 午後の部",
+        "day3_desc": "スポットライトを使った午後のサファリを楽しみます。",
+        "day4_title": "ウダワラウェ",
+        "day4_desc": "ウダワラウェに移動し、午後のゾウサファリに向かいます。",
+        "day5_title": "ゾウの孤児院",
+        "day5_desc": "ゾウの孤児院を訪れ、さらに野生動物を観察します。",
+        "day6_title": "出発",
+        "day6_desc": "野生動物の思い出と共に空港へ送迎します。"
+      },
+      "inclusions": {
+        "safari_lodges": "贅沢なサファリロッジ",
+        "morning_evening_safaris": "午前と午後のサファリ",
+        "expert_trackers": "専門のトラッカー",
+        "all_meals": "すべての食事",
+        "park_entries": "国立公園入場料"
+      }
+    },
+    "coastalParadiseItinerary": {
+      "imageAlt": "夕暮れのゴール要塞",
+      "title": "沿岸の楽園の旅",
+      "overview": "メリッサでのホエールウォッチングから歴史的なゴール要塞まで、スリランカ南海岸の魅力を体験しましょう。",
+      "highlights": {
+        "mirissa_whale": "メリッサのホエールウォッチング",
+        "galle_fort": "ゴール要塞",
+        "stilt_fishing": "スリランカ伝統の釣り",
+        "beach_villas": "ビーチヴィラ"
+      },
+      "days": {
+        "day1_title": "コロンボ到着",
+        "day1_desc": "メリッサのビーチヴィラへ移動します。",
+        "day2_title": "ホエールウォッチング",
+        "day2_desc": "早朝のホエールウォッチング遠征に出発します。",
+        "day3_title": "ビーチでの休息",
+        "day3_desc": "ビーチでリラックスするか、ウォータースポーツを楽しみます。",
+        "day4_title": "ゴール要塞",
+        "day4_desc": "ゴール要塞を一日かけて探索します。",
+        "day5_title": "伝統的な釣り体験",
+        "day5_desc": "伝統的なスティルト・フィッシング（一本釣り）を体験します。",
+        "day6_title": "タンガッラと秘境ビーチ",
+        "day6_desc": "隠れたビーチや入り江を訪れます。",
+        "day7_title": "文化ショー",
+        "day7_desc": "夕方に伝統舞踊のパフォーマンスを鑑賞します。",
+        "day8_title": "出発",
+        "day8_desc": "空港へ送迎します。"
+      },
+      "inclusions": {
+        "beach_villa": "ビーチヴィラ宿泊施設",
+        "whale_tour": "ホエールウォッチングツアー",
+        "galle_guide": "ゴール要塞ガイド",
+        "transfers": "すべての送迎",
+        "breakfast": "毎日の朝食"
+      }
+    },
+    "grandIslandItinerary": {
+      "imageAlt": "スリランカのハイライトマップ",
+      "title": "グランド・アイランド・サーキット",
+      "overview": "北から南、東から西まで、主要な見どころを網羅した究極のスリランカ・アドベンチャーです。",
+      "highlights": {
+        "cultural_triangle": "文化の三角地帯",
+        "hill_country": "ヒル・カントリー（高地）",
+        "wildlife_parks": "野生動物公園",
+        "coastal_treasures": "海岸の宝庫"
+      },
+      "days": {
+        "day1_title": "コロンボ到着",
+        "day1_desc": "お出迎えとホテルへの送迎。",
+        "day2_title": "アヌラーダプラ",
+        "day2_desc": "古代都市の探索。",
+        "day3_title": "シーギリヤとダンブッラ",
+        "day3_desc": "岩の要塞と石窟寺院。",
+        "day4_title": "ポロンナルワ",
+        "day4_desc": "中世の首都ツアー。",
+        "day5_title": "キャンディ",
+        "day5_desc": "仏歯寺と市内観光。",
+        "day6_title": "ヌワラエリヤ",
+        "day6_desc": "紅茶の国へのドライブ。",
+        "day7_title": "エラ",
+        "day7_desc": "ナイン・アーチとアクティビティ。",
+        "day8_title": "ウダワラウェ",
+        "day8_desc": "午後のサファリ。",
+        "day9_title": "ヤーラ",
+        "day9_desc": "ヒョウサファリ。",
+        "day10_title": "メリッサ",
+        "day10_desc": "ホエールウォッチング。",
+        "day11_title": "ゴール",
+        "day11_desc": "要塞の探索。",
+        "day12_title": "ヒッカドゥワ",
+        "day12_desc": "ビーチとシュノーケリング。",
+        "day13_title": "コロンボ",
+        "day13_desc": "市内観光とショッピング。",
+        "day14_title": "出発",
+        "day14_desc": "空港への送迎。"
+      },
+      "inclusions": {
+        "all_accommodation": "すべての宿泊施設",
+        "all_meals": "すべての食事",
+        "private_guide": "プライベートガイド",
+        "park_entries": "すべての公園入場料",
+        "transfers": "すべての送迎",
+        "domestic_flights": "国内線"
+      }
+    },
+    "wellnessRetreatItinerary": {
+      "imageAlt": "アーユルヴェーダ・スパ・トリートメント",
+      "title": "ウェルネス＆スピリチュアル・リトリート",
+      "overview": "アーユルヴェーダのトリートメント、瞑想セッション、聖なる仏教寺院への訪問で、魂をリフレッシュさせましょう。",
+      "highlights": {
+        "ayurvedic_spa": "アーユルヴェーダ・スパ",
+        "temple_visits": "寺院訪問",
+        "meditation": "瞑想",
+        "sri_lankan_cuisine": "スリランカ料理"
+      },
+      "days": {
+        "day1_title": "到着と歓迎",
+        "day1_desc": "アーユルヴェーダのカウンセリングとウェルカムトリートメント。",
+        "day2_title": "寺院訪問",
+        "day2_desc": "聖なる寺院への訪問と瞑想。",
+        "day3_title": "スパ・デー",
+        "day3_desc": "トリートメントとヨガの一日。",
+        "day4_title": "自然とウェルネス",
+        "day4_desc": "ネイチャーウォークと瞑想セッション。",
+        "day5_title": "最終トリートメント",
+        "day5_desc": "最後のスパトリートメントと内省の時間。",
+        "day6_title": "出発",
+        "day6_desc": "心身ともにリフレッシュして出発。"
+      },
+      "inclusions": {
+        "wellness_resort": "ウェルネスリゾート宿泊",
+        "daily_treatments": "毎日のトリートメント",
+        "yoga_sessions": "ヨガセッション",
+        "all_meals": "すべての食事",
+        "spa_facilities": "スパ施設"
+      }
+    }
+  },
+  "destinations": {
+    "headTitle": "スリランカを探索する",
+    "title": "目的地",
+    "subtitle": "スリランカの美しさと多様性を象徴する、厳選された場所",
+    "about_title": "目的地について",
+    "d_highlight": "目的地のハイライト",
+    "d_subtitle": "各目的地のユニークな見どころを発見しましょう",
+    "mirissaDestination": {
+      "imageAlt": "メリッサビーチ",
+      "title": "メリッサ・ビーチ・エスケープ",
+      "overview": "スリランカ南海岸の黄金の砂浜でリラックスし、忘れられないホエールウォッチングを体験してください。",
+      "description": "メリッサビーチは、スリランカの南海岸に位置する息をのむようなトロピカルパラダイスです。黄金の砂浜、透き通った海、そしてゆったりとした島の雰囲気で知られるメリッサは、リラックスと冒険の両方を求める人に最適な場所です。穏やかなラグーンでの水泳、心地よい波でのサーフィン、あるいは忘れられないホエールウォッチングツアーを楽しむことができます。ビーチ以外にも、活気あるナイトライフ、居心地の良いビーチカフェ、新鮮なシーフードレストランが揃っています。夕暮れ時の海岸散策、隠れた入り江の探索、近くの島々へのボートトリップなど、メリッサでのすべての瞬間が忘れられない体験となるでしょう。",
+      "highlights": {
+        "whale_watching": "ホエールウォッチング",
+        "golden_beach_relax": "黄金のビーチでリラックス"
+      },
+      "inclusions": {
+        "beach_hotel": "ビーチホテル宿泊",
+        "breakfast_included": "朝食付き"
+      },
+      "places": [
+        { "place_name": "メリッサビーチ", "specialty": "ホエールウォッチング", "best_time_to_visit": "11月〜4月", "season": "乾季" },
+        { "place_name": "シークレットビーチ・メリッサ", "specialty": "隠れ家ビーチ", "best_time_to_visit": "11月〜4月", "season": "乾季" },
+        { "place_name": "ココナッツ・ツリー・ヒル", "specialty": "写真撮影スポット", "best_time_to_visit": "11月〜4月", "season": "乾季" },
+        { "place_name": "パロット・ロック", "specialty": "展望ポイント", "best_time_to_visit": "11月〜4月", "season": "乾季" },
+        { "place_name": "ウェリガマビーチ", "specialty": "サーフィン", "best_time_to_visit": "11月〜4月", "season": "乾季" },
+        { "place_name": "ポルヘナビーチ", "specialty": "シュノーケリング", "best_time_to_visit": "11月〜4月", "season": "乾季" }
+      ],
+      "activities": {
+        "whale_watching_mirissa": {
+          "slug": "whale_watching_mirissa",
+          "name": "ホエールウォッチング",
+          "description": "インド洋でシロナガスクジラやイルカを観察する体験です。",
+          "overview": "メリッサは世界でも有数のホエールウォッチングスポットです。",
+          "category": "野生動物",
+          "activity_type": "ボートツアー",
+          "duration": "3〜5時間",
+          "difficulty": "初級",
+          "suitable_for": ["カップル", "ファミリー", "一人旅"],
+          "best_time_to_visit": "11月から4月",
+          "season": "乾季",
+          "tags": ["クジラ", "ボート", "オーシャン"]
+        },
+        "snorkeling_polhena": {
+          "slug": "snorkeling_polhena",
+          "name": "ウミガメとシュノーケリング",
+          "description": "浅瀬でウミガメと一緒に泳ぎます。",
+          "overview": "シュノーケリング初心者の方に最適です。",
+          "category": "自然",
+          "activity_type": "ウォーターアクティビティ",
+          "duration": "1〜2時間",
+          "difficulty": "初級",
+          "suitable_for": ["ファミリー", "子供"],
+          "best_time_to_visit": "11月から4月",
+          "season": "乾季",
+          "tags": ["ウミガメ", "シュノーケリング"]
+        },
+        "surfing_weligama": {
+          "slug": "surfing_weligama",
+          "name": "サーフィンレッスン",
+          "description": "インストラクターと一緒にサーフィンを学びます。",
+          "overview": "初心者に理想的な環境です。",
+          "category": "アドベンチャー",
+          "activity_type": "ウォーターアクティビティ",
+          "duration": "2時間",
+          "difficulty": "初級",
+          "suitable_for": ["一人旅", "カップル"],
+          "best_time_to_visit": "11月から4月",
+          "season": "乾季",
+          "tags": ["サーフ"]
+        }
+      }
+    },
+
+    "bentotaDestination": {
+      "imageAlt": "ベントタビーチ",
+      "title": "ベントタ・コースタル・エスケープ",
+      "overview": "スリランカで最も有名なビーチリゾートの一つで、スリル満点のウォータースポーツと穏やかなリバーサファリを体験してください。",
+      "description": "ベントタ・エスケープは、スリランカの穏やかなビーチの真髄を捉えた静かな海岸沿いのリトリートです。インド洋のターコイズブルーの海に沿って広がるベントタは、リラックス、冒険、そして文化的魅力が融合しています。ジェットスキー、ウィンドサーフィン、セーリングなどのウォータースポーツを楽しんだり、揺れるヤシの木の下で柔らかな砂浜に寝そべったりすることができます。また、高級リゾート、川沿いでの食事、地元の寺院やマングローブの森へのガイド付きツアーも充実しています。ベントタは、ロマンチックな休暇を求めるカップル、海辺での楽しみを求めるファミリー、そして自然の中で休息を求める一人旅の方に理想的です。",
+      "highlights": {
+        "water_sports": "ウォータースポーツ",
+        "river_safari": "リバーサファリ"
+      },
+      "inclusions": {
+        "luxury_resort": "高級リゾート宿泊",
+        "boat_safari": "ボートサファリ体験"
+      },
+      "places": [
+        { "place_name": "ベントタビーチ", "specialty": "ウォータースポーツ", "best_time_to_visit": "11月〜4月", "season": "乾季" },
+        { "place_name": "ベントタ川", "specialty": "ボートサファリ", "best_time_to_visit": "11月〜4月", "season": "乾季" },
+        { "place_name": "ルヌガンガ・エステート", "specialty": "建築・庭園", "best_time_to_visit": "通年", "season": "オールシーズン" },
+        { "place_name": "ブリーフ・ガーデン", "specialty": "庭園・屋敷", "best_time_to_visit": "通年", "season": "オールシーズン" },
+        { "place_name": "コスゴダ・ウミガメ保護センター", "specialty": "自然保護", "best_time_to_visit": "通年", "season": "オールシーズン" },
+        { "place_name": "マドゥ川サファリ", "specialty": "マングローブサファリ", "best_time_to_visit": "11月〜4月", "season": "乾季" }
+      ],
+      "activities": {
+        "bentota_river_safari": {
+          "slug": "bentota_river_safari",
+          "name": "ベントタリバーサファリ",
+          "description": "マングローブと野生動物を探索します。",
+          "overview": "景色を楽しむボートサファリ。",
+          "category": "自然",
+          "activity_type": "ボートツアー",
+          "duration": "2〜3時間",
+          "difficulty": "初級",
+          "suitable_for": ["ファミリー", "カップル", "一人旅"],
+          "best_time_to_visit": "11月から4月",
+          "season": "乾季",
+          "tags": ["川", "ボート"]
+        },
+        "bentota_water_sports": {
+          "slug": "bentota_water_sports",
+          "name": "ベントタ・ウォータースポーツ",
+          "description": "ジェットスキーやバナナボートを楽しみます。",
+          "overview": "最高のアドベンチャー・スポット。",
+          "category": "アドベンチャー",
+          "activity_type": "ウォーターアクティビティ",
+          "duration": "1〜2時間",
+          "difficulty": "初級",
+          "suitable_for": ["友人同士", "カップル"],
+          "best_time_to_visit": "11月から4月",
+          "season": "乾季",
+          "tags": ["ジェットスキー"]
+        },
+        "bentota_beach_relax": {
+          "slug": "bentota_beach_relax",
+          "name": "ビーチ・リラクゼーション",
+          "description": "砂浜でリラックスした時間を過ごします。",
+          "overview": "穏やかな海の雰囲気。",
+          "category": "レジャー",
+          "activity_type": "ビーチ",
+          "duration": "自由",
+          "difficulty": "初級",
+          "suitable_for": ["すべての人"],
+          "best_time_to_visit": "11月から4月",
+          "season": "乾季",
+          "tags": ["ビーチ"]
+        }
+      }
+    },
+
+    "sigiriyaDestination": {
+      "imageAlt": "シーギリヤ・ロック要塞",
+      "title": "シーギリヤ・ヘリテージ",
+      "overview": "ユネスコ世界遺産や歴史的遺跡を訪れ、スリランカの古代の驚異を発見してください。",
+      "description": "シーギリヤ・ヘリテージは、しばしば「ライオンロック」と呼ばれるスリランカで最も象徴的なランドマーク、シーギリヤ・ロック要塞の本拠地です。緑豊かなジャングルからドラマチックにそびえ立つこの古代遺跡は、この国の豊かな歴史と素晴らしい建築技術を垣間見せてくれます。岩を登り、古代のフレスコ画（シーギリヤ・レディ）、有名なミラーウォール、そして頂上にある王宮跡を探索することができます。周囲の庭園、水路、堀などは、数世紀前の高度なエンジニアリングと美的デザインを象徴しています。シーギリヤは単なる歴史的記念碑ではなく、アドベンチャー、文化、そしてスリランカ中央平原の自然の美しさが融合した体験そのものです。",
+      "highlights": {
+        "sigiriya_rock_fortress": "シーギリヤ・ロック要塞",
+        "ancient_ruins": "古代の遺跡"
+      },
+      "inclusions": {
+        "heritage_hotel": "ヘリテージホテル宿泊",
+        "guide_service": "プロのガイドサービス"
+      },
+      "places": [
+        { "place_name": "シーギリヤ・ロック要塞", "specialty": "古代要塞", "best_time_to_visit": "5月〜9月", "season": "乾季" },
+        { "place_name": "ピドゥランガラ・ロック", "specialty": "岩登り", "best_time_to_visit": "5月〜9月", "season": "乾季" },
+        { "place_name": "ダンブッラ石窟寺院", "specialty": "石窟寺院", "best_time_to_visit": "通年", "season": "オールシーズン" },
+        { "place_name": "シーギリヤ博物館", "specialty": "博物館", "best_time_to_visit": "通年", "season": "オールシーズン" },
+        { "place_name": "ミンネリヤ国立公園", "specialty": "ゾウサファリ", "best_time_to_visit": "5月〜9月", "season": "乾季" },
+        { "place_name": "リティガラ森林修道院", "specialty": "森林遺跡", "best_time_to_visit": "通年", "season": "オールシーズン" }
+      ],
+      "activities": {
+        "sigiriya_climb": {
+          "slug": "sigiriya_climb",
+          "name": "シーギリヤ・ロック登山",
+          "description": "古代の要塞を登ります。",
+          "overview": "ユネスコ世界遺産体験。",
+          "category": "文化",
+          "activity_type": "ハイキング",
+          "duration": "2〜3時間",
+          "difficulty": "中級",
+          "suitable_for": ["カップル", "一人旅"],
+          "best_time_to_visit": "午前中",
+          "season": "乾季",
+          "tags": ["遺産"]
+        },
+        "pidurangala_hike": {
+          "slug": "pidurangala_hike",
+          "name": "ピドゥランガラ日の出ハイキング",
+          "description": "最高の日の出ビューポイントです。",
+          "overview": "カジュアルに楽しめるハイキング。",
+          "category": "アドベンチャー",
+          "activity_type": "ハイキング",
+          "duration": "2時間",
+          "difficulty": "中級",
+          "suitable_for": ["一人旅", "カップル"],
+          "best_time_to_visit": "早朝",
+          "season": "乾季",
+          "tags": ["日の出"]
+        }
+      }
+    },
+
+    "kandyDestination": {
+      "imageAlt": "仏歯寺",
+      "title": "キャンディ文化体験",
+      "overview": "寺院巡りや文化パフォーマンスを通じて、スリランカの豊かな伝統に浸ってください。",
+      "description": "スリランカの文化的な首都であるキャンディは、歴史、伝統、そして自然の美しさに彩られた街です。なだらかな丘に囲まれ、豊かな緑に包まれたキャンディは、仏陀の聖なる遺物が納められ、毎年何千人もの巡礼者が訪れる仏歯寺で有名です。また、伝統的なダンサー、太鼓奏者、装飾されたゾウが街を練り歩くエサラ・ペラヘラ祭のような活気ある祭りも開催されます。絵のように美しいキャンディ湖の散策、王立植物園の探索、そしてスリランカの人々の温かいおもてなしなど、キャンディは文化愛好家にとって欠かせない場所です。",
+      "highlights": {
+        "temple_of_tooth": "仏歯寺",
+        "cultural_dance_show": "文化ダンスショー"
+      },
+      "inclusions": {
+        "city_hotel": "シティホテル宿泊",
+        "cultural_show_ticket": "文化ショーチケット"
+      },
+      "places": [
+        { "place_name": "聖仏歯寺", "specialty": "聖なる寺院", "best_time_to_visit": "通年", "season": "オールシーズン" },
+        { "place_name": "ペラデニヤ王立植物園", "specialty": "植物園", "best_time_to_visit": "通年", "season": "オールシーズン" },
+        { "place_name": "キャンディ湖", "specialty": "湖畔散策", "best_time_to_visit": "通年", "season": "オールシーズン" },
+        { "place_name": "ウダワッタケレ森林保護区", "specialty": "森林保護区", "best_time_to_visit": "通年", "season": "オールシーズン" },
+        { "place_name": "エンベッケ寺院", "specialty": "木彫り細工", "best_time_to_visit": "通年", "season": "オールシーズン" },
+        { "place_name": "ガダラデニヤ寺院", "specialty": "寺院", "best_time_to_visit": "通年", "season": "オールシーズン" }
+      ],
+      "activities": {
+        "tooth_temple_visit": {
+          "slug": "tooth_temple_visit",
+          "name": "寺院参拝",
+          "description": "聖なる寺院を訪問します。",
+          "overview": "重要な仏教聖地です。",
+          "category": "文化",
+          "activity_type": "屋内",
+          "duration": "1〜2時間",
+          "difficulty": "初級",
+          "suitable_for": ["すべての人"],
+          "best_time_to_visit": "通年",
+          "season": "オールシーズン",
+          "tags": ["宗教的"]
+        }
+      }
+    },
+
+    "ellaDestination": {
+      "imageAlt": "エラ・ナインアーチブリッジ",
+      "title": "エラ・アドベンチャー",
+      "overview": "エラの美しい山の景色、茶園、そして象徴的なランドマークを探索しましょう。",
+      "description": "エラは、スリランカの高地にある、息をのむような絶景に囲まれた場所です。涼しい気候と茶園のパノラマビューが広がり、ハイキングや自然を愛する人々の楽園となっています。有名なナイン・アーチ・ブリッジを列車が通り過ぎる様子を眺めたり、エラ・ロックやリトル・アダムス・ピークを登って雲海を見下ろしたりすることができます。エラの町自体も、フレンドリーな雰囲気のカフェやショップが並び、リラックスしたひとときを過ごすのに最適です。自然の力強さと安らぎを同時に感じられるエラは、スリランカ旅行のハイライトとなることでしょう。",
+      "highlights": {
+        "nine_arch_bridge": "ナインアーチブリッジ",
+        "ella_rock_hike": "エラロック・ハイキング"
+      },
+      "inclusions": {
+        "mountain_view_hotel": "マウンテンビューホテル",
+        "train_experience": "絶景列車の体験"
+      },
+      "places": [
+        { "place_name": "ナイン・アーチ・ブリッジ", "specialty": "橋・写真撮影", "best_time_to_visit": "1月〜3月", "season": "乾季" },
+        { "place_name": "エラ・ロック", "specialty": "ハイキング", "best_time_to_visit": "1月〜3月", "season": "乾季" },
+        { "place_name": "リトル・アダムス・ピーク", "specialty": "気軽な登山", "best_time_to_visit": "1月〜3月", "season": "乾季" },
+        { "place_name": "ラワナの滝", "specialty": "滝", "best_time_to_visit": "通年", "season": "オールシーズン" },
+        { "place_name": "デモダラ・ループ", "specialty": "鉄道ループ", "best_time_to_visit": "通年", "season": "オールシーズン" }
+      ],
+      "activities": {
+        "ella_rock_hike": {
+          "slug": "ella_rock_hike",
+          "name": "エラロック・ハイキング",
+          "description": "茶園を通り抜けて、息をのむような展望ポイントまで歩きます。",
+          "overview": "山のパノラマビューが楽しめるやりがいのあるハイキング。",
+          "category": "アドベンチャー",
+          "activity_type": "ハイキング",
+          "duration": "3〜4時間",
+          "difficulty": "上級",
+          "suitable_for": ["一人旅", "アドベンチャー好き"],
+          "best_time_to_visit": "1月から3月",
+          "season": "乾季",
+          "tags": ["ハイキング", "山"]
+        },
+        "ravana_zipline": {
+          "slug": "ravana_zipline",
+          "name": "フライング・ラワナ・ジップライン",
+          "description": "見事な渓谷の景色を眺めながら高速ジップラインを体験。",
+          "overview": "スリランカ初のメガジップライン体験。",
+          "category": "アドベンチャー",
+          "activity_type": "アウトドア",
+          "duration": "30分",
+          "difficulty": "中級",
+          "suitable_for": ["アドベンチャー好き"],
+          "best_time_to_visit": "1月から3月",
+          "season": "乾季",
+          "tags": ["ジップライン"]
+        },
+        "nine_arches_photos": {
+          "slug": "nine_arches_photos",
+          "name": "ナインアーチブリッジ撮影",
+          "description": "橋を渡る象徴的な列車を撮影します。",
+          "overview": "スリランカで最もフォトジェニックなスポットの一つ。",
+          "category": "文化",
+          "activity_type": "アウトドア",
+          "duration": "1時間",
+          "difficulty": "初級",
+          "suitable_for": ["すべての人"],
+          "best_time_to_visit": "午前中",
+          "season": "オールシーズン",
+          "tags": ["写真"]
+        }
+      }
+    },
+
+    "nuwaraEliyaDestination": {
+      "imageAlt": "ヌワラエリヤの茶園",
+      "title": "ヌワラエリヤ・リトリート",
+      "overview": "スリランカのヒルカントリーで、涼しい気候、コロニアルな魅力、そして息をのむような茶園をお楽しみください。",
+      "description": "ヌワラエリヤ・リトリートは、スリランカの高地に位置する絵画のような休暇先で、そのコロニアルな魅力、涼しい気候、そして緑豊かな茶園から「リトル・イングランド」として知られています。活気ある庭園を散策したり、穏やかな湖を探索したり、実際に稼働している製茶工場を見学して紅茶の栽培プロセスを学ぶことができます。イギリス植民地時代を彷彿とさせる街の建築が魅力を添え、近くのホートン・プレインズ国立公園では、息をのむようなハイキングコースやドラマチックな絶壁（ワールド・エンド）を楽しむことができます。ヌワラエリヤは、安らぎ、自然の美しさ、そしてスリランカの植民地時代の歴史を求める旅行者に理想的です。",
+      "highlights": {
+        "tea_plantations": "茶園（ティー・プランテーション）",
+        "colonial_town": "コロニアルな街並み"
+      },
+      "inclusions": {
+        "tea_bungalow": "ティー・バンガロー宿泊",
+        "tea_factory_visit": "製茶工場見学"
+      },
+      "places": [
+        { "place_name": "グレゴリー湖", "specialty": "湖畔のアクティビティ", "best_time_to_visit": "4月〜6月", "season": "季節性" },
+        { "place_name": "ハッガラ植物園", "specialty": "植物園", "best_time_to_visit": "通年", "season": "オールシーズン" },
+        { "place_name": "ペドロ茶園", "specialty": "茶園", "best_time_to_visit": "通年", "season": "オールシーズン" },
+        { "place_name": "ラバーズ・リープの滝", "specialty": "滝", "best_time_to_visit": "通年", "season": "オールシーズン" },
+        { "place_name": "ビクトリア・パーク", "specialty": "都市公園", "best_time_to_visit": "通年", "season": "オールシーズン" },
+        { "place_name": "ムーン・プレインズ", "specialty": "展望ポイント", "best_time_to_visit": "1月〜3月", "season": "乾季" }
+      ],
+      "activities": {
+        "peradeniya_walk": {
+          "slug": "peradeniya_walk",
+          "name": "植物園ウォーキング",
+          "description": "スリランカ最大の植物園を散策します。",
+          "overview": "ランやエキゾチックな植物の宝庫。",
+          "category": "自然",
+          "activity_type": "アウトドア",
+          "duration": "2〜3時間",
+          "difficulty": "初級",
+          "suitable_for": ["ファミリー"],
+          "best_time_to_visit": "通年",
+          "season": "オールシーズン",
+          "tags": ["自然"]
+        }
+      }
+    },
+
+    "yalaDestination": {
+      "imageAlt": "ヤーラのヒョウ",
+      "title": "ヤーラ・サファリ・アドベンチャー",
+      "overview": "スリランカで最も有名な国立公園で、スリル満点の野生動物サファリを体験し、ヒョウを探しましょう。",
+      "description": "ヤーラ・サファリはスリランカ屈指の野生動物スポットで、多様な生態系と豊かな動物相で知られています。この公園はヒョウ、ゾウ、ナマケグマ、そして何百種類もの鳥類の住処であり、自然愛好家や写真家にとってスリル満点の体験を提供します。サファリツアーでは、豊かな森、広大な草原、穏やかなラグーンを通り抜け、島の在来種との忘れられない遭遇を楽しむことができます。自然の生息地でヒョウを観察したり、川で水浴びをするゾウを見つけたり、ヤーラ・サファリは冒険、興奮、そして野生との繋がりを完璧に提供します。",
+      "highlights": {
+        "leopard_safari": "ヒョウ・サファリ",
+        "national_park": "ヤーラ国立公園"
+      },
+      "inclusions": {
+        "safari_jeep": "サファリジープ",
+        "park_entry_ticket": "国立公園入場チケット"
+      },
+      "places": [
+        { "place_name": "ヤーラ国立公園", "specialty": "ヒョウ・サファリ", "best_time_to_visit": "2月〜7月", "season": "乾季" },
+        { "place_name": "カタラガマ寺院", "specialty": "巡礼地", "best_time_to_visit": "通年", "season": "オールシーズン" },
+        { "place_name": "シトゥルパッワ石窟寺院", "specialty": "石窟寺院", "best_time_to_visit": "通年", "season": "オールシーズン" },
+        { "place_name": "ティッサ湖", "specialty": "湖の景色", "best_time_to_visit": "通年", "season": "オールシーズン" },
+        { "place_name": "ブンダラ国立公園", "specialty": "バードウォッチング", "best_time_to_visit": "9月〜3月", "season": "渡り鳥シーズン" }
+      ],
+      "activities": {
+        "yala_safari": {
+          "slug": "yala_safari",
+          "name": "ヤーラ・サファリ",
+          "description": "ジープサファリでヤーラ国立公園を探索します。",
+          "overview": "ヒョウの目撃率が高いことで有名です。",
+          "category": "野生動物",
+          "activity_type": "サファリ",
+          "duration": "3〜4時間",
+          "difficulty": "初級",
+          "suitable_for": ["ファミリー", "カップル"],
+          "best_time_to_visit": "2月から7月",
+          "season": "乾季",
+          "tags": ["ヒョウ", "サファリ"]
+        }
+      }
+    },
+
+    "udawalaweDestination": {
+      "imageAlt": "ウダワラウェのゾウ",
+      "title": "ウダワラウェ・サファリ",
+      "overview": "大きなゾウの群れを目撃し、有名なゾウの孤児保護施設（エトランジット・ホーム）を訪れましょう。",
+      "description": "ウダワラウェ・サファリは、大きなゾウの群れと多様な動物相で有名な、壮大な野生動物スポットです。訪問者は、水場、森林、草原が広がる広大な国立公園を探索し、水牛、シカ、エキゾチックな鳥類と共に自由に歩き回るゾウを目撃することができます。ガイド付きジープサファリでは、自然との近接した遭遇や素晴らしい写真撮影の機会が得られます。また、この公園は重要な保護活動の一部でもあり、教育的かつ冒険的な目的地となっています。ウダワラウェ・サファリは、ファミリー、野生動物愛好家、そしてスリランカのありのままの自然美を体験したいすべての人に最適です。",
+      "highlights": {
+        "elephant_safari": "ゾウ・サファリ",
+        "elephant_transit_home": "ゾウの孤児保護施設"
+      },
+      "inclusions": {
+        "jeep_safari": "ジープサファリ",
+        "park_ticket": "国立公園入場券"
+      },
+      "places": [
+        { "place_name": "ウダワラウェ国立公園", "specialty": "ゾウ・サファリ", "best_time_to_visit": "通年", "season": "オールシーズン" },
+        { "place_name": "ゾウの孤児保護施設", "specialty": "ゾウのケア見学", "best_time_to_visit": "通年", "season": "オールシーズン" },
+        { "place_name": "ウダワラウェ貯水池", "specialty": "湖の絶景", "best_time_to_visit": "通年", "season": "オールシーズン" },
+        { "place_name": "マドゥワンウェラ・ワラッワ", "specialty": "歴史的邸宅", "best_time_to_visit": "通年", "season": "オールシーズン" },
+        { "place_name": "ワウルパネ石窟", "specialty": "洞窟探索", "best_time_to_visit": "通年", "season": "オールシーズン" }
+      ],
+      "activities": {
+      "udawalawe_safari": {
+        "slug": "udawalawe_safari",
+        "name": "ウダワラウェ・サファリ",
+        "description": "自然の生息地でゾウを観察します。",
+        "overview": "スリランカでゾウを見るのに最適な場所の一つ。",
+        "category": "野生動物",
+        "activity_type": "サファリ",
+        "duration": "3時間",
+        "difficulty": "初級",
+        "suitable_for": ["ファミリー"],
+        "best_time_to_visit": "通年",
+        "season": "オールシーズン",
+        "tags": ["ゾウ"]
+      }
+    }
+    }
+  },
+  "why_book": {
+    "title": "なぜ私たちを選ぶのか？",
+    "best_price": {
+      "title": "ベストプライス",
+      "desc": "隠れたコストのない競争力のある価格を保証し、常に最高の価値を提供します。"
+    },
+    "hand_picked": {
+      "title": "厳選された目的地",
+      "desc": "私たちのトラベルエキスパートが、ユニークで思い出に残る高品質な体験を提供するために目的地を慎重に選定しています。"
+    },
+    "customer_care": {
+      "title": "24時間カスタマーケア",
+      "desc": "サポートチームが旅行の前、最中、後を問わず、24時間体制であなたをアシストします。"
+    }
+  },
+  "cta": {
+    "title": "完璧な休日を直接予約しましょう",
+    "book_online": "オンライン予約",
+    "call": "電話でお問い合わせ",
+    "email": "メールを送る",
+    "whatsapp": "WHATSAPPで相談"
+  },
+  "footer": {
+    "description": "旅のインスピレーションを提供します。世界中でのプログラム、旅行、そして忘れられない体験を発見してください。",
+    "links": "リンク",
+    "itineraries": "ツアー行程",
+    "company": "会社案内",
+    "workingHoliday": "ワーキングホリデー",
+    "volunteer": "ボランティア",
+    "internships": "インターンシップ",
+    "study": "留学",
+    "africa": "アフリカ",
+    "asia": "アジア",
+    "sea": "東南アジア",
+    "southAmerica": "南アメリカ",
+    "about": "私たちについて",
+    "about-us": "会社概要",
+    "blog": "ブログ",
+    "contact": "お問い合わせ",
+    "contact-us": "コンタクト",
+    "terms": "利用規約",
+    "privacy": "プライバシーポリシー",
+    "imprint": "インプリント（法的通知）"
+  },
+  "customJourney": {
+    "heading": "ご希望のプランが見つかりませんか？",
+    "description": "私たちのトラベルエキスパートが、あなただけの完全パーソナライズされた旅をコーディネートします。",
+    "button": "カスタムジャーニーを作成する"
+  },
+  "about": {
+    "chip": "会社について",
+    "title": "冒険があなたを待ち、情熱が私たちを動かす",
+    "subtitle": "私たちと一緒に忘れられない目的地を発見した、幸せな探検家たちの実際の体験談をご紹介します。",
+    "story": {
+      "chip": "私たちのストーリー",
+      "title": "情熱の上に築かれた旅",
+      "description": "2010年にスタートした私たちは、人との繋がりを大切にし、培ってきた旅のノウハウを共有することに専念してきました。その過程で多くの賞も受賞している、信頼できる旅行代理店兼ツアーガイドサービスです。"
+    },
+    "features": {
+      "chip": "私たちと旅をする理由",
+      "title": "最高の旅の思い出を作りましょう！",
+      "item1": {
+        "title": "あなただけのオーダーメイド・アドベンチャー",
+        "desc": "すべての旅は、あなたの興味、目的地、スタイルに合わせて慎重に作成され、真にパーソナライズされた忘れられない体験をお約束します。"
+      },
+      "item2": {
+        "title": "充実のトラベルサポートと書類作成",
+        "desc": "旅行保険からビザの案内、予約まで、すべての詳細を私たちが担当します。安心して旅を楽しんでいただけるようサポートいたします。"
+      },
+      "item3": {
+        "title": "一生残る思い出を",
+        "desc": "私たちは単なる旅行以上のものを提供します。有意義な体験、本物の繋がり、そして永遠に大切にしたい忘れられない瞬間を創造します。"
+      }
+    },
+    "culture": {
+      "chip": "私たちの文化",
+      "title": "最高の旅の思い出を！",
+      "item1": {
+        "title": "高品質な機材・装備",
+        "desc": "ダイビング、ハイキング、アウトドアキャンプなど、あらゆる冒険に対応する完全な装備をご用意しています！"
+      },
+      "item2": {
+        "title": "パーソナル・ドキュメンテーション",
+        "desc": "才能豊かなフォトグラファーチームが、あなたの特別な瞬間をすべて捉え、大切な思い出として残します。"
+      },
+      "item3": {
+        "title": "包括的な保険",
+        "desc": "包括的な旅行保険をご用意しておりますので、リラックスして心ゆくまで旅を楽しむことができます。"
+      }
+    }
+  },
+  "tailorMade": {
+    "chip": "カスタムトラベル",
+    "title": "あなただけの完璧な旅をデザイン",
+    "subtitle": "お客様のアイデアと私たちの経験。スリランカでの夢の旅をお聞かせください。",
+    "conditions": "すべての必須項目を英語で入力し、送信前に情報が正確であることを確認してください。",
+    "form": {
+      "title": "カスタム旅行アンケート",
+      "subtitle": "お客様の旅行の好みやグループの詳細を教えていただければ、あなただけのパーソナライズされた旅程を作成します。",
+      "note": "送信後、弊社のチームが内容を確認し、24時間以内にパーソナライズされた旅程とお見積りをご連絡いたします。",
+      "contact": {
+        "section": "連絡先情報",
+        "name": "お名前",
+        "email": "メールアドレス",
+        "phone": "電話番号"
+      },
+      "group": {
+        "section": "グループの詳細",
+        "adults": "大人の人数",
+        "adultAges": "大人の年齢",
+        "children": "子供の人数",
+        "childAges": "子供の年齢",
+        "noChildren": "子供なし"
+      },
+      "trip": {
+        "section": "旅行全般の情報",
+        "departure": "出発予定日",
+        "duration": "希望するツアー期間",
+        "firstTime": "スリランカを訪れるのは初めてですか？",
+        "medical": "留意すべき持病や健康状態はありますか？",
+        "dietary": "食事の好みや制限はありますか？",
+        "medicalPlaceholder": "健康状態について詳しくご記入ください"
+      },
+      "common": {
+        "yes": "はい",
+        "no": "いいえ",
+        "select": "オプションを選択してください",
+        "selectMultiple": "当てはまるものすべてを選択してください",
+        "selectDate": "日付を選択してください",
+        "selectDuration": "期間を選択してください",
+        "selectYesNo": "「はい」または「いいえ」を選択してください",
+        "selectAges": "年齢をカンマ区切りで入力してください",
+        "selectNumber": "数値を入力してください",
+        "selectText": "テキストを入力してください",
+        "selectMultipleOptions": "複数のオプションを選択できます",
+        "vegetarian": "ベジタリアン",
+        "vegan": "ヴィーガン",
+        "nonVegetarian": "ノン・ベジタリアン"
+      },
+      "extra": {
+        "dietary": "食事の好み",
+        "medical": "健康上の問題（詳しくご記入ください）",
+        "vehicle": "車両のリクエスト",
+        "places": "訪問したい場所",
+        "activities": "アクティビティ",
+        "budget": "ご予算",
+        "observations": "備考・ご要望",
+        "otherPlaces": "その他の場所",
+        "otherActivities": "その他のアクティビティ",
+        "dietaryPlaceholder": "食事に関するご要望を記入してください",
+        "placesPlaceholder": "特定の訪問希望地はありますか？",
+        "activitiesPlaceholder": "特定の含めたいアクティビティはありますか？",
+        "vehiclePlaceholder": "旅行中に専用車両が必要ですか？",
+        "observationsPlaceholder": "その他、共有したい事項や好みはありますか？",
+        "dietaryOtherLabel": "その他の食事の好み"
+      },
+      "submit": "リクエストを送信する",
+      "successMessage": "送信ありがとうございます。チームが内容を確認し、24時間以内に専用の旅程とお見積りをお送りいたします。",
+      "errorMessage": "リクエストの送信中にエラーが発生しました。後でもう一度お試しください。",
+      "submitting": "送信中..."
+    },
+    "validation": {
+      "required": "この項目は必須です",
+      "invalidEmail": "有効なメールアドレスを入力してください"
+    }
+  },
+  "commonForms": {
+    "firstName": "名（ファーストネーム）",
+    "firstNamePlaceholder": "名を入力してください",
+    "lastName": "姓（ラストネーム）",
+    "lastNamePlaceholder": "姓を入力してください",
+    "email": "メールアドレス",
+    "emailPlaceholder": "メールアドレスを入力してください",
+    "phone": "電話番号",
+    "phonePlaceholder": "電話番号を入力してください",
+    "numberOfAdults": "大人の人数",
+    "numberOfAdultsPlaceholder": "大人の人数を入力してください",
+    "agesOfAdults": "大人の年齢",
+    "agesOfAdultsPlaceholder": "例: 25-30, 30-35 などのように入力してください",
+    "numberOfChildren": "子供の人数",
+    "numberOfChildrenPlaceholder": "子供の人数を入力してください",
+    "agesOfChildren": "子供の年齢",
+    "agesOfChildrenPlaceholder": "例: 10-12, 5-8 などのように入力してください",
+    "departureDate": "出発予定日",
+    "departureDatePlaceholder": "出発日を選択してください",
+    "tripDuration": "旅行期間",
+    "tripDurationPlaceholder": "旅行の期間を選択してください",
+    "dietaryPreference": "食事の好み",
+    "dietaryPreferencePlaceholder": "食事に関するご要望を記入してください",
+    "medicalConditions": "健康状態",
+    "medicalConditionsPlaceholder": "留意すべき持病などがあれば記入してください",
+    "submitting": "送信中...",
+    "submitInquiry": "問い合わせを送信する",
+    "observations": "備考",
+    "observationsPlaceholder": "その他、共有したい事項やご要望があれば記入してください",
+    "firstTimeInSriLanka": "スリランカを訪れるのは初めてですか？",
+    "arrangeVideoCall": "ビデオ相談を予約する",
+    "videoCallDescription": "専門スタッフとビデオ通話で旅行計画を相談できます。ソフトウェアのダウンロードは不要で、ご都合の良い時間をお選びいただけます。",
+    "contactInformation": "旅行計画の詳細をご相談するために連絡させていただく場合がありますので、正確な連絡先情報をご入力ください。",
+    "privacyPolicy": "このフォームを送信することで、当社のプライバシーポリシーに同意し、旅行に関する問い合わせのために当社から連絡することに同意したものとみなされます。",
+    "selectOption": "オプションを選択してください",
+    "selectMultiple": "当てはまるものすべてを選択してください",
+    "selectDate": "日付を選択してください",
+    "selectDuration": "期間を選択してください",
+    "selectYesNo": "「はい」または「いいえ」を選択してください",
+    "selectText": "テキストを入力してください",
+    "interestedInItinerary": "興味のある旅程：",
+    "generalTripInfo": "旅行全般の情報",
+    "selectMultipleOptions": "複数のオプションを選択できます",
+    "vegetarian": "ベジタリアン",
+    "vegan": "ヴィーガン",
+    "nonVegetarian": "ノン・ベジタリアン",
+    "yes": "はい",
+    "no": "いいえ",
+    "personalDetails": "お客様の情報",
+    "titleLabel": "敬称",
+    "whenTraveling": "いつ頃の旅行を計画されていますか？",
+    "groupDetails": "グループの詳細",
+    "tripInformation": "旅行情報",
+    "travelPlansSection": "旅行プランやご希望をお聞かせください。あなただけの専用旅程を作成いたします。",
+    "agreeDetailsShare": "私は、Aipa Travelsが私の個人情報を収集および処理することに同意します。この情報は、専用旅程の作成、旅行詳細の連絡、およびパーソナライズされたサービス提供の目的のみに使用されることを理解しています。プライバシーポリシーの条項に同意します。",
+    "agreementRequired": "続行するには情報の共有に同意する必要があります。",
+    "successMessage": "お問い合わせが正常に送信されました！",
+    "errorMessage": "お問い合わせの送信中にエラーが発生しました。もう一度お試しください。",
+    "titles": {
+      "Mr": "様（男性）",
+      "Mrs": "様（既婚女性）",
+      "Ms": "様（女性）",
+      "Miss": "様（未婚女性）",
+      "Dr": "博士",
+      "Prof": "教授",
+      "Sir": "サー",
+      "Dame": "デイム"
+    },
+    "timing": {
+      "Within 3 months": "3ヶ月以内",
+      "3-6 months": "3〜6ヶ月以内",
+      "Over 6 months": "6ヶ月以降"
+    }
+  },
+  "contact": {
+    "chip": "お問い合わせ",
+    "title": "Aipa Travelsへのお問い合わせ",
+    "description": "ご質問やサポートが必要ですか？私たちのチームがスリランカへの完璧な旅行計画をお手伝いします。今すぐお問い合わせください！",
+    "phone": "電話",
+    "email": "メール",
+    "address": "住所",
+    "form": {
+      "firstName": "名",
+      "lastName": "姓",
+      "name": "お名前",
+      "namePlaceholder": "お名前を入力してください",
+      "email": "メールアドレス",
+      "emailPlaceholder": "メールアドレスを入力してください",
+      "phone": "電話番号",
+      "message": "メッセージ",
+      "messagePlaceholder": "メッセージをここに入力してください",
+      "submit": "メッセージを送信",
+      "sending": "送信中...",
+      "successMessage": "メッセージが正常に送信されました！",
+      "errorMessage": "メッセージの送信中にエラーが発生しました。もう一度お試しください。",
+      "required": "この項目は必須です",
+      "whatsapp": "WHATSAPPでチャット",
+      "invalidEmail": "有効なメールアドレスを入力してください",
+      "fillRequired": "すべての必須項目を入力してください",
+      "whatsappDefault": "こんにちは、旅行サービスについて伺いたいことがあります。"
+    }
+  },
+  "PrivacyPolicy": {
+    "chipLabel": "プライバシーポリシー",
+    "title": "プライバシーポリシー —",
+    "intro": "AIPA Travelsでは、お客様のプライバシーを尊重し、個人情報の保護に努めています。",
+    "informationCollection": {
+      "title": "情報の収集と利用",
+      "description": "当社は、お客様が当社のウェブサイトやサービスを利用する際に提供された情報を収集します。この情報は安全に保管され、サービスの提供・改善、体験のパーソナライズ、およびお問い合わせへの対応に使用されます。"
+    },
+    "marketingCommunications": {
+      "title": "マーケティング・コミュニケーション",
+      "description": "旅行パッケージ、プロモーション、サービスに関する最新情報をお送りすることがあります。配信停止リンクを使用するか、info@aipatravels.com までご連絡いただくことで、いつでも解除可能です。"
+    },
+    "dataSharing": {
+      "title": "データの共有",
+      "description": "AIPA Travelsはお客様の個人データを販売しません。情報の共有は、旅行の予約や依頼されたサービスを遂行するために必要な信頼できるパートナーとの間に限定されます。"
+    },
+    "internationalTransfers": {
+      "title": "国際データ転送",
+      "description": "旅行サービスのグローバルな性質上、お客様の情報は居住国以外の国で処理または保管される場合があります。"
+    },
+    "dataRetention": {
+      "title": "データ保持",
+      "description": "当社は、サービスの提供および法的義務の遵守に必要な期間のみ、お客様のデータを保持します。"
+    },
+    "externalLinks": {
+      "title": "外部リンク",
+      "description": "当社のウェブサイトには外部サイトへのリンクが含まれる場合があります。外部サイトのプライバシー慣行について当社は責任を負いかねますので、各サイトのポリシーを確認することをお勧めします。"
+    },
+    "yourRights": {
+      "title": "お客様の権利",
+      "description": "お客様には個人情報へのアクセス、更新、または削除を求める権利があります。リクエストについては当社までご連絡ください。"
+    },
+    "cookies": {
+      "title": "クッキー（Cookies）",
+      "description": "ブラウジング体験向上のためにクッキーを使用しています。設定はブラウザから管理できますが、無効にするとウェブサイトの機能に影響が出る場合があります。"
+    },
+    "consent": {
+      "title": "同意",
+      "description": "当社のウェブサイトを利用することにより、本プライバシーポリシーに同意したものとみなされます。"
+    }
+  },
+  "Terms": {
+    "chipLabel": "利用規約",
+    "title": "利用規約 — AIPA Travels",
+    "intro": "当社のサービスにアクセスまたは利用することで、お客様は以下の利用規約に同意したものとみなされます。",
+    "lastUpdated": "最終更新日：2026年4月",
+    "acceptance": {
+      "title": "規約への同意",
+      "description": "AIPA Travelsのサービスにアクセスまたは利用することにより、本規約に拘束されることに同意したものとみなされます。同意されない場合は、サービスの利用をお控えください。"
+    },
+    "description": {
+      "title": "サービスの説明",
+      "description": "AIPA Travelsは、スリランカ全土における旅行計画、予約、厳選された体験の提供など、旅行および観光サービスを提供します。サービス内容は随時変更される場合があります。"
+    },
+    "responsibilities": {
+      "title": "ユーザーの責任",
+      "description": "お客様は、法律を遵守し、責任を持ってサービスを利用することに同意します。システムの悪用、妨害、または不正アクセスを試みてはなりません。"
+    },
+    "intellectualProperty": {
+      "title": "知的財産権",
+      "description": "すべてのコンテンツ、ブランディング、デザイン、および資料はAIPA Travelsに帰属し、適用される知的財産法によって保護されています。"
+    },
+    "payments": {
+      "title": "支払いと返金",
+      "description": "すべての支払いは合意通りに完了する必要があります。返金ポリシーは予約された特定のサービスやパッケージによって異なり、都度ご案内いたします。"
+    },
+    "termination": {
+      "title": "サービスの終了",
+      "description": "本規約への違反、または当社が必要と判断した理由により、サービスへのアクセスを一時停止または終了する権利を留保します。"
+    },
+    "governingLaw": {
+      "title": "準拠法",
+      "description": "本規約はスリランカの法律に準拠します。"
+    }
+  },
+  "notFound": {
+    "title": "道に迷われましたか？",
+    "description": "お探しの目的地は存在しないか、移動したようです。AIPA Travelsが次の冒険へとご案内します。",
+    "button": "目的地を探索する"
+  },
+  "cookies": {
+    "title": "お客様のプライバシーを尊重します",
+    "intro": "ウェブサイトでの体験を向上させるためにクッキーおよび類似の技術を使用しています。これには以下が含まれます：",
+    "point1": "ウェブサイトの機能性とパフォーマンスの向上",
+    "point2": "訪問者のサイト利用状況の分析",
+    "point3": "パーソナライズされたコンテンツや推奨事項の提供",
+    "point4": "お客様の好みや設定の保存",
+    "footer": "「すべて受け入れる」をクリックすると、クッキーの使用に同意したことになります。拒否を選択した場合は、必須のクッキーのみが使用されます。",
+    "acceptAll": "すべて受け入れる",
+    "declineAll": "すべて拒否"
+  },
+  "blog": {
+    "title": "トラベルインサイト ＆ ストーリー",
+    "description": "スリランカ各地の冒険から得た旅行のヒント、目的地ガイド、インスピレーション溢れるストーリーをお届けします。",
+    "readMore": "記事を読む",
+    "noPostsFound": "ブログ記事が見つかりませんでした。また後ほどチェックしてください。",
+    "backToStories": "ブログ一覧に戻る",
+    "publishedOn": "公開日",
+    "exploreMore": "他のストーリーを探索",
+    "viewItineraries": "旅程を見る",
+    "idescription": "厳選された旅程や旅行ガイドをご覧ください。"
+  }
+}

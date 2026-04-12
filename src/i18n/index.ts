@@ -11,6 +11,7 @@ import it from "@/locales/it.json";
 import kr from "@/locales/kr.json";
 import cn from "@/locales/cn.json";
 import ru from "@/locales/ru.json";
+import jp from "@/locales/jp.json";
 
 i18n
   .use(LanguageDetector)
@@ -25,6 +26,7 @@ i18n
       kr: { translation: kr },
       cn: { translation: cn },
       ru: { translation: ru },
+      jp: { translation: jp },
     },
     interpolation: {
       escapeValue: false,

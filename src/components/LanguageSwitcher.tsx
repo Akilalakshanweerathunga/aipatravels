@@ -15,6 +15,7 @@ const flagMap: Record<Locale, string> = {
   kr: "https://flagcdn.com/w20/kr.png",
   cn: "https://flagcdn.com/w20/cn.png",
   ru: "https://flagcdn.com/w20/ru.png",
+  jp: "https://flagcdn.com/w20/jp.png",
 };
 
 interface LanguageSwitcherProps {
