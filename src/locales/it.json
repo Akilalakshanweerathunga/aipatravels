@@ -1179,7 +1179,29 @@
   "blog": {
     "title": "Consigli e Storie di Viaggio",
     "description": "Scopri consigli di viaggio, guide sulle destinazioni e storie ispiratrici dalle nostre avventure in Sri Lanka.",
-    "readMore": "Leggi l'articolo"
+    "readMore": "Leggi l'articolo",
+    "noPostsFound": "Nessun articolo del blog trovato. Torna più tardi per scoprire consigli e storie di viaggio."
   },
-  "noPostsFound": "Nessun articolo del blog trovato. Torna più tardi per scoprire consigli e storie di viaggio."
+  "booking":{
+    "Date": "Data",
+      "Details": "Dettagli",
+      "Confirm": "Conferma",
+      "Choose your date": "Scegli la data",
+      "Preferred Time": "Orario preferito",
+      "First Name": "Nome",
+      "Last Name": "Cognome",
+      "Email Address": "Email",
+      "Phone Number": "Telefono",
+      "How can we help you?": "Come possiamo aiutarti?",
+      "Booking Summary": "Riepilogo prenotazione",
+      "Client": "Cliente",
+      "Email": "Email",
+      "Booking Confirmed!": "Prenotazione confermata!",
+      "We've sent a confirmation to": "Conferma inviata a",
+      "Book another": "Prenota di nuovo",
+      "Continue": "Continua",
+      "Back": "Indietro",
+      "Confirm Booking": "Conferma prenotazione",
+      "Premium Consultation Booking": "Prenotazione consulenza premium"
+  }
 }

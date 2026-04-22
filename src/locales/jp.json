@@ -1183,5 +1183,27 @@
     "exploreMore": "他のストーリーを探索",
     "viewItineraries": "旅程を見る",
     "idescription": "厳選された旅程や旅行ガイドをご覧ください。"
+  },
+  "booking":{
+    "Date": "日付",
+    "Details": "詳細",
+    "Confirm": "確認",
+    "Choose your date": "日付を選択",
+    "Preferred Time": "希望時間",
+    "First Name": "名",
+    "Last Name": "姓",
+    "Email Address": "メール",
+    "Phone Number": "電話番号",
+    "How can we help you?": "どのようにお手伝いできますか？",
+    "Booking Summary": "予約概要",
+    "Client": "顧客",
+    "Email": "メール",
+    "Booking Confirmed!": "予約完了！",
+    "We've sent a confirmation to": "確認メールを送信しました",
+    "Book another": "もう一度予約",
+    "Continue": "続ける",
+    "Back": "戻る",
+    "Confirm Booking": "予約確認",
+    "Premium Consultation Booking": "プレミアム相談予約"
   }
 }

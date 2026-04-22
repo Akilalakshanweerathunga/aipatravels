@@ -1183,5 +1183,27 @@
     "exploreMore": "探索更多故事",
     "viewItineraries": "查看行程",
     "idescription": "查看我们精心策划的行程和旅游指南。"
+  },
+  "booking": {
+    "Date": "日期",
+    "Details": "详情",
+    "Confirm": "确认",
+    "Choose your date": "选择日期",
+    "Preferred Time": "首选时间",
+    "First Name": "名",
+    "Last Name": "姓",
+    "Email Address": "电子邮件",
+    "Phone Number": "电话号码",
+    "How can we help you?": "我们如何帮助您？",
+    "Booking Summary": "预订摘要",
+    "Client": "客户",
+    "Email": "电子邮件",
+    "Booking Confirmed!": "预订已确认！",
+    "We've sent a confirmation to": "确认已发送至",
+    "Book another": "再次预订",
+    "Continue": "继续",
+    "Back": "返回",
+    "Confirm Booking": "确认预订",
+    "Premium Consultation Booking": "高级咨询预订"
   }
 }

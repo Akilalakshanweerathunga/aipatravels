@@ -1175,5 +1175,27 @@
     "exploreMore": "Больше историй",
     "viewItineraries": "Посмотреть маршруты",
     "idescription": "Ознакомьтесь с нашими авторскими маршрутами и путеводителями."
+  },
+  "booking": {
+    "Date": "Дата",
+    "Details": "Детали",
+    "Confirm": "Подтвердить",
+    "Choose your date": "Выберите дату",
+    "Preferred Time": "Предпочтительное время",
+    "First Name": "Имя",
+    "Last Name": "Фамилия",
+    "Email Address": "Email",
+    "Phone Number": "Телефон",
+    "How can we help you?": "Чем мы можем помочь?",
+    "Booking Summary": "Сводка бронирования",
+    "Client": "Клиент",
+    "Email": "Email",
+    "Booking Confirmed!": "Бронирование подтверждено!",
+    "We've sent a confirmation to": "Подтверждение отправлено на",
+    "Book another": "Забронировать снова",
+    "Continue": "Продолжить",
+    "Back": "Назад",
+    "Confirm Booking": "Подтвердить бронирование",
+    "Premium Consultation Booking": "Бронирование премиальной консультации"
   }
 }

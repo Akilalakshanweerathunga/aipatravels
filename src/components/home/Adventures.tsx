@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { Box, Button, Typography, Stack } from '@mui/material';
 import { useTranslation } from 'react-i18next';
 import { images } from '@/data/images';
+import Link from 'next/link';
 
 export default function AdventuresSection() {
   const { t } = useTranslation();
@@ -103,6 +104,8 @@ export default function AdventuresSection() {
             </Button>
 
             <Button
+              component={Link}
+              href="/en/booking-consultation"
               variant="outlined"
               size="large"
               sx={{
@@ -110,6 +113,7 @@ export default function AdventuresSection() {
                 color: 'white',
                 '&:hover': {
                   backgroundColor: 'rgba(255,255,255,0.1)',
+                  borderColor: 'white', 
                 },
               }}
             >

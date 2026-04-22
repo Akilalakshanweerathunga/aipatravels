@@ -1194,5 +1194,27 @@
     "exploreMore": "Explore More Stories",
     "viewItineraries": "View Itineraries",
     "idescription": "Check out our curated itineraries and travel guides."
+  },
+  "booking":{
+     "Date": "Date",
+      "Details": "Details",
+      "Confirm": "Confirm",
+      "Choose your date": "Choose your date",
+      "Preferred Time": "Preferred Time",
+      "First Name": "First Name",
+      "Last Name": "Last Name",
+      "Email Address": "Email Address",
+      "Phone Number": "Phone Number",
+      "How can we help you?": "How can we help you?",
+      "Booking Summary": "Booking Summary",
+      "Client": "Client",
+      "Email": "Email",
+      "Booking Confirmed!": "Booking Confirmed!",
+      "We've sent a confirmation to": "We've sent a confirmation to",
+      "Book another": "Book another",
+      "Continue": "Continue",
+      "Back": "Back",
+      "Confirm Booking": "Confirm Booking",
+      "Premium Consultation Booking": "Premium Consultation Booking"
   }
 }

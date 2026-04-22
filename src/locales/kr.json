@@ -1175,7 +1175,29 @@
   "blog": {
     "title": "여행 인사이트와 이야기",
     "description": "스리랑카 전역에서의 여행 팁, 여행지 가이드, 그리고 영감을 주는 이야기를 만나보세요.",
-    "readMore": "기사 읽기"
+    "readMore": "기사 읽기",  
+    "noPostsFound": "블로그 게시물이 없습니다. 나중에 다시 방문하여 여행 이야기와 팁을 확인하세요."
   },
-  "noPostsFound": "블로그 게시물이 없습니다. 나중에 다시 방문하여 여행 이야기와 팁을 확인하세요."
+  "booking": {
+    "Date": "날짜",
+    "Details": "세부정보",
+    "Confirm": "확인",
+    "Choose your date": "날짜 선택",
+    "Preferred Time": "선호 시간",
+    "First Name": "이름",
+    "Last Name": "성",
+    "Email Address": "이메일",
+    "Phone Number": "전화번호",
+    "How can we help you?": "어떻게 도와드릴까요?",
+    "Booking Summary": "예약 요약",
+    "Client": "고객",
+    "Email": "이메일",
+    "Booking Confirmed!": "예약 완료!",
+    "We've sent a confirmation to": "확인 메일을 보냈습니다",
+    "Book another": "다시 예약",
+    "Continue": "계속",
+    "Back": "뒤로",
+    "Confirm Booking": "예약 확인",
+    "Premium Consultation Booking": "프리미엄 상담 예약"
+  }
 }
